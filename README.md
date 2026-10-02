@@ -1,122 +1,58 @@
-# 🎓 Reestructuración Curricular — Ingeniería Industrial UTP
+# Informe curricular · Ingeniería Industrial UTP
 
-> **Informe Ejecutivo y Laboratorio Interactivo de Malla Curricular**  
-> Desarrollado para el **Comité Curricular de Ingeniería Industrial** de la Universidad Tecnológica de Pereira (UTP).
+Presentación de 13 diapositivas con un explorador de cinco mallas curriculares en la diapositiva 10. Abra [`index.html`](index.html) en un navegador o publíquelo como sitio estático. El HTML incluye sus fuentes y scripts; no requiere instalación ni compilación.
 
----
+## Escenarios
 
-## 📌 1. Visión General del Proyecto
+| Escenario | Semestres | Créditos | Distribución |
+| --- | ---: | ---: | --- |
+| Malla actual UTP, reconstrucción para análisis | 10 | 175 | 16–20 cr por semestre |
+| Plan propuesto oficial | 8 | 144 | 18 cr en cada semestre |
+| Variación 1: producción anticipada | 8 | 144 | S4–S5: 19 cr; S8: 16 cr; demás: 18 cr |
+| Variación 2: transición progresiva | 9 | 150 | Seis semestres de 17 cr y tres de 16 cr |
+| Variación 3: Digital Supply Chain e Industria 4.0 | 8 | 144 | 18 cr en cada semestre |
 
-Este proyecto proporciona una **plataforma web interactiva, moderna y de alto impacto visual** diseñada para sustentar y defender ante el Comité Curricular, el Consejo de Facultad y la comunidad académica la urgente necesidad de modernización de la malla curricular de Ingeniería Industrial en la UTP.
+En la variación 1, Métodos pasa a S4 y Producción I a S5. S8 queda en **16 créditos** para grado, electivas y Diseño de Plantas. La programación de una pasantía simultánea requiere coordinación académica.
 
-### 🔍 Diagnóstico Clave (Basado en la BD de Benchmark Nacional en Excel):
-* **Línea Base Actual:** 10 semestres y **175 créditos** (Percentil 94 nacional — *outlier* crítico).
-* **Sobrecarga en Básicas:** **40 créditos** en Ciencias Básicas (22.9%) y **20 créditos** en Sociohumanística (11.4%).
-* **Retraso en Profesionalización:** Las asignaturas troncales de **Producción** e **Investigación de Operaciones** comienzan tardíamente en semestres 7, 8, 9 y 10.
-* **Déficit de Flexibilidad:** Únicamente **5.1% de Electivas Profesionales** (la oferta más baja de todas las universidades acreditadas del país).
+En los cuatro escenarios propuestos, cada área tiene asignaturas en **todos los semestres desde que inicia hasta que termina**. Administración ocupa S1–S5 sin interrupciones. La malla actual de diez semestres se conserva como referencia diagnóstica y muestra sus cortes originales. Para mantener las cargas de 18 créditos en los escenarios de ocho semestres y de 16–17 en el de nueve, se reubicaron asignaturas y se redistribuyeron algunos créditos entre materias de la misma área; **el total de cada área no cambió**. Esta secuencia ajustada es un diseño para revisión académica, no un microcurrículo certificado por el Excel.
 
----
+El explorador permite filtrar por área, buscar por nombre o código/ID, alternar entre bloques y panorámica, y abrir una ficha por materia. Los identificadores de escenarios propuestos (`OFICIAL-…`, `VAR1-…`, etc.) son **IDs de diseño**, no códigos oficiales de la UTP. La ficha muestra créditos, equivalencia ECTS aproximada, prerrequisitos propuestos y la relación de la decisión con el benchmark.
 
-## ⚡ 2. Laboratorio Interactivo de Mallas Curriculares (Slide 10)
+## Datos y alcance de la evidencia
 
-En la sección **10** del informe se integra un **motor reactivo de exploración curricular** que permite contrastar en tiempo real 5 escenarios formativos completamente balanceados:
+La fuente es [`BD (1).xlsx`](BD%20%281%29.xlsx):
 
-| Escenario | Semestres | Créditos Totales | Carga Promedio | Propósito y Justificación Académica |
-| :--- | :---: | :---: | :---: | :--- |
-| 📌 **Malla Actual UTP** | 10 | 175 cr | 17.5 cr/sem | Línea base actual con 58 asignaturas. Muestra el estado de partida, la congestión en ciencias básicas y el retraso de producción a semestres superiores. |
-| ⭐ **Plan Propuesto Oficial (v7)** | 8 | 144 cr | **18.0 cr/sem** | Propuesta oficial del comité. Optimiza 31 créditos, eleva electivas al 10.4% con 2 líneas certificables (*Administración* o *Finanzas*) y fortalece Trabajo de Grado (10 cr). |
-| 🏭 **Variación 1: Producción Anticipada** | 8 | 144 cr | **18.0 cr/sem** | Mueve *Ingeniería de Métodos* a S4 y *Producción I* a S5. Descongestiona el Semestre 8, facilitando que el estudiante realice pasantías o su Proyecto de Grado sin saturación. |
-| ⚖️ **Variación 2: Transición Progresiva** | 9 | 150 cr | **16.7 cr/sem** | Modelo de menor estrés semestral inspirado en las públicas acreditadas (Pamplona 145 cr, Cundinamarca 150 cr, UIS, Valle). Reduce la deserción por sobrecarga. |
-| 🤖 **Variación 3: Digital Supply Chain 4.0** | 8 | 144 cr | **18.0 cr/sem** | Enlaza analítica de datos continua (Python/Data Science desde S2), simulación híbrida, automatización industrial, robótica y cadenas globales de suministro. |
+- `Pereira`, fila 8: UTP, **175 créditos**, **10 semestres**; 40 cr en Ciencias Básicas, 17 en Básicas de Ingeniería, 25 en IO/Estadística, 21 en Producción, 20 en Administración, 18 en Financiera, 20 en Sociohumanística, 9 en Electivas Profesionales y 5 en Trabajo de Grado.
+- `Acreditadas`, filas 2–10: **nueve** programas de ocho semestres con 134–144 créditos. Su media aritmética es **139,8 créditos**. El promedio de porcentajes por área aparece en la tabla desplegable de la diapositiva 10.
+- `Públicas`: Pamplona tiene **145 créditos** en nueve semestres y Cundinamarca **150 créditos** en nueve semestres. Ambas figuran como públicas y con valor `no` en la columna de acreditación de esa hoja. Son referencias de duración/carga para la variación 2.
 
-### 🛠️ Herramientas de Interacción:
-1. **Filtro por Área de Formación:** Visualice de manera aislada la cadena formativa de *Ciencias Básicas*, *Básicas de Ingeniería*, *IO / Estadística*, *Producción*, *Administración*, *Financiera*, *Sociohumanística*, *Electivas* y *Grado*.
-2. **Buscador en Tiempo Real:** Búsqueda predictiva por nombre de materia o código oficial UTP.
-3. **Modal de Ficha Técnica de Asignatura:** Haga click en cualquier materia para conocer créditos nacionales, equivalencia ECTS, prerrequisitos, competencias y el sustento de su transformación en la BD de Excel.
-4. **Vistas Adaptativas:** Alterne entre bloques semestrales (ej. S1–S4 / S5–S8) o active la **Vista Panorámica** para una proyección global.
+El Excel **no contiene una tabla de asignaturas, códigos o prerrequisitos**. La malla actual detallada de la presentación es una reconstrucción para comparar distribuciones; sus 62 fichas y sus datos de curso deben cotejarse con el plan institucional vigente antes de tomar decisiones académicas. Las fusiones, nuevas asignaturas digitales y reubicaciones son propuestas de diseño sustentadas por la distribución de créditos, no hechos demostrados por el Excel a nivel de microcurrículo.
 
----
+## Despliegue
 
-## 🎨 3. Mejoras de Diseño y Experiencia de Usuario (UI/UX)
+El archivo `index.html` está en la raíz y funciona en rutas de proyecto como `https://usuario.github.io/repositorio/`. No utiliza rutas absolutas para recursos externos. `vercel.json` y `netlify.toml` añaden cabeceras de seguridad y tipos MIME; GitHub Pages sirve los tipos MIME automáticamente y no aplica esas configuraciones.
 
-* **Barra Ejecutiva Superior (Top Navbar):** Acceso rápido a cualquier diapositiva mediante selector desplegable, botón directo a la Malla Interactiva, barra de progreso de lectura y modo pantalla completa.
-* **Alternancia de Modo Oscuro / Modo Claro (Dark/Light Mode):** Paleta institucional UTP (Azul Marino profundo, Oro/Ámbar, Verde Esmeralda y detalles en Glassmorphism) adaptable al gusto del presentador o auditorio.
-* **Física y Micro-Interacciones:** Animaciones con curvas cúbicas suaves (`cubic-bezier(0.23, 1, 0.32, 1)`), feedback háptico/visual en botones (`scale(0.97)`), y renders en 60 FPS sin saltos de layout.
-* **Totalmente Autocontenido y Responsivo:** Funciona fluidamente en proyectores de auditorio (1080p / 4K), laptops, tablets y teléfonos móviles.
+### Vercel
 
----
+1. Suba los archivos del proyecto a un repositorio Git.
+2. En Vercel, elija **New Project**, importe el repositorio y deje la raíz como directorio del proyecto.
+3. El preset es **Other**, sin comando de build; `vercel.json` fija el directorio publicado en `.`.
+4. Pulse **Deploy**. [Guía oficial de Vercel](https://vercel.com/docs/builds/configure-a-build).
 
-## 🚀 4. Guía de Despliegue en la Nube (Vercel, Netlify y GitHub)
+### Netlify
 
-El proyecto está estructurado con `index.html` en la raíz, junto a sus archivos de configuración (`vercel.json`, `netlify.toml` y `.gitignore`), listo para ser publicado en línea en menos de 2 minutos.
+1. Importe el repositorio desde **Add new project → Import an existing project**.
+2. Use la raíz como directorio de publicación y no configure comando de build; `netlify.toml` ya indica `publish = "."`.
+3. Publique el proyecto. [Guía oficial de Netlify](https://docs.netlify.com/start/quickstarts/deploy-from-repository/).
 
-### Opción A: Despliegue en Vercel (Recomendado)
-1. **Vía GitHub:**
-   - Suba el repositorio a su cuenta de GitHub:
-     ```bash
-     git init
-     git add .
-     git commit -m "feat: informe curricular interactivo UTP"
-     git branch -M main
-     git remote add origin https://github.com/SU_USUARIO/comite-curricular-utp.git
-     git push -u origin main
-     ```
-   - Inicie sesión en [vercel.com](https://vercel.com).
-   - Haga click en **"Add New Project"** e importe su repositorio de GitHub.
-   - Vercel detectará automáticamente `vercel.json` y desplegará su informe con URL pública instantánea (ej: `https://comite-curricular-utp.vercel.app`).
+Para una publicación manual, puede entregar una carpeta con `index.html` y `netlify.toml` a [Netlify Drop](https://docs.netlify.com/start/quickstarts/netlify-drop-quickstart/).
 
-2. **Vía Vercel CLI (Directo desde la terminal):**
-   ```bash
-   npx vercel
-   ```
+### GitHub Pages
 
----
+1. Suba el proyecto a GitHub.
+2. En **Settings → Pages → Build and deployment**, elija **Deploy from a branch**.
+3. Seleccione la rama publicada y la carpeta **/(root)**; guarde. [Guía oficial de GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
-### Opción B: Despliegue en Netlify
-1. **Arrastrar y Soltar (Sin terminal):**
-   - Vaya a [app.netlify.com/drop](https://app.netlify.com/drop).
-   - Arrastre la carpeta completa `Comite curricular` al navegador.
-   - Netlify publicará la web al instante con HTTPS gratuito.
+## Verificación local
 
-2. **Conectando con GitHub:**
-   - Importe su repositorio en Netlify.
-   - La configuración `netlify.toml` predefinida se encargará de las cabeceras y redirecciones.
-
----
-
-### Opción C: Despliegue en GitHub Pages
-1. Suba los archivos a su repositorio en GitHub.
-2. Vaya a **Settings** > **Pages**.
-3. En **Branch**, seleccione `main` y la carpeta `/ (root)`.
-4. Haga click en **Save**. En 1 minuto su sitio estará disponible en `https://SU_USUARIO.github.io/comite-curricular-utp/`.
-
----
-
-## 💻 5. Visualización Local
-
-Para ver el informe en su máquina local:
-* Simplemente haga doble click en [index.html](index.html) para abrirlo en cualquier navegador (Chrome, Edge, Firefox, Safari).
-* O inicie un servidor local liviano con Node:
-  ```bash
-  npx serve .
-  ```
-
----
-
-## 📊 6. Estructura de Archivos del Proyecto
-
-```text
-├── index.html                                        # Entrada principal optimizada para hosting web
-├── Presentacion-8-semestres-v2-area-produccion.html  # Copia idéntica sincronizada del informe
-├── BD (1).xlsx                                       # Base de datos oficial de benchmark de universidades
-├── vercel.json                                       # Configuración de despliegue para Vercel
-├── netlify.toml                                      # Configuración de despliegue para Netlify
-├── .gitignore                                        # Exclusiones para control de versiones
-├── README.md                                         # Documentación técnica y académica completa
-└── scratch/                                          # Scripts y herramientas de auditoría de datos
-    ├── curriculum_scenarios.json                     # Dataset estructurado de los 5 escenarios
-    └── build_index_html.py                           # Generador automatizado del informe
-```
-
----
-*Universidad Tecnológica de Pereira — Facultad de Ingeniería Industrial — Comité Curricular*
+Desde esta carpeta, abra `index.html` directamente o ejecute `py -m http.server 8000` y visite `http://localhost:8000`. En la diapositiva 10, compruebe el cambio de escenarios y la tabla de créditos por semestre. El modo oscuro/claro se guarda en `localStorage` del navegador.
