@@ -1,0 +1,11 @@
+# Scratch & temp files
+scratch/
+.visual-qa/cdp-profile/
+*.backup.html
+*.tmp
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
