@@ -1,0 +1,4975 @@
+{
+  "actual": {
+    "id": "actual",
+    "title": "Malla actual UTP · reconstrucción para análisis",
+    "subtitle": "10 Semestres · 175 Créditos · Diagnóstico inicial: sobrecarga en básicas y retraso en profesionalización",
+    "semestersCount": 10,
+    "totalCredits": 175,
+    "badge": "ESTADO ACTUAL · OUTLIER",
+    "badgeColor": "#b91c1c",
+    "description": "La hoja Pereira de la BD confirma 10 semestres, 175 créditos y los totales por área. Esta visualización organiza 62 fichas de asignatura para explorar la secuencia; la BD no contiene códigos, prerrequisitos ni ubicación semestral para comprobar cada ficha. Producción se concentra en S7–S10 y la IO especializada aparece desde S7.",
+    "metrics": {
+      "creditos": 175,
+      "semestres": 10,
+      "pctElectivas": "5.1%",
+      "pctBasicas": "22.9%",
+      "pctProduccion": "12.0%",
+      "materias": 62,
+      "cargaSemestral": "17.5 cr/sem promedio; máximo 20 cr en S10"
+    },
+    "plan": [
+      {
+        "s": 1,
+        "c": 17,
+        "m": [
+          {
+            "n": "Matemática Fundamental",
+            "cr": 3,
+            "cl": "#1D63C1",
+            "cd": "CB1B3",
+            "area": "Ciencias Básicas",
+            "desc": "Álgebra y trigonometría básica.",
+            "pre": "Ninguno"
+          },
+          {
+            "n": "Dibujo I CAD",
+            "cr": 2,
+            "cl": "#1D63C1",
+            "cd": "CB153",
+            "area": "Ciencias Básicas",
+            "desc": "Expresión gráfica y diseño en computador.",
+            "pre": "Ninguno"
+          },
+          {
+            "n": "Química Industrial",
+            "cr": 2,
+            "cl": "#C2410C",
+            "cd": "QI1A3",
+            "area": "Básicas de Ingeniería",
+            "desc": "Fundamentos químicos de procesos.",
+            "pre": "Ninguno"
+          },
+          {
+            "n": "Introducción a la Ing. Industrial",
+            "cr": 3,
+            "cl": "#CA8A04",
+            "cd": "II123",
+            "area": "Administración",
+            "desc": "Campos de acción y rol profesional.",
+            "pre": "Ninguno"
+          },
+          {
+            "n": "Informática T1",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "cd": "II152",
+            "area": "IO / Estadística",
+            "desc": "Algoritmia y lógica básica.",
+            "pre": "Ninguno"
+          },
+          {
+            "n": "Humanidades I",
+            "cr": 2,
+            "cl": "#BE185D",
+            "cd": "BA172",
+            "area": "Sociohumanística",
+            "desc": "Cultura y pensamiento crítico.",
+            "pre": "Ninguno"
+          },
+          {
+            "n": "Comunicación Oral y Escrita",
+            "cr": 2,
+            "cl": "#BE185D",
+            "cd": "BA162",
+            "area": "Sociohumanística",
+            "desc": "Redacción técnica y comunicación oral.",
+            "pre": "Ninguno"
+          }
+        ]
+      },
+      {
+        "s": 2,
+        "c": 16,
+        "m": [
+          {
+            "n": "Cálculo Diferencial",
+            "cr": 3,
+            "cl": "#1D63C1",
+            "cd": "CB2A3",
+            "area": "Ciencias Básicas",
+            "desc": "Límites, derivadas y aplicaciones.",
+            "pre": "CB1B3"
+          },
+          {
+            "n": "Álgebra Lineal",
+            "cr": 3,
+            "cl": "#1D63C1",
+            "cd": "CB213",
+            "area": "Ciencias Básicas",
+            "desc": "Matrices, vectores y espacios.",
+            "pre": "CB1B3"
+          },
+          {
+            "n": "Física I (Mecánica)",
+            "cr": 4,
+            "cl": "#1D63C1",
+            "cd": "FS214",
+            "area": "Ciencias Básicas",
+            "desc": "Cinemática, dinámica y energía.",
+            "pre": "CB1B3"
+          },
+          {
+            "n": "Laboratorio de Física I",
+            "cr": 2,
+            "cl": "#1D63C1",
+            "cd": "FS222",
+            "area": "Ciencias Básicas",
+            "desc": "Práctica experimental de física mecánica.",
+            "pre": "FS214 (co)"
+          },
+          {
+            "n": "Biología para Ingeniería",
+            "cr": 2,
+            "cl": "#C2410C",
+            "cd": "AA2A2",
+            "area": "Básicas de Ingeniería",
+            "desc": "Sistemas biológicos y bioprocesos.",
+            "pre": "QI1A3"
+          },
+          {
+            "n": "Informática T2",
+            "cr": 2,
+            "cl": "#6D28D9",
+            "cd": "II212",
+            "area": "IO / Estadística",
+            "desc": "Programación estructurada.",
+            "pre": "II152"
+          }
+        ]
+      },
+      {
+        "s": 3,
+        "c": 18,
+        "m": [
+          {
+            "n": "Cálculo Integral",
+            "cr": 4,
+            "cl": "#1D63C1",
+            "cd": "CB3A4",
+            "area": "Ciencias Básicas",
+            "desc": "Integrales y series.",
+            "pre": "CB2A3"
+          },
+          {
+            "n": "Física II (Electromagnetismo)",
+            "cr": 4,
+            "cl": "#1D63C1",
+            "cd": "FS314",
+            "area": "Ciencias Básicas",
+            "desc": "Campos eléctricos y magnéticos.",
+            "pre": "FS214"
+          },
+          {
+            "n": "Laboratorio de Física II",
+            "cr": 2,
+            "cl": "#1D63C1",
+            "cd": "FS322",
+            "area": "Ciencias Básicas",
+            "desc": "Laboratorio de circuitos y electromagnetismo.",
+            "pre": "FS314 (co)"
+          },
+          {
+            "n": "Estática",
+            "cr": 3,
+            "cl": "#C2410C",
+            "cd": "IM343",
+            "area": "Básicas de Ingeniería",
+            "desc": "Equilibrio de cuerpos rígidos.",
+            "pre": "FS214"
+          },
+          {
+            "n": "Administración",
+            "cr": 3,
+            "cl": "#CA8A04",
+            "cd": "II3B3",
+            "area": "Administración",
+            "desc": "Teorías administrativas y procesos gerenciales.",
+            "pre": "II123"
+          },
+          {
+            "n": "Humanidades II",
+            "cr": 2,
+            "cl": "#BE185D",
+            "cd": "BA372",
+            "area": "Sociohumanística",
+            "desc": "Sociedad y desarrollo.",
+            "pre": "BA172"
+          }
+        ]
+      },
+      {
+        "s": 4,
+        "c": 17,
+        "m": [
+          {
+            "n": "Cálculo Multivariado",
+            "cr": 4,
+            "cl": "#1D63C1",
+            "cd": "CB4A4",
+            "area": "Ciencias Básicas",
+            "desc": "Funciones multivariables y cálculo vectorial.",
+            "pre": "CB3A4"
+          },
+          {
+            "n": "Física III (Ondas y Calor)",
+            "cr": 4,
+            "cl": "#1D63C1",
+            "cd": "FS414",
+            "area": "Ciencias Básicas",
+            "desc": "Termodinámica básica y ondas.",
+            "pre": "FS314"
+          },
+          {
+            "n": "Laboratorio de Física III",
+            "cr": 2,
+            "cl": "#1D63C1",
+            "cd": "FS422",
+            "area": "Ciencias Básicas",
+            "desc": "Laboratorio de óptica y calor.",
+            "pre": "FS414 (co)"
+          },
+          {
+            "n": "Ecuaciones Diferenciales",
+            "cr": 3,
+            "cl": "#1D63C1",
+            "cd": "CB4A3",
+            "area": "Ciencias Básicas",
+            "desc": "Ecuaciones diferenciales ordinarias.",
+            "pre": "CB3A4"
+          },
+          {
+            "n": "Psicología Organizacional",
+            "cr": 2,
+            "cl": "#CA8A04",
+            "cd": "II321",
+            "area": "Administración",
+            "desc": "Comportamiento individual y de grupos.",
+            "pre": "II3B3"
+          },
+          {
+            "n": "Constitución Política",
+            "cr": 2,
+            "cl": "#BE185D",
+            "cd": "BA140",
+            "area": "Sociohumanística",
+            "desc": "Estructura del Estado y derechos.",
+            "pre": "Ninguno"
+          }
+        ]
+      },
+      {
+        "s": 5,
+        "c": 17,
+        "m": [
+          {
+            "n": "Resistencia de Materiales I",
+            "cr": 3,
+            "cl": "#C2410C",
+            "cd": "IM583",
+            "area": "Básicas de Ingeniería",
+            "desc": "Esfuerzos y deformaciones.",
+            "pre": "IM343"
+          },
+          {
+            "n": "Termodinámica I",
+            "cr": 3,
+            "cl": "#C2410C",
+            "cd": "IM533",
+            "area": "Básicas de Ingeniería",
+            "desc": "Primera y segunda ley de la termodinámica.",
+            "pre": "FS414"
+          },
+          {
+            "n": "Estadística I",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "cd": "II4D3",
+            "area": "IO / Estadística",
+            "desc": "Probabilidad y distribuciones.",
+            "pre": "CB2A3"
+          },
+          {
+            "n": "Economía",
+            "cr": 3,
+            "cl": "#0E7490",
+            "cd": "II3C3",
+            "area": "Financiera",
+            "desc": "Microeconomía y macroeconomía.",
+            "pre": "II3B3"
+          },
+          {
+            "n": "Administración de Personal",
+            "cr": 3,
+            "cl": "#CA8A04",
+            "cd": "II4B3",
+            "area": "Administración",
+            "desc": "Gestión del talento humano.",
+            "pre": "II321"
+          },
+          {
+            "n": "Electiva Sociohumanística I",
+            "cr": 2,
+            "cl": "#BE185D",
+            "cd": "SH501",
+            "area": "Sociohumanística",
+            "desc": "Formación integral complementaria.",
+            "pre": "Ninguno"
+          }
+        ]
+      },
+      {
+        "s": 6,
+        "c": 17,
+        "m": [
+          {
+            "n": "Electrotecnia",
+            "cr": 3,
+            "cl": "#C2410C",
+            "cd": "IE783",
+            "area": "Básicas de Ingeniería",
+            "desc": "Circuitos y máquinas eléctricas.",
+            "pre": "FS314"
+          },
+          {
+            "n": "Estadística II",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "cd": "II5A3",
+            "area": "IO / Estadística",
+            "desc": "Inferencia estadística y muestreo.",
+            "pre": "II4D3"
+          },
+          {
+            "n": "Contabilidad de Empresas",
+            "cr": 3,
+            "cl": "#0E7490",
+            "cd": "II243",
+            "area": "Financiera",
+            "desc": "Estados financieros y registros contables.",
+            "pre": "II3C3"
+          },
+          {
+            "n": "Administración de Salarios",
+            "cr": 3,
+            "cl": "#CA8A04",
+            "cd": "II6C3",
+            "area": "Administración",
+            "desc": "Estructuras y escalas de remuneración.",
+            "pre": "II4B3"
+          },
+          {
+            "n": "Ética",
+            "cr": 2,
+            "cl": "#BE185D",
+            "cd": "BA0D2",
+            "area": "Sociohumanística",
+            "desc": "Ética profesional y ciudadana.",
+            "pre": "BA140"
+          },
+          {
+            "n": "Electiva Sociohumanística II",
+            "cr": 3,
+            "cl": "#BE185D",
+            "cd": "SH601",
+            "area": "Sociohumanística",
+            "desc": "Formación integral complementaria.",
+            "pre": "Ninguno"
+          }
+        ]
+      },
+      {
+        "s": 7,
+        "c": 18,
+        "m": [
+          {
+            "n": "Lab. Resistencia de Materiales",
+            "cr": 1,
+            "cl": "#C2410C",
+            "cd": "IM721",
+            "area": "Básicas de Ingeniería",
+            "desc": "Ensayos mecánicos destructivos y no destructivos.",
+            "pre": "IM583"
+          },
+          {
+            "n": "Estadística III",
+            "cr": 2,
+            "cl": "#6D28D9",
+            "cd": "II6A2",
+            "area": "IO / Estadística",
+            "desc": "Diseño de experimentos y análisis multivariado.",
+            "pre": "II5A3"
+          },
+          {
+            "n": "Investigación de Operaciones I",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "cd": "II7D3",
+            "area": "IO / Estadística",
+            "desc": "Programación lineal, transporte y redes.",
+            "pre": "CB213, II5A3"
+          },
+          {
+            "n": "Procesos Estocásticos",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "cd": "II713",
+            "area": "IO / Estadística",
+            "desc": "Cadenas de Markov y procesos de Poisson.",
+            "pre": "II5A3"
+          },
+          {
+            "n": "Ingeniería de Métodos",
+            "cr": 3,
+            "cl": "#047857",
+            "cd": "II742",
+            "area": "Producción",
+            "desc": "Estudio de tiempos y movimientos, ergonomía.",
+            "pre": "II5A3"
+          },
+          {
+            "n": "Análisis Financiero",
+            "cr": 3,
+            "cl": "#0E7490",
+            "cd": "II6A3",
+            "area": "Financiera",
+            "desc": "Razones financieras y flujo de caja.",
+            "pre": "II243"
+          },
+          {
+            "n": "Mercados I",
+            "cr": 3,
+            "cl": "#CA8A04",
+            "cd": "II7A3",
+            "area": "Administración",
+            "desc": "Investigación de mercados y consumidor.",
+            "pre": "II3B3"
+          }
+        ]
+      },
+      {
+        "s": 8,
+        "c": 18,
+        "m": [
+          {
+            "n": "Investigación de Operaciones II",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "cd": "II8B3",
+            "area": "IO / Estadística",
+            "desc": "Programación no lineal y teoría de juegos.",
+            "pre": "II7D3"
+          },
+          {
+            "n": "Simulación",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "cd": "II863",
+            "area": "IO / Estadística",
+            "desc": "Simulación de eventos discretos.",
+            "pre": "II713"
+          },
+          {
+            "n": "Producción I",
+            "cr": 3,
+            "cl": "#047857",
+            "cd": "II8A3",
+            "area": "Producción",
+            "desc": "Pronósticos y planeación agregada.",
+            "pre": "II742"
+          },
+          {
+            "n": "Salud Ocupacional",
+            "cr": 3,
+            "cl": "#047857",
+            "cd": "II883",
+            "area": "Producción",
+            "desc": "Higiene y seguridad en el trabajo.",
+            "pre": "II742"
+          },
+          {
+            "n": "Ingeniería Económica",
+            "cr": 3,
+            "cl": "#0E7490",
+            "cd": "II8C3",
+            "area": "Financiera",
+            "desc": "Matemáticas financieras y tasas de interés.",
+            "pre": "II6A3"
+          },
+          {
+            "n": "Mercados II",
+            "cr": 3,
+            "cl": "#CA8A04",
+            "cd": "II8D3",
+            "area": "Administración",
+            "desc": "Estrategias de mercadeo y comercialización.",
+            "pre": "II7A3"
+          }
+        ]
+      },
+      {
+        "s": 9,
+        "c": 17,
+        "m": [
+          {
+            "n": "Producción II",
+            "cr": 3,
+            "cl": "#047857",
+            "cd": "II9C3",
+            "area": "Producción",
+            "desc": "Programación de operaciones y secuenciación.",
+            "pre": "II8A3"
+          },
+          {
+            "n": "Diseño de Plantas",
+            "cr": 3,
+            "cl": "#047857",
+            "cd": "II9B2",
+            "area": "Producción",
+            "desc": "Distribución física y manejo de materiales.",
+            "pre": "II8A3"
+          },
+          {
+            "n": "Sistema de Costeo",
+            "cr": 3,
+            "cl": "#0E7490",
+            "cd": "II4A3",
+            "area": "Financiera",
+            "desc": "Costos por órdenes y por procesos.",
+            "pre": "II6A3"
+          },
+          {
+            "n": "Seminario de Investigación",
+            "cr": 2,
+            "cl": "#BE185D",
+            "cd": "II972",
+            "area": "Sociohumanística",
+            "desc": "Metodología y formulación de anteproyecto.",
+            "pre": "120 cr"
+          },
+          {
+            "n": "Electiva Profesional I",
+            "cr": 3,
+            "cl": "#4D7C0F",
+            "cd": "EP901",
+            "e": 1,
+            "area": "Electivas Prof.",
+            "desc": "Profundización profesional.",
+            "pre": "120 cr"
+          },
+          {
+            "n": "Electiva Sociohumanística III",
+            "cr": 3,
+            "cl": "#BE185D",
+            "cd": "SH901",
+            "area": "Sociohumanística",
+            "desc": "Formación integral.",
+            "pre": "Ninguno"
+          }
+        ]
+      },
+      {
+        "s": 10,
+        "c": 20,
+        "m": [
+          {
+            "n": "Producción III",
+            "cr": 3,
+            "cl": "#047857",
+            "cd": "IIOD3",
+            "area": "Producción",
+            "desc": "Gestión de la cadena de suministro y logística.",
+            "pre": "II9C3"
+          },
+          {
+            "n": "Control Total de la Calidad",
+            "cr": 3,
+            "cl": "#047857",
+            "cd": "IIOF3",
+            "area": "Producción",
+            "desc": "Sistemas de gestión de calidad y Six Sigma.",
+            "pre": "II9C3"
+          },
+          {
+            "n": "Formulación y Eval. Proyectos",
+            "cr": 3,
+            "cl": "#0E7490",
+            "cd": "II923",
+            "area": "Financiera",
+            "desc": "Evaluación económica y social de proyectos.",
+            "pre": "II8C3"
+          },
+          {
+            "n": "Trabajo de Grado",
+            "cr": 5,
+            "cl": "#A21CAF",
+            "cd": "TG101",
+            "area": "Trabajo de Grado",
+            "desc": "Proyecto de grado profesional.",
+            "pre": "II972"
+          },
+          {
+            "n": "Electiva Profesional II",
+            "cr": 3,
+            "cl": "#4D7C0F",
+            "cd": "EP102",
+            "e": 1,
+            "area": "Electivas Prof.",
+            "desc": "Profundización profesional.",
+            "pre": "140 cr"
+          },
+          {
+            "n": "Electiva Profesional III",
+            "cr": 3,
+            "cl": "#4D7C0F",
+            "cd": "EP103",
+            "e": 1,
+            "area": "Electivas Prof.",
+            "desc": "Profundización profesional.",
+            "pre": "140 cr"
+          }
+        ]
+      }
+    ]
+  },
+  "oficial": {
+    "id": "oficial",
+    "title": "Plan propuesto oficial · catálogo definido",
+    "subtitle": "8 semestres · 147 créditos · hasta 20 créditos por semestre",
+    "badge": "CATÁLOGO DEFINIDO · DISTRIBUCIÓN PROPUESTA",
+    "badgeColor": "#047857",
+    "description": "Conserva las 53 asignaturas y los 147 créditos del catálogo. Programación inicia en S2; Estadística III se cursa en S6 y Simulación en S8. La secuencia financiera avanza de S3 a S7: Economía, Contabilidad/Costos, Análisis Financiero, Ingeniería Económica y Formulación. La carga es de 14–20 créditos por semestre.",
+    "semestersCount": 8,
+    "totalCredits": 147,
+    "metrics": {
+      "creditos": 147,
+      "semestres": 8,
+      "materias": 53,
+      "pctElectivas": "10.9%",
+      "pctBasicas": "21.8%",
+      "pctProduccion": "12.9%",
+      "cargaSemestral": "14–20 cr/sem"
+    },
+    "plan": [
+      {
+        "s": 1,
+        "c": 14,
+        "m": [
+          {
+            "n": "Fundamentos Matemáticos para Ingeniería",
+            "cr": 3,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 1,
+            "branch": "calculo",
+            "branchLabel": "Cálculo y modelado",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "MAT01",
+            "cd": "OFICIAL-MAT01",
+            "g": "Cálculo",
+            "pre": "Ninguno",
+            "desc": "Lenguaje matemático, funciones y fundamentos para iniciar la formación en ingeniería.",
+            "q": "1/5"
+          },
+          {
+            "n": "Mecánica y Laboratorio (Física I)",
+            "cr": 4,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 1,
+            "branch": "fisica",
+            "branchLabel": "Física",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "FIS01",
+            "cd": "OFICIAL-FIS01",
+            "g": "Física",
+            "pre": "Ninguno",
+            "desc": "Mecánica y trabajo experimental de Física I, integrados en la misma asignatura.",
+            "q": "1/3"
+          },
+          {
+            "n": "Química Aplicada a la Manufactura",
+            "cr": 2,
+            "cl": "#C2410C",
+            "area": "Básicas de Ingeniería",
+            "sourceSemester": 1,
+            "branch": "manufactura",
+            "branchLabel": "Manufactura",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "MAN01",
+            "cd": "OFICIAL-MAN01",
+            "g": "Manufactura",
+            "pre": "Ninguno",
+            "desc": "Fundamentos químicos aplicados a materiales y procesos de manufactura.",
+            "q": "1/4"
+          },
+          {
+            "n": "Fundamentos y Tendencias de la Ingeniería Industrial",
+            "cr": 3,
+            "cl": "#CA8A04",
+            "area": "Administración",
+            "sourceSemester": 1,
+            "branch": "gestion",
+            "branchLabel": "Administración",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "ADM01",
+            "cd": "OFICIAL-ADM01",
+            "g": "Administración",
+            "pre": "Ninguno",
+            "desc": "Introducción a la ingeniería industrial y a sus tendencias de desarrollo.",
+            "q": "1/5"
+          },
+          {
+            "n": "Humanidades: Pensamiento y Contexto Social",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 1,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM01",
+            "cd": "OFICIAL-HUM01",
+            "g": "Sociohum.",
+            "pre": "Ninguno",
+            "desc": "Pensamiento humanístico y comprensión del contexto social.",
+            "q": "1/6"
+          }
+        ]
+      },
+      {
+        "s": 2,
+        "c": 18,
+        "m": [
+          {
+            "n": "Cálculo Diferencial",
+            "cr": 3,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 2,
+            "branch": "calculo",
+            "branchLabel": "Cálculo y modelado",
+            "prereqIds": [
+              "MAT01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAT02",
+            "cd": "OFICIAL-MAT02",
+            "g": "Cálculo",
+            "pre": "Fundamentos Matemáticos para Ingeniería",
+            "desc": "Derivación y aplicaciones del cálculo diferencial a problemas de ingeniería.",
+            "q": "2/5"
+          },
+          {
+            "n": "Electromagnetismo y Laboratorio (Física II)",
+            "cr": 4,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 2,
+            "branch": "fisica",
+            "branchLabel": "Física",
+            "prereqIds": [
+              "FIS01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "FIS02",
+            "cd": "OFICIAL-FIS02",
+            "g": "Física",
+            "pre": "Mecánica y Laboratorio (Física I)",
+            "desc": "Electromagnetismo y trabajo experimental de Física II, integrados en la misma asignatura.",
+            "q": "2/3"
+          },
+          {
+            "n": "Materiales y Fund. Mecánicos para la Manufactura",
+            "cr": 3,
+            "cl": "#C2410C",
+            "area": "Básicas de Ingeniería",
+            "sourceSemester": 3,
+            "branch": "manufactura",
+            "branchLabel": "Manufactura",
+            "prereqIds": [
+              "FIS01",
+              "MAN01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAN02",
+            "cd": "OFICIAL-MAN02",
+            "g": "Manufactura",
+            "pre": "Mecánica y Laboratorio (Física I); Química Aplicada a la Manufactura",
+            "desc": "Materiales y fundamentos mecánicos para analizar procesos de manufactura.",
+            "q": "2/4"
+          },
+          {
+            "n": "Fundamentos de Programación y Datos",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "area": "IO / Estadística",
+            "sourceSemester": 2,
+            "branch": "datos-io",
+            "branchLabel": "Programación, Estadística e IO",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "DAT01",
+            "cd": "OFICIAL-DAT01",
+            "g": "Datos e IO",
+            "pre": "Ninguno",
+            "desc": "Fundamentos de programación y tratamiento de datos. Se cursa antes de Estadística I.",
+            "q": "1/7"
+          },
+          {
+            "n": "Gestión Organizacional",
+            "cr": 3,
+            "cl": "#CA8A04",
+            "area": "Administración",
+            "sourceSemester": 3,
+            "branch": "gestion",
+            "branchLabel": "Administración",
+            "prereqIds": [
+              "ADM01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "ADM02",
+            "cd": "OFICIAL-ADM02",
+            "g": "Administración",
+            "pre": "Fundamentos y Tendencias de la Ingeniería Industrial",
+            "desc": "Fundamentos de gestión y estructura organizacional.",
+            "q": "2/5"
+          },
+          {
+            "n": "Comunicación Profesional en Ingeniería",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 2,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM02",
+            "cd": "OFICIAL-HUM02",
+            "g": "Sociohum.",
+            "pre": "Ninguno",
+            "desc": "Comunicación profesional aplicada al ejercicio de la ingeniería.",
+            "q": "2/6"
+          }
+        ]
+      },
+      {
+        "s": 3,
+        "c": 20,
+        "m": [
+          {
+            "n": "Álgebra Lineal y Aplicaciones",
+            "cr": 3,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 2,
+            "branch": "algebra",
+            "branchLabel": "Álgebra lineal",
+            "prereqIds": [
+              "MAT01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAT03",
+            "cd": "OFICIAL-MAT03",
+            "g": "Álgebra",
+            "pre": "Fundamentos Matemáticos para Ingeniería",
+            "desc": "Matrices, vectores y sistemas lineales que sustentan los modelos de optimización.",
+            "q": ""
+          },
+          {
+            "n": "Cálculo Integral",
+            "cr": 4,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 3,
+            "branch": "calculo",
+            "branchLabel": "Cálculo y modelado",
+            "prereqIds": [
+              "MAT02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAT04",
+            "cd": "OFICIAL-MAT04",
+            "g": "Cálculo",
+            "pre": "Cálculo Diferencial",
+            "desc": "Integración y aplicaciones del cálculo integral.",
+            "q": "3/5"
+          },
+          {
+            "n": "Tecnologías de Transformación y Conformado",
+            "cr": 3,
+            "cl": "#C2410C",
+            "area": "Básicas de Ingeniería",
+            "sourceSemester": 4,
+            "branch": "manufactura",
+            "branchLabel": "Manufactura",
+            "prereqIds": [
+              "MAN02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAN03",
+            "cd": "OFICIAL-MAN03",
+            "g": "Manufactura",
+            "pre": "Materiales y Fund. Mecánicos para la Manufactura",
+            "desc": "Procesos de transformación y conformado de materiales.",
+            "q": "3/4"
+          },
+          {
+            "n": "Estadística I: Probabilidad",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "area": "IO / Estadística",
+            "sourceSemester": 3,
+            "branch": "datos-io",
+            "branchLabel": "Programación, Estadística e IO",
+            "prereqIds": [
+              "MAT02",
+              "DAT01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "DAT02",
+            "cd": "OFICIAL-DAT02",
+            "g": "Datos e IO",
+            "pre": "Cálculo Diferencial; Fundamentos de Programación y Datos",
+            "desc": "Probabilidad como base para la inferencia y los modelos de decisión.",
+            "q": "2/7"
+          },
+          {
+            "n": "Gestión Talento Humano",
+            "cr": 3,
+            "cl": "#CA8A04",
+            "area": "Administración",
+            "sourceSemester": 4,
+            "branch": "gestion",
+            "branchLabel": "Administración",
+            "prereqIds": [
+              "ADM02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "ADM03",
+            "cd": "OFICIAL-ADM03",
+            "g": "Administración",
+            "pre": "Gestión Organizacional",
+            "desc": "Gestión del talento humano en las organizaciones.",
+            "q": "3/5"
+          },
+          {
+            "n": "Economía",
+            "cr": 2,
+            "cl": "#0E7490",
+            "area": "Financiera",
+            "sourceSemester": 3,
+            "branch": "finanzas",
+            "branchLabel": "Finanzas",
+            "prereqIds": [
+              "ADM02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "FIN01",
+            "cd": "OFICIAL-FIN01",
+            "g": "Finanzas",
+            "pre": "Gestión Organizacional",
+            "desc": "Fundamentos económicos que anteceden a Contabilidad, Costos y Presupuestos.",
+            "q": "1/5"
+          },
+          {
+            "n": "Electiva Sociohumanística I",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 1,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM04",
+            "cd": "OFICIAL-HUM04",
+            "g": "Sociohum.",
+            "pre": "Ninguno",
+            "desc": "Electiva Sociohumanística I: espacio de formación electiva del catálogo definido.",
+            "q": "4/6"
+          }
+        ]
+      },
+      {
+        "s": 4,
+        "c": 19,
+        "m": [
+          {
+            "n": "Cálculo Multivariado y Análisis Vectorial",
+            "cr": 4,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 4,
+            "branch": "calculo",
+            "branchLabel": "Cálculo y modelado",
+            "prereqIds": [
+              "MAT04"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAT05",
+            "cd": "OFICIAL-MAT05",
+            "g": "Cálculo",
+            "pre": "Cálculo Integral",
+            "desc": "Funciones de varias variables, cálculo vectorial y aplicaciones.",
+            "q": "4/5"
+          },
+          {
+            "n": "Ensamble, Calidad y Sistemas de Manufactura",
+            "cr": 3,
+            "cl": "#C2410C",
+            "area": "Básicas de Ingeniería",
+            "sourceSemester": 6,
+            "branch": "manufactura",
+            "branchLabel": "Manufactura",
+            "prereqIds": [
+              "MAN03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAN04",
+            "cd": "OFICIAL-MAN04",
+            "g": "Manufactura",
+            "pre": "Tecnologías de Transformación y Conformado",
+            "desc": "Integración de ensamble, calidad y sistemas de manufactura.",
+            "q": "4/4"
+          },
+          {
+            "n": "Estadística Multivariada y Muestreo",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "area": "IO / Estadística",
+            "sourceSemester": 4,
+            "branch": "datos-io",
+            "branchLabel": "Programación, Estadística e IO",
+            "prereqIds": [
+              "DAT02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "DAT03",
+            "cd": "OFICIAL-DAT03",
+            "g": "Datos e IO",
+            "pre": "Estadística I: Probabilidad",
+            "desc": "Análisis multivariado y muestreo. Precede a Diseño de Experimentos.",
+            "q": "3/7"
+          },
+          {
+            "n": "Inteligencia Comercial",
+            "cr": 2,
+            "cl": "#CA8A04",
+            "area": "Administración",
+            "sourceSemester": 5,
+            "branch": "gestion",
+            "branchLabel": "Administración",
+            "prereqIds": [
+              "ADM02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "ADM04",
+            "cd": "OFICIAL-ADM04",
+            "g": "Administración",
+            "pre": "Gestión Organizacional",
+            "desc": "Inteligencia comercial y análisis para la toma de decisiones de mercado.",
+            "q": "4/5"
+          },
+          {
+            "n": "Contabilidad, Costos y Presupuestos Industriales",
+            "cr": 3,
+            "cl": "#0E7490",
+            "area": "Financiera",
+            "sourceSemester": 4,
+            "branch": "finanzas",
+            "branchLabel": "Finanzas",
+            "prereqIds": [
+              "FIN01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "FIN02",
+            "cd": "OFICIAL-FIN02",
+            "g": "Finanzas",
+            "pre": "Economía",
+            "desc": "Contabilidad, costos y presupuestos industriales para el análisis de la gestión.",
+            "q": "2/5"
+          },
+          {
+            "n": "Electiva Sociohumanística II",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 1,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [
+              "HUM04"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM05",
+            "cd": "OFICIAL-HUM05",
+            "g": "Sociohum.",
+            "pre": "Electiva Sociohumanística I",
+            "desc": "Electiva Sociohumanística II: espacio de formación electiva del catálogo definido.",
+            "q": "5/6"
+          },
+          {
+            "n": "EP Concentración I",
+            "cr": 2,
+            "cl": "#4D7C0F",
+            "e": 1,
+            "area": "Electivas Prof.",
+            "sourceSemester": 4,
+            "branch": "concentracion",
+            "branchLabel": "EP de concentración",
+            "prereqIds": [],
+            "minCompletedCredits": 40,
+            "catalogId": "CON01",
+            "cd": "OFICIAL-CON01",
+            "g": "Concentración",
+            "pre": "40 créditos aprobados",
+            "desc": "EP Concentración I: espacio de formación electiva del catálogo definido.",
+            "q": "1/4"
+          }
+        ]
+      },
+      {
+        "s": 5,
+        "c": 20,
+        "m": [
+          {
+            "n": "Ecuaciones Diferenciales y Modelado",
+            "cr": 3,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 5,
+            "branch": "calculo",
+            "branchLabel": "Cálculo y modelado",
+            "prereqIds": [
+              "MAT05"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAT06",
+            "cd": "OFICIAL-MAT06",
+            "g": "Cálculo",
+            "pre": "Cálculo Multivariado y Análisis Vectorial",
+            "desc": "Ecuaciones diferenciales y representación de sistemas dinámicos.",
+            "q": "5/5"
+          },
+          {
+            "n": "IO I: Modelos Determinísticos y Optimización",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "area": "IO / Estadística",
+            "sourceSemester": 5,
+            "branch": "datos-io",
+            "branchLabel": "Programación, Estadística e IO",
+            "prereqIds": [
+              "MAT03",
+              "DAT02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "DAT05",
+            "cd": "OFICIAL-DAT05",
+            "g": "Datos e IO",
+            "pre": "Álgebra Lineal y Aplicaciones; Estadística I: Probabilidad",
+            "desc": "Modelos determinísticos, optimización y formulación de problemas de investigación de operaciones.",
+            "q": "5/7"
+          },
+          {
+            "n": "Ing. de Métodos, Tiempos y Movimientos",
+            "cr": 3,
+            "cl": "#047857",
+            "area": "Producción",
+            "sourceSemester": 5,
+            "branch": "operaciones",
+            "branchLabel": "Métodos y producción",
+            "prereqIds": [
+              "DAT03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "PRO01",
+            "cd": "OFICIAL-PRO01",
+            "g": "Producción",
+            "pre": "Estadística Multivariada y Muestreo",
+            "desc": "Estudio de métodos, tiempos y movimientos como inicio de la secuencia de producción.",
+            "q": "1/4"
+          },
+          {
+            "n": "Mercadeo Estratégico",
+            "cr": 2,
+            "cl": "#CA8A04",
+            "area": "Administración",
+            "sourceSemester": 6,
+            "branch": "gestion",
+            "branchLabel": "Administración",
+            "prereqIds": [
+              "ADM04"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "ADM05",
+            "cd": "OFICIAL-ADM05",
+            "g": "Administración",
+            "pre": "Inteligencia Comercial",
+            "desc": "Estrategia de mercadeo, después de Inteligencia Comercial.",
+            "q": "5/5"
+          },
+          {
+            "n": "Análisis Financiero y Control de Gestión",
+            "cr": 3,
+            "cl": "#0E7490",
+            "area": "Financiera",
+            "sourceSemester": 6,
+            "branch": "finanzas",
+            "branchLabel": "Finanzas",
+            "prereqIds": [
+              "FIN02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "FIN03",
+            "cd": "OFICIAL-FIN03",
+            "g": "Finanzas",
+            "pre": "Contabilidad, Costos y Presupuestos Industriales",
+            "desc": "Análisis financiero y control de gestión, antes de Ingeniería Económica.",
+            "q": "3/5"
+          },
+          {
+            "n": "Electiva Sociohumanística III",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 2,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [
+              "HUM05"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM06",
+            "cd": "OFICIAL-HUM06",
+            "g": "Sociohum.",
+            "pre": "Electiva Sociohumanística II",
+            "desc": "Electiva Sociohumanística III: espacio de formación electiva del catálogo definido.",
+            "q": "6/6"
+          },
+          {
+            "n": "EP Concentración II",
+            "cr": 2,
+            "cl": "#4D7C0F",
+            "e": 1,
+            "area": "Electivas Prof.",
+            "sourceSemester": 5,
+            "branch": "concentracion",
+            "branchLabel": "EP de concentración",
+            "prereqIds": [
+              "CON01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "CON02",
+            "cd": "OFICIAL-CON02",
+            "g": "Concentración",
+            "pre": "EP Concentración I",
+            "desc": "EP Concentración II: espacio de formación electiva del catálogo definido.",
+            "q": "2/4"
+          },
+          {
+            "n": "EP Exploración Libre I",
+            "cr": 2,
+            "cl": "#7C2D12",
+            "e": 2,
+            "area": "Electivas Prof.",
+            "sourceSemester": 5,
+            "branch": "exploracion",
+            "branchLabel": "EP de exploración",
+            "prereqIds": [],
+            "minCompletedCredits": 60,
+            "catalogId": "EXP01",
+            "cd": "OFICIAL-EXP01",
+            "g": "Exploración",
+            "pre": "60 créditos aprobados",
+            "desc": "EP Exploración Libre I: espacio de formación electiva del catálogo definido.",
+            "q": "1/4"
+          }
+        ]
+      },
+      {
+        "s": 6,
+        "c": 20,
+        "m": [
+          {
+            "n": "Ondas, Calor y Óptica (Física III)",
+            "cr": 4,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 3,
+            "branch": "fisica",
+            "branchLabel": "Física",
+            "prereqIds": [
+              "FIS02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "FIS03",
+            "cd": "OFICIAL-FIS03",
+            "g": "Física",
+            "pre": "Electromagnetismo y Laboratorio (Física II)",
+            "desc": "Ondas, calor, óptica y trabajo experimental de Física III.",
+            "q": "3/3"
+          },
+          {
+            "n": "Estadística III: Diseño de Experimentos",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "area": "IO / Estadística",
+            "sourceSemester": 5,
+            "branch": "datos-io",
+            "branchLabel": "Programación, Estadística e IO",
+            "prereqIds": [
+              "DAT03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "DAT04",
+            "cd": "OFICIAL-DAT04",
+            "g": "Datos e IO",
+            "pre": "Estadística Multivariada y Muestreo",
+            "desc": "Diseño de experimentos como asignatura independiente, conservada en el nuevo catálogo.",
+            "q": "4/7"
+          },
+          {
+            "n": "Gestión y Planificación de la Producción I",
+            "cr": 3,
+            "cl": "#047857",
+            "area": "Producción",
+            "sourceSemester": 6,
+            "branch": "operaciones",
+            "branchLabel": "Métodos y producción",
+            "prereqIds": [
+              "PRO01",
+              "DAT05"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "PRO02",
+            "cd": "OFICIAL-PRO02",
+            "g": "Producción",
+            "pre": "Ing. de Métodos, Tiempos y Movimientos; IO I: Modelos Determinísticos y Optimización",
+            "desc": "Primer nivel de gestión y planificación de la producción.",
+            "q": "2/4"
+          },
+          {
+            "n": "SST y Gestión Ambiental",
+            "cr": 2,
+            "cl": "#047857",
+            "area": "Producción",
+            "sourceSemester": 6,
+            "branch": "sst",
+            "branchLabel": "Seguridad y ambiente",
+            "prereqIds": [
+              "PRO01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "PRO06",
+            "cd": "OFICIAL-PRO06",
+            "g": "SST",
+            "pre": "Ing. de Métodos, Tiempos y Movimientos",
+            "desc": "Seguridad y salud en el trabajo junto con gestión ambiental.",
+            "q": ""
+          },
+          {
+            "n": "Ingeniería Económica",
+            "cr": 2,
+            "cl": "#0E7490",
+            "area": "Financiera",
+            "sourceSemester": 5,
+            "branch": "finanzas",
+            "branchLabel": "Finanzas",
+            "prereqIds": [
+              "FIN01",
+              "FIN02",
+              "FIN03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "FIN04",
+            "cd": "OFICIAL-FIN04",
+            "g": "Finanzas",
+            "pre": "Economía; Contabilidad, Costos y Presupuestos Industriales; Análisis Financiero y Control de Gestión",
+            "desc": "Valor del dinero en el tiempo y evaluación económica. Asignatura independiente de 2 créditos según el catálogo definido.",
+            "q": "4/5"
+          },
+          {
+            "n": "Ética y Constitución Política",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 3,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM03",
+            "cd": "OFICIAL-HUM03",
+            "g": "Sociohum.",
+            "pre": "Ninguno",
+            "desc": "Ética profesional y Constitución Política.",
+            "q": "3/6"
+          },
+          {
+            "n": "EP Concentración III",
+            "cr": 2,
+            "cl": "#4D7C0F",
+            "e": 1,
+            "area": "Electivas Prof.",
+            "sourceSemester": 6,
+            "branch": "concentracion",
+            "branchLabel": "EP de concentración",
+            "prereqIds": [
+              "CON02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "CON03",
+            "cd": "OFICIAL-CON03",
+            "g": "Concentración",
+            "pre": "EP Concentración II",
+            "desc": "EP Concentración III: espacio de formación electiva del catálogo definido.",
+            "q": "3/4"
+          },
+          {
+            "n": "EP Exploración Libre II",
+            "cr": 2,
+            "cl": "#7C2D12",
+            "e": 2,
+            "area": "Electivas Prof.",
+            "sourceSemester": 7,
+            "branch": "exploracion",
+            "branchLabel": "EP de exploración",
+            "prereqIds": [
+              "EXP01"
+            ],
+            "minCompletedCredits": 80,
+            "catalogId": "EXP02",
+            "cd": "OFICIAL-EXP02",
+            "g": "Exploración",
+            "pre": "EP Exploración Libre I; 80 créditos aprobados",
+            "desc": "EP Exploración Libre II: espacio de formación electiva del catálogo definido.",
+            "q": "2/4"
+          }
+        ]
+      },
+      {
+        "s": 7,
+        "c": 18,
+        "m": [
+          {
+            "n": "IO II: Modelos Estocásticos y Decisiones",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "area": "IO / Estadística",
+            "sourceSemester": 6,
+            "branch": "datos-io",
+            "branchLabel": "Programación, Estadística e IO",
+            "prereqIds": [
+              "DAT05"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "DAT06",
+            "cd": "OFICIAL-DAT06",
+            "g": "Datos e IO",
+            "pre": "IO I: Modelos Determinísticos y Optimización",
+            "desc": "Modelos estocásticos y decisiones, después de IO I.",
+            "q": "6/7"
+          },
+          {
+            "n": "Gestión y Planificación de la Producción II",
+            "cr": 3,
+            "cl": "#047857",
+            "area": "Producción",
+            "sourceSemester": 7,
+            "branch": "operaciones",
+            "branchLabel": "Métodos y producción",
+            "prereqIds": [
+              "PRO02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "PRO03",
+            "cd": "OFICIAL-PRO03",
+            "g": "Producción",
+            "pre": "Gestión y Planificación de la Producción I",
+            "desc": "Segundo nivel de gestión y planificación de la producción, después de Producción I.",
+            "q": "3/4"
+          },
+          {
+            "n": "Control Estadístico de Calidad y Mejora Continua",
+            "cr": 3,
+            "cl": "#047857",
+            "area": "Producción",
+            "sourceSemester": 7,
+            "branch": "calidad",
+            "branchLabel": "Calidad y mejora",
+            "prereqIds": [
+              "DAT03",
+              "PRO02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "PRO05",
+            "cd": "OFICIAL-PRO05",
+            "g": "Calidad",
+            "pre": "Estadística Multivariada y Muestreo; Gestión y Planificación de la Producción I",
+            "desc": "Control estadístico de calidad y mejora continua de procesos productivos.",
+            "q": ""
+          },
+          {
+            "n": "Formulación y Evaluación de Proyectos de Inversión",
+            "cr": 3,
+            "cl": "#0E7490",
+            "area": "Financiera",
+            "sourceSemester": 7,
+            "branch": "finanzas",
+            "branchLabel": "Finanzas",
+            "prereqIds": [
+              "FIN04",
+              "FIN03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "FIN05",
+            "cd": "OFICIAL-FIN05",
+            "g": "Finanzas",
+            "pre": "Ingeniería Económica; Análisis Financiero y Control de Gestión",
+            "desc": "Formulación y evaluación de proyectos de inversión, después de Análisis Financiero e Ingeniería Económica.",
+            "q": "5/5"
+          },
+          {
+            "n": "EP Concentración IV",
+            "cr": 2,
+            "cl": "#4D7C0F",
+            "e": 1,
+            "area": "Electivas Prof.",
+            "sourceSemester": 7,
+            "branch": "concentracion",
+            "branchLabel": "EP de concentración",
+            "prereqIds": [
+              "CON03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "CON04",
+            "cd": "OFICIAL-CON04",
+            "g": "Concentración",
+            "pre": "EP Concentración III",
+            "desc": "EP Concentración IV: espacio de formación electiva del catálogo definido.",
+            "q": "4/4"
+          },
+          {
+            "n": "EP Exploración Libre III",
+            "cr": 2,
+            "cl": "#7C2D12",
+            "e": 2,
+            "area": "Electivas Prof.",
+            "sourceSemester": 8,
+            "branch": "exploracion",
+            "branchLabel": "EP de exploración",
+            "prereqIds": [
+              "EXP02"
+            ],
+            "minCompletedCredits": 100,
+            "catalogId": "EXP03",
+            "cd": "OFICIAL-EXP03",
+            "g": "Exploración",
+            "pre": "EP Exploración Libre II; 100 créditos aprobados",
+            "desc": "EP Exploración Libre III: espacio de formación electiva del catálogo definido.",
+            "q": "3/4"
+          },
+          {
+            "n": "Seminario de Investigación",
+            "cr": 2,
+            "cl": "#A21CAF",
+            "area": "Trabajo de Grado",
+            "sourceSemester": 7,
+            "branch": "grado",
+            "branchLabel": "Investigación y grado",
+            "prereqIds": [],
+            "minCompletedCredits": 100,
+            "catalogId": "TGR01",
+            "cd": "OFICIAL-TGR01",
+            "g": "Grado",
+            "pre": "100 créditos aprobados",
+            "desc": "Preparación del proyecto de investigación y del trabajo de grado.",
+            "q": "1/2"
+          }
+        ]
+      },
+      {
+        "s": 8,
+        "c": 18,
+        "m": [
+          {
+            "n": "Simulación de Sistemas Productivos y de Servicio",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "area": "IO / Estadística",
+            "sourceSemester": 6,
+            "branch": "datos-io",
+            "branchLabel": "Programación, Estadística e IO",
+            "prereqIds": [
+              "DAT06"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "DAT07",
+            "cd": "OFICIAL-DAT07",
+            "g": "Datos e IO",
+            "pre": "IO II: Modelos Estocásticos y Decisiones",
+            "desc": "Simulación de sistemas productivos y de servicio, después de IO II.",
+            "q": "7/7"
+          },
+          {
+            "n": "Gestión y Planificación de la Producción III",
+            "cr": 3,
+            "cl": "#047857",
+            "area": "Producción",
+            "sourceSemester": 7,
+            "branch": "operaciones",
+            "branchLabel": "Métodos y producción",
+            "prereqIds": [
+              "PRO03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "PRO04",
+            "cd": "OFICIAL-PRO04",
+            "g": "Producción",
+            "pre": "Gestión y Planificación de la Producción II",
+            "desc": "Tercer nivel de gestión y planificación de la producción, después de Producción II.",
+            "q": "4/4"
+          },
+          {
+            "n": "Diseño y Distribución de Plantas Industriales",
+            "cr": 2,
+            "cl": "#047857",
+            "area": "Producción",
+            "sourceSemester": 8,
+            "branch": "plantas",
+            "branchLabel": "Diseño de plantas",
+            "prereqIds": [
+              "PRO03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "PRO07",
+            "cd": "OFICIAL-PRO07",
+            "g": "Plantas",
+            "pre": "Gestión y Planificación de la Producción II",
+            "desc": "Diseño y distribución física de plantas industriales.",
+            "q": ""
+          },
+          {
+            "n": "EP Exploración Libre IV",
+            "cr": 2,
+            "cl": "#7C2D12",
+            "e": 2,
+            "area": "Electivas Prof.",
+            "sourceSemester": 8,
+            "branch": "exploracion",
+            "branchLabel": "EP de exploración",
+            "prereqIds": [
+              "EXP03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "EXP04",
+            "cd": "OFICIAL-EXP04",
+            "g": "Exploración",
+            "pre": "EP Exploración Libre III",
+            "desc": "EP Exploración Libre IV: espacio de formación electiva del catálogo definido.",
+            "q": "4/4"
+          },
+          {
+            "n": "Proyecto Integrador de Grado (TG)",
+            "cr": 8,
+            "cl": "#A21CAF",
+            "area": "Trabajo de Grado",
+            "sourceSemester": 8,
+            "branch": "grado",
+            "branchLabel": "Investigación y grado",
+            "prereqIds": [
+              "TGR01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "TGR02",
+            "cd": "OFICIAL-TGR02",
+            "g": "Grado",
+            "pre": "Seminario de Investigación",
+            "desc": "Proyecto integrador de grado, después del Seminario de Investigación.",
+            "q": "2/2"
+          }
+        ]
+      }
+    ]
+  },
+  "var1": {
+    "id": "var1",
+    "title": "Variación 1 · Producción anticipada",
+    "subtitle": "8 semestres · 147 créditos · Métodos en S4 y Producción I en S5",
+    "badge": "PRODUCCIÓN DESDE S4",
+    "badgeColor": "#047857",
+    "description": "Conserva el mismo catálogo de 53 asignaturas y 147 créditos. Métodos inicia en S4 con los prerrequisitos de esta variación: Estadística I y Materiales. Producción I, II y III ocupan S5, S6 y S7. S8 queda en 17 créditos. Las ramas de Calidad, Seguridad y Ambiente y Diseño de Plantas se identifican por separado.",
+    "semestersCount": 8,
+    "totalCredits": 147,
+    "metrics": {
+      "creditos": 147,
+      "semestres": 8,
+      "materias": 53,
+      "pctElectivas": "10.9%",
+      "pctBasicas": "21.8%",
+      "pctProduccion": "12.9%",
+      "cargaSemestral": "14–20 cr/sem"
+    },
+    "plan": [
+      {
+        "s": 1,
+        "c": 14,
+        "m": [
+          {
+            "n": "Fundamentos Matemáticos para Ingeniería",
+            "cr": 3,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 1,
+            "branch": "calculo",
+            "branchLabel": "Cálculo y modelado",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "MAT01",
+            "cd": "VAR1-MAT01",
+            "g": "Cálculo",
+            "pre": "Ninguno",
+            "desc": "Lenguaje matemático, funciones y fundamentos para iniciar la formación en ingeniería.",
+            "q": "1/5"
+          },
+          {
+            "n": "Mecánica y Laboratorio (Física I)",
+            "cr": 4,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 1,
+            "branch": "fisica",
+            "branchLabel": "Física",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "FIS01",
+            "cd": "VAR1-FIS01",
+            "g": "Física",
+            "pre": "Ninguno",
+            "desc": "Mecánica y trabajo experimental de Física I, integrados en la misma asignatura.",
+            "q": "1/3"
+          },
+          {
+            "n": "Química Aplicada a la Manufactura",
+            "cr": 2,
+            "cl": "#C2410C",
+            "area": "Básicas de Ingeniería",
+            "sourceSemester": 1,
+            "branch": "manufactura",
+            "branchLabel": "Manufactura",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "MAN01",
+            "cd": "VAR1-MAN01",
+            "g": "Manufactura",
+            "pre": "Ninguno",
+            "desc": "Fundamentos químicos aplicados a materiales y procesos de manufactura.",
+            "q": "1/4"
+          },
+          {
+            "n": "Fundamentos y Tendencias de la Ingeniería Industrial",
+            "cr": 3,
+            "cl": "#CA8A04",
+            "area": "Administración",
+            "sourceSemester": 1,
+            "branch": "gestion",
+            "branchLabel": "Administración",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "ADM01",
+            "cd": "VAR1-ADM01",
+            "g": "Administración",
+            "pre": "Ninguno",
+            "desc": "Introducción a la ingeniería industrial y a sus tendencias de desarrollo.",
+            "q": "1/5"
+          },
+          {
+            "n": "Humanidades: Pensamiento y Contexto Social",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 1,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM01",
+            "cd": "VAR1-HUM01",
+            "g": "Sociohum.",
+            "pre": "Ninguno",
+            "desc": "Pensamiento humanístico y comprensión del contexto social.",
+            "q": "1/6"
+          }
+        ]
+      },
+      {
+        "s": 2,
+        "c": 18,
+        "m": [
+          {
+            "n": "Cálculo Diferencial",
+            "cr": 3,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 2,
+            "branch": "calculo",
+            "branchLabel": "Cálculo y modelado",
+            "prereqIds": [
+              "MAT01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAT02",
+            "cd": "VAR1-MAT02",
+            "g": "Cálculo",
+            "pre": "Fundamentos Matemáticos para Ingeniería",
+            "desc": "Derivación y aplicaciones del cálculo diferencial a problemas de ingeniería.",
+            "q": "2/5"
+          },
+          {
+            "n": "Electromagnetismo y Laboratorio (Física II)",
+            "cr": 4,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 2,
+            "branch": "fisica",
+            "branchLabel": "Física",
+            "prereqIds": [
+              "FIS01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "FIS02",
+            "cd": "VAR1-FIS02",
+            "g": "Física",
+            "pre": "Mecánica y Laboratorio (Física I)",
+            "desc": "Electromagnetismo y trabajo experimental de Física II, integrados en la misma asignatura.",
+            "q": "2/3"
+          },
+          {
+            "n": "Materiales y Fund. Mecánicos para la Manufactura",
+            "cr": 3,
+            "cl": "#C2410C",
+            "area": "Básicas de Ingeniería",
+            "sourceSemester": 3,
+            "branch": "manufactura",
+            "branchLabel": "Manufactura",
+            "prereqIds": [
+              "FIS01",
+              "MAN01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAN02",
+            "cd": "VAR1-MAN02",
+            "g": "Manufactura",
+            "pre": "Mecánica y Laboratorio (Física I); Química Aplicada a la Manufactura",
+            "desc": "Materiales y fundamentos mecánicos para analizar procesos de manufactura.",
+            "q": "2/4"
+          },
+          {
+            "n": "Fundamentos de Programación y Datos",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "area": "IO / Estadística",
+            "sourceSemester": 2,
+            "branch": "datos-io",
+            "branchLabel": "Programación, Estadística e IO",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "DAT01",
+            "cd": "VAR1-DAT01",
+            "g": "Datos e IO",
+            "pre": "Ninguno",
+            "desc": "Fundamentos de programación y tratamiento de datos. Se cursa antes de Estadística I.",
+            "q": "1/7"
+          },
+          {
+            "n": "Gestión Organizacional",
+            "cr": 3,
+            "cl": "#CA8A04",
+            "area": "Administración",
+            "sourceSemester": 3,
+            "branch": "gestion",
+            "branchLabel": "Administración",
+            "prereqIds": [
+              "ADM01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "ADM02",
+            "cd": "VAR1-ADM02",
+            "g": "Administración",
+            "pre": "Fundamentos y Tendencias de la Ingeniería Industrial",
+            "desc": "Fundamentos de gestión y estructura organizacional.",
+            "q": "2/5"
+          },
+          {
+            "n": "Comunicación Profesional en Ingeniería",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 2,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM02",
+            "cd": "VAR1-HUM02",
+            "g": "Sociohum.",
+            "pre": "Ninguno",
+            "desc": "Comunicación profesional aplicada al ejercicio de la ingeniería.",
+            "q": "2/6"
+          }
+        ]
+      },
+      {
+        "s": 3,
+        "c": 20,
+        "m": [
+          {
+            "n": "Álgebra Lineal y Aplicaciones",
+            "cr": 3,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 2,
+            "branch": "algebra",
+            "branchLabel": "Álgebra lineal",
+            "prereqIds": [
+              "MAT01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAT03",
+            "cd": "VAR1-MAT03",
+            "g": "Álgebra",
+            "pre": "Fundamentos Matemáticos para Ingeniería",
+            "desc": "Matrices, vectores y sistemas lineales que sustentan los modelos de optimización.",
+            "q": ""
+          },
+          {
+            "n": "Cálculo Integral",
+            "cr": 4,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 3,
+            "branch": "calculo",
+            "branchLabel": "Cálculo y modelado",
+            "prereqIds": [
+              "MAT02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAT04",
+            "cd": "VAR1-MAT04",
+            "g": "Cálculo",
+            "pre": "Cálculo Diferencial",
+            "desc": "Integración y aplicaciones del cálculo integral.",
+            "q": "3/5"
+          },
+          {
+            "n": "Tecnologías de Transformación y Conformado",
+            "cr": 3,
+            "cl": "#C2410C",
+            "area": "Básicas de Ingeniería",
+            "sourceSemester": 4,
+            "branch": "manufactura",
+            "branchLabel": "Manufactura",
+            "prereqIds": [
+              "MAN02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAN03",
+            "cd": "VAR1-MAN03",
+            "g": "Manufactura",
+            "pre": "Materiales y Fund. Mecánicos para la Manufactura",
+            "desc": "Procesos de transformación y conformado de materiales.",
+            "q": "3/4"
+          },
+          {
+            "n": "Estadística I: Probabilidad",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "area": "IO / Estadística",
+            "sourceSemester": 3,
+            "branch": "datos-io",
+            "branchLabel": "Programación, Estadística e IO",
+            "prereqIds": [
+              "MAT02",
+              "DAT01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "DAT02",
+            "cd": "VAR1-DAT02",
+            "g": "Datos e IO",
+            "pre": "Cálculo Diferencial; Fundamentos de Programación y Datos",
+            "desc": "Probabilidad como base para la inferencia y los modelos de decisión.",
+            "q": "2/7"
+          },
+          {
+            "n": "Gestión Talento Humano",
+            "cr": 3,
+            "cl": "#CA8A04",
+            "area": "Administración",
+            "sourceSemester": 4,
+            "branch": "gestion",
+            "branchLabel": "Administración",
+            "prereqIds": [
+              "ADM02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "ADM03",
+            "cd": "VAR1-ADM03",
+            "g": "Administración",
+            "pre": "Gestión Organizacional",
+            "desc": "Gestión del talento humano en las organizaciones.",
+            "q": "3/5"
+          },
+          {
+            "n": "Economía",
+            "cr": 2,
+            "cl": "#0E7490",
+            "area": "Financiera",
+            "sourceSemester": 3,
+            "branch": "finanzas",
+            "branchLabel": "Finanzas",
+            "prereqIds": [
+              "ADM02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "FIN01",
+            "cd": "VAR1-FIN01",
+            "g": "Finanzas",
+            "pre": "Gestión Organizacional",
+            "desc": "Fundamentos económicos que anteceden a Contabilidad, Costos y Presupuestos.",
+            "q": "1/5"
+          },
+          {
+            "n": "Electiva Sociohumanística I",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 1,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM04",
+            "cd": "VAR1-HUM04",
+            "g": "Sociohum.",
+            "pre": "Ninguno",
+            "desc": "Electiva Sociohumanística I: espacio de formación electiva del catálogo definido.",
+            "q": "4/6"
+          }
+        ]
+      },
+      {
+        "s": 4,
+        "c": 20,
+        "m": [
+          {
+            "n": "Cálculo Multivariado y Análisis Vectorial",
+            "cr": 4,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 4,
+            "branch": "calculo",
+            "branchLabel": "Cálculo y modelado",
+            "prereqIds": [
+              "MAT04"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAT05",
+            "cd": "VAR1-MAT05",
+            "g": "Cálculo",
+            "pre": "Cálculo Integral",
+            "desc": "Funciones de varias variables, cálculo vectorial y aplicaciones.",
+            "q": "4/5"
+          },
+          {
+            "n": "Ensamble, Calidad y Sistemas de Manufactura",
+            "cr": 3,
+            "cl": "#C2410C",
+            "area": "Básicas de Ingeniería",
+            "sourceSemester": 6,
+            "branch": "manufactura",
+            "branchLabel": "Manufactura",
+            "prereqIds": [
+              "MAN03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAN04",
+            "cd": "VAR1-MAN04",
+            "g": "Manufactura",
+            "pre": "Tecnologías de Transformación y Conformado",
+            "desc": "Integración de ensamble, calidad y sistemas de manufactura.",
+            "q": "4/4"
+          },
+          {
+            "n": "Estadística Multivariada y Muestreo",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "area": "IO / Estadística",
+            "sourceSemester": 4,
+            "branch": "datos-io",
+            "branchLabel": "Programación, Estadística e IO",
+            "prereqIds": [
+              "DAT02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "DAT03",
+            "cd": "VAR1-DAT03",
+            "g": "Datos e IO",
+            "pre": "Estadística I: Probabilidad",
+            "desc": "Análisis multivariado y muestreo. Precede a Diseño de Experimentos.",
+            "q": "3/7"
+          },
+          {
+            "n": "Ing. de Métodos, Tiempos y Movimientos",
+            "cr": 3,
+            "cl": "#047857",
+            "area": "Producción",
+            "sourceSemester": 5,
+            "branch": "operaciones",
+            "branchLabel": "Métodos y producción",
+            "prereqIds": [
+              "DAT02",
+              "MAN02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "PRO01",
+            "cd": "VAR1-PRO01",
+            "g": "Producción",
+            "pre": "Estadística I: Probabilidad; Materiales y Fund. Mecánicos para la Manufactura",
+            "desc": "Estudio de métodos, tiempos y movimientos como inicio de la secuencia de producción.",
+            "q": "1/4"
+          },
+          {
+            "n": "Inteligencia Comercial",
+            "cr": 2,
+            "cl": "#CA8A04",
+            "area": "Administración",
+            "sourceSemester": 5,
+            "branch": "gestion",
+            "branchLabel": "Administración",
+            "prereqIds": [
+              "ADM02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "ADM04",
+            "cd": "VAR1-ADM04",
+            "g": "Administración",
+            "pre": "Gestión Organizacional",
+            "desc": "Inteligencia comercial y análisis para la toma de decisiones de mercado.",
+            "q": "4/5"
+          },
+          {
+            "n": "Contabilidad, Costos y Presupuestos Industriales",
+            "cr": 3,
+            "cl": "#0E7490",
+            "area": "Financiera",
+            "sourceSemester": 4,
+            "branch": "finanzas",
+            "branchLabel": "Finanzas",
+            "prereqIds": [
+              "FIN01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "FIN02",
+            "cd": "VAR1-FIN02",
+            "g": "Finanzas",
+            "pre": "Economía",
+            "desc": "Contabilidad, costos y presupuestos industriales para el análisis de la gestión.",
+            "q": "2/5"
+          },
+          {
+            "n": "Electiva Sociohumanística II",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 1,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [
+              "HUM04"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM05",
+            "cd": "VAR1-HUM05",
+            "g": "Sociohum.",
+            "pre": "Electiva Sociohumanística I",
+            "desc": "Electiva Sociohumanística II: espacio de formación electiva del catálogo definido.",
+            "q": "5/6"
+          }
+        ]
+      },
+      {
+        "s": 5,
+        "c": 20,
+        "m": [
+          {
+            "n": "Ecuaciones Diferenciales y Modelado",
+            "cr": 3,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 5,
+            "branch": "calculo",
+            "branchLabel": "Cálculo y modelado",
+            "prereqIds": [
+              "MAT05"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAT06",
+            "cd": "VAR1-MAT06",
+            "g": "Cálculo",
+            "pre": "Cálculo Multivariado y Análisis Vectorial",
+            "desc": "Ecuaciones diferenciales y representación de sistemas dinámicos.",
+            "q": "5/5"
+          },
+          {
+            "n": "IO I: Modelos Determinísticos y Optimización",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "area": "IO / Estadística",
+            "sourceSemester": 5,
+            "branch": "datos-io",
+            "branchLabel": "Programación, Estadística e IO",
+            "prereqIds": [
+              "MAT03",
+              "DAT02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "DAT05",
+            "cd": "VAR1-DAT05",
+            "g": "Datos e IO",
+            "pre": "Álgebra Lineal y Aplicaciones; Estadística I: Probabilidad",
+            "desc": "Modelos determinísticos, optimización y formulación de problemas de investigación de operaciones.",
+            "q": "5/7"
+          },
+          {
+            "n": "Gestión y Planificación de la Producción I",
+            "cr": 3,
+            "cl": "#047857",
+            "area": "Producción",
+            "sourceSemester": 6,
+            "branch": "operaciones",
+            "branchLabel": "Métodos y producción",
+            "prereqIds": [
+              "PRO01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "PRO02",
+            "cd": "VAR1-PRO02",
+            "g": "Producción",
+            "pre": "Ing. de Métodos, Tiempos y Movimientos",
+            "desc": "Primer nivel de gestión y planificación de la producción.",
+            "q": "2/4"
+          },
+          {
+            "n": "Mercadeo Estratégico",
+            "cr": 2,
+            "cl": "#CA8A04",
+            "area": "Administración",
+            "sourceSemester": 6,
+            "branch": "gestion",
+            "branchLabel": "Administración",
+            "prereqIds": [
+              "ADM04"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "ADM05",
+            "cd": "VAR1-ADM05",
+            "g": "Administración",
+            "pre": "Inteligencia Comercial",
+            "desc": "Estrategia de mercadeo, después de Inteligencia Comercial.",
+            "q": "5/5"
+          },
+          {
+            "n": "Análisis Financiero y Control de Gestión",
+            "cr": 3,
+            "cl": "#0E7490",
+            "area": "Financiera",
+            "sourceSemester": 6,
+            "branch": "finanzas",
+            "branchLabel": "Finanzas",
+            "prereqIds": [
+              "FIN02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "FIN03",
+            "cd": "VAR1-FIN03",
+            "g": "Finanzas",
+            "pre": "Contabilidad, Costos y Presupuestos Industriales",
+            "desc": "Análisis financiero y control de gestión, antes de Ingeniería Económica.",
+            "q": "3/5"
+          },
+          {
+            "n": "Electiva Sociohumanística III",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 2,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [
+              "HUM05"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM06",
+            "cd": "VAR1-HUM06",
+            "g": "Sociohum.",
+            "pre": "Electiva Sociohumanística II",
+            "desc": "Electiva Sociohumanística III: espacio de formación electiva del catálogo definido.",
+            "q": "6/6"
+          },
+          {
+            "n": "EP Concentración I",
+            "cr": 2,
+            "cl": "#4D7C0F",
+            "e": 1,
+            "area": "Electivas Prof.",
+            "sourceSemester": 4,
+            "branch": "concentracion",
+            "branchLabel": "EP de concentración",
+            "prereqIds": [],
+            "minCompletedCredits": 40,
+            "catalogId": "CON01",
+            "cd": "VAR1-CON01",
+            "g": "Concentración",
+            "pre": "40 créditos aprobados",
+            "desc": "EP Concentración I: espacio de formación electiva del catálogo definido.",
+            "q": "1/4"
+          },
+          {
+            "n": "EP Exploración Libre I",
+            "cr": 2,
+            "cl": "#7C2D12",
+            "e": 2,
+            "area": "Electivas Prof.",
+            "sourceSemester": 5,
+            "branch": "exploracion",
+            "branchLabel": "EP de exploración",
+            "prereqIds": [],
+            "minCompletedCredits": 60,
+            "catalogId": "EXP01",
+            "cd": "VAR1-EXP01",
+            "g": "Exploración",
+            "pre": "60 créditos aprobados",
+            "desc": "EP Exploración Libre I: espacio de formación electiva del catálogo definido.",
+            "q": "1/4"
+          }
+        ]
+      },
+      {
+        "s": 6,
+        "c": 20,
+        "m": [
+          {
+            "n": "Ondas, Calor y Óptica (Física III)",
+            "cr": 4,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 3,
+            "branch": "fisica",
+            "branchLabel": "Física",
+            "prereqIds": [
+              "FIS02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "FIS03",
+            "cd": "VAR1-FIS03",
+            "g": "Física",
+            "pre": "Electromagnetismo y Laboratorio (Física II)",
+            "desc": "Ondas, calor, óptica y trabajo experimental de Física III.",
+            "q": "3/3"
+          },
+          {
+            "n": "Estadística III: Diseño de Experimentos",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "area": "IO / Estadística",
+            "sourceSemester": 5,
+            "branch": "datos-io",
+            "branchLabel": "Programación, Estadística e IO",
+            "prereqIds": [
+              "DAT03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "DAT04",
+            "cd": "VAR1-DAT04",
+            "g": "Datos e IO",
+            "pre": "Estadística Multivariada y Muestreo",
+            "desc": "Diseño de experimentos como asignatura independiente, conservada en el nuevo catálogo.",
+            "q": "4/7"
+          },
+          {
+            "n": "Gestión y Planificación de la Producción II",
+            "cr": 3,
+            "cl": "#047857",
+            "area": "Producción",
+            "sourceSemester": 7,
+            "branch": "operaciones",
+            "branchLabel": "Métodos y producción",
+            "prereqIds": [
+              "PRO02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "PRO03",
+            "cd": "VAR1-PRO03",
+            "g": "Producción",
+            "pre": "Gestión y Planificación de la Producción I",
+            "desc": "Segundo nivel de gestión y planificación de la producción, después de Producción I.",
+            "q": "3/4"
+          },
+          {
+            "n": "SST y Gestión Ambiental",
+            "cr": 2,
+            "cl": "#047857",
+            "area": "Producción",
+            "sourceSemester": 6,
+            "branch": "sst",
+            "branchLabel": "Seguridad y ambiente",
+            "prereqIds": [
+              "PRO01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "PRO06",
+            "cd": "VAR1-PRO06",
+            "g": "SST",
+            "pre": "Ing. de Métodos, Tiempos y Movimientos",
+            "desc": "Seguridad y salud en el trabajo junto con gestión ambiental.",
+            "q": ""
+          },
+          {
+            "n": "Ingeniería Económica",
+            "cr": 2,
+            "cl": "#0E7490",
+            "area": "Financiera",
+            "sourceSemester": 5,
+            "branch": "finanzas",
+            "branchLabel": "Finanzas",
+            "prereqIds": [
+              "FIN01",
+              "FIN02",
+              "FIN03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "FIN04",
+            "cd": "VAR1-FIN04",
+            "g": "Finanzas",
+            "pre": "Economía; Contabilidad, Costos y Presupuestos Industriales; Análisis Financiero y Control de Gestión",
+            "desc": "Valor del dinero en el tiempo y evaluación económica. Asignatura independiente de 2 créditos según el catálogo definido.",
+            "q": "4/5"
+          },
+          {
+            "n": "Ética y Constitución Política",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 3,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM03",
+            "cd": "VAR1-HUM03",
+            "g": "Sociohum.",
+            "pre": "Ninguno",
+            "desc": "Ética profesional y Constitución Política.",
+            "q": "3/6"
+          },
+          {
+            "n": "EP Concentración II",
+            "cr": 2,
+            "cl": "#4D7C0F",
+            "e": 1,
+            "area": "Electivas Prof.",
+            "sourceSemester": 5,
+            "branch": "concentracion",
+            "branchLabel": "EP de concentración",
+            "prereqIds": [
+              "CON01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "CON02",
+            "cd": "VAR1-CON02",
+            "g": "Concentración",
+            "pre": "EP Concentración I",
+            "desc": "EP Concentración II: espacio de formación electiva del catálogo definido.",
+            "q": "2/4"
+          },
+          {
+            "n": "EP Exploración Libre II",
+            "cr": 2,
+            "cl": "#7C2D12",
+            "e": 2,
+            "area": "Electivas Prof.",
+            "sourceSemester": 7,
+            "branch": "exploracion",
+            "branchLabel": "EP de exploración",
+            "prereqIds": [
+              "EXP01"
+            ],
+            "minCompletedCredits": 80,
+            "catalogId": "EXP02",
+            "cd": "VAR1-EXP02",
+            "g": "Exploración",
+            "pre": "EP Exploración Libre I; 80 créditos aprobados",
+            "desc": "EP Exploración Libre II: espacio de formación electiva del catálogo definido.",
+            "q": "2/4"
+          }
+        ]
+      },
+      {
+        "s": 7,
+        "c": 18,
+        "m": [
+          {
+            "n": "IO II: Modelos Estocásticos y Decisiones",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "area": "IO / Estadística",
+            "sourceSemester": 6,
+            "branch": "datos-io",
+            "branchLabel": "Programación, Estadística e IO",
+            "prereqIds": [
+              "DAT05"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "DAT06",
+            "cd": "VAR1-DAT06",
+            "g": "Datos e IO",
+            "pre": "IO I: Modelos Determinísticos y Optimización",
+            "desc": "Modelos estocásticos y decisiones, después de IO I.",
+            "q": "6/7"
+          },
+          {
+            "n": "Gestión y Planificación de la Producción III",
+            "cr": 3,
+            "cl": "#047857",
+            "area": "Producción",
+            "sourceSemester": 7,
+            "branch": "operaciones",
+            "branchLabel": "Métodos y producción",
+            "prereqIds": [
+              "PRO03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "PRO04",
+            "cd": "VAR1-PRO04",
+            "g": "Producción",
+            "pre": "Gestión y Planificación de la Producción II",
+            "desc": "Tercer nivel de gestión y planificación de la producción, después de Producción II.",
+            "q": "4/4"
+          },
+          {
+            "n": "Control Estadístico de Calidad y Mejora Continua",
+            "cr": 3,
+            "cl": "#047857",
+            "area": "Producción",
+            "sourceSemester": 7,
+            "branch": "calidad",
+            "branchLabel": "Calidad y mejora",
+            "prereqIds": [
+              "DAT03",
+              "PRO02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "PRO05",
+            "cd": "VAR1-PRO05",
+            "g": "Calidad",
+            "pre": "Estadística Multivariada y Muestreo; Gestión y Planificación de la Producción I",
+            "desc": "Control estadístico de calidad y mejora continua de procesos productivos.",
+            "q": ""
+          },
+          {
+            "n": "Formulación y Evaluación de Proyectos de Inversión",
+            "cr": 3,
+            "cl": "#0E7490",
+            "area": "Financiera",
+            "sourceSemester": 7,
+            "branch": "finanzas",
+            "branchLabel": "Finanzas",
+            "prereqIds": [
+              "FIN04",
+              "FIN03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "FIN05",
+            "cd": "VAR1-FIN05",
+            "g": "Finanzas",
+            "pre": "Ingeniería Económica; Análisis Financiero y Control de Gestión",
+            "desc": "Formulación y evaluación de proyectos de inversión, después de Análisis Financiero e Ingeniería Económica.",
+            "q": "5/5"
+          },
+          {
+            "n": "EP Concentración III",
+            "cr": 2,
+            "cl": "#4D7C0F",
+            "e": 1,
+            "area": "Electivas Prof.",
+            "sourceSemester": 6,
+            "branch": "concentracion",
+            "branchLabel": "EP de concentración",
+            "prereqIds": [
+              "CON02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "CON03",
+            "cd": "VAR1-CON03",
+            "g": "Concentración",
+            "pre": "EP Concentración II",
+            "desc": "EP Concentración III: espacio de formación electiva del catálogo definido.",
+            "q": "3/4"
+          },
+          {
+            "n": "EP Exploración Libre III",
+            "cr": 2,
+            "cl": "#7C2D12",
+            "e": 2,
+            "area": "Electivas Prof.",
+            "sourceSemester": 8,
+            "branch": "exploracion",
+            "branchLabel": "EP de exploración",
+            "prereqIds": [
+              "EXP02"
+            ],
+            "minCompletedCredits": 100,
+            "catalogId": "EXP03",
+            "cd": "VAR1-EXP03",
+            "g": "Exploración",
+            "pre": "EP Exploración Libre II; 100 créditos aprobados",
+            "desc": "EP Exploración Libre III: espacio de formación electiva del catálogo definido.",
+            "q": "3/4"
+          },
+          {
+            "n": "Seminario de Investigación",
+            "cr": 2,
+            "cl": "#A21CAF",
+            "area": "Trabajo de Grado",
+            "sourceSemester": 7,
+            "branch": "grado",
+            "branchLabel": "Investigación y grado",
+            "prereqIds": [],
+            "minCompletedCredits": 100,
+            "catalogId": "TGR01",
+            "cd": "VAR1-TGR01",
+            "g": "Grado",
+            "pre": "100 créditos aprobados",
+            "desc": "Preparación del proyecto de investigación y del trabajo de grado.",
+            "q": "1/2"
+          }
+        ]
+      },
+      {
+        "s": 8,
+        "c": 17,
+        "m": [
+          {
+            "n": "Simulación de Sistemas Productivos y de Servicio",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "area": "IO / Estadística",
+            "sourceSemester": 6,
+            "branch": "datos-io",
+            "branchLabel": "Programación, Estadística e IO",
+            "prereqIds": [
+              "DAT06"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "DAT07",
+            "cd": "VAR1-DAT07",
+            "g": "Datos e IO",
+            "pre": "IO II: Modelos Estocásticos y Decisiones",
+            "desc": "Simulación de sistemas productivos y de servicio, después de IO II.",
+            "q": "7/7"
+          },
+          {
+            "n": "Diseño y Distribución de Plantas Industriales",
+            "cr": 2,
+            "cl": "#047857",
+            "area": "Producción",
+            "sourceSemester": 8,
+            "branch": "plantas",
+            "branchLabel": "Diseño de plantas",
+            "prereqIds": [
+              "PRO04"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "PRO07",
+            "cd": "VAR1-PRO07",
+            "g": "Plantas",
+            "pre": "Gestión y Planificación de la Producción III",
+            "desc": "Diseño y distribución física de plantas industriales.",
+            "q": ""
+          },
+          {
+            "n": "EP Concentración IV",
+            "cr": 2,
+            "cl": "#4D7C0F",
+            "e": 1,
+            "area": "Electivas Prof.",
+            "sourceSemester": 7,
+            "branch": "concentracion",
+            "branchLabel": "EP de concentración",
+            "prereqIds": [
+              "CON03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "CON04",
+            "cd": "VAR1-CON04",
+            "g": "Concentración",
+            "pre": "EP Concentración III",
+            "desc": "EP Concentración IV: espacio de formación electiva del catálogo definido.",
+            "q": "4/4"
+          },
+          {
+            "n": "EP Exploración Libre IV",
+            "cr": 2,
+            "cl": "#7C2D12",
+            "e": 2,
+            "area": "Electivas Prof.",
+            "sourceSemester": 8,
+            "branch": "exploracion",
+            "branchLabel": "EP de exploración",
+            "prereqIds": [
+              "EXP03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "EXP04",
+            "cd": "VAR1-EXP04",
+            "g": "Exploración",
+            "pre": "EP Exploración Libre III",
+            "desc": "EP Exploración Libre IV: espacio de formación electiva del catálogo definido.",
+            "q": "4/4"
+          },
+          {
+            "n": "Proyecto Integrador de Grado (TG)",
+            "cr": 8,
+            "cl": "#A21CAF",
+            "area": "Trabajo de Grado",
+            "sourceSemester": 8,
+            "branch": "grado",
+            "branchLabel": "Investigación y grado",
+            "prereqIds": [
+              "TGR01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "TGR02",
+            "cd": "VAR1-TGR02",
+            "g": "Grado",
+            "pre": "Seminario de Investigación",
+            "desc": "Proyecto integrador de grado, después del Seminario de Investigación.",
+            "q": "2/2"
+          }
+        ]
+      }
+    ]
+  },
+  "var2": {
+    "id": "var2",
+    "title": "Variación 2 · Transición progresiva",
+    "subtitle": "9 semestres · 147 créditos · entre 14 y 18 créditos por semestre",
+    "badge": "TRANSICIÓN CON EL MISMO CATÁLOGO",
+    "badgeColor": "#0E7490",
+    "description": "Distribuye las mismas 53 asignaturas y 147 créditos en nueve semestres, con cargas de 14–18 créditos y promedio de 16,3. La secuencia financiera ocupa S5–S9 y el trabajo de grado culmina en S9. Pamplona y Cundinamarca son referentes de duración y carga; no definen las asignaturas del catálogo.",
+    "semestersCount": 9,
+    "totalCredits": 147,
+    "metrics": {
+      "creditos": 147,
+      "semestres": 9,
+      "materias": 53,
+      "pctElectivas": "10.9%",
+      "pctBasicas": "21.8%",
+      "pctProduccion": "12.9%",
+      "cargaSemestral": "14–18 cr/sem"
+    },
+    "plan": [
+      {
+        "s": 1,
+        "c": 14,
+        "m": [
+          {
+            "n": "Fundamentos Matemáticos para Ingeniería",
+            "cr": 3,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 1,
+            "branch": "calculo",
+            "branchLabel": "Cálculo y modelado",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "MAT01",
+            "cd": "VAR2-MAT01",
+            "g": "Cálculo",
+            "pre": "Ninguno",
+            "desc": "Lenguaje matemático, funciones y fundamentos para iniciar la formación en ingeniería.",
+            "q": "1/5"
+          },
+          {
+            "n": "Mecánica y Laboratorio (Física I)",
+            "cr": 4,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 1,
+            "branch": "fisica",
+            "branchLabel": "Física",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "FIS01",
+            "cd": "VAR2-FIS01",
+            "g": "Física",
+            "pre": "Ninguno",
+            "desc": "Mecánica y trabajo experimental de Física I, integrados en la misma asignatura.",
+            "q": "1/3"
+          },
+          {
+            "n": "Química Aplicada a la Manufactura",
+            "cr": 2,
+            "cl": "#C2410C",
+            "area": "Básicas de Ingeniería",
+            "sourceSemester": 1,
+            "branch": "manufactura",
+            "branchLabel": "Manufactura",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "MAN01",
+            "cd": "VAR2-MAN01",
+            "g": "Manufactura",
+            "pre": "Ninguno",
+            "desc": "Fundamentos químicos aplicados a materiales y procesos de manufactura.",
+            "q": "1/4"
+          },
+          {
+            "n": "Fundamentos y Tendencias de la Ingeniería Industrial",
+            "cr": 3,
+            "cl": "#CA8A04",
+            "area": "Administración",
+            "sourceSemester": 1,
+            "branch": "gestion",
+            "branchLabel": "Administración",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "ADM01",
+            "cd": "VAR2-ADM01",
+            "g": "Administración",
+            "pre": "Ninguno",
+            "desc": "Introducción a la ingeniería industrial y a sus tendencias de desarrollo.",
+            "q": "1/5"
+          },
+          {
+            "n": "Humanidades: Pensamiento y Contexto Social",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 1,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM01",
+            "cd": "VAR2-HUM01",
+            "g": "Sociohum.",
+            "pre": "Ninguno",
+            "desc": "Pensamiento humanístico y comprensión del contexto social.",
+            "q": "1/6"
+          }
+        ]
+      },
+      {
+        "s": 2,
+        "c": 18,
+        "m": [
+          {
+            "n": "Cálculo Diferencial",
+            "cr": 3,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 2,
+            "branch": "calculo",
+            "branchLabel": "Cálculo y modelado",
+            "prereqIds": [
+              "MAT01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAT02",
+            "cd": "VAR2-MAT02",
+            "g": "Cálculo",
+            "pre": "Fundamentos Matemáticos para Ingeniería",
+            "desc": "Derivación y aplicaciones del cálculo diferencial a problemas de ingeniería.",
+            "q": "2/5"
+          },
+          {
+            "n": "Electromagnetismo y Laboratorio (Física II)",
+            "cr": 4,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 2,
+            "branch": "fisica",
+            "branchLabel": "Física",
+            "prereqIds": [
+              "FIS01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "FIS02",
+            "cd": "VAR2-FIS02",
+            "g": "Física",
+            "pre": "Mecánica y Laboratorio (Física I)",
+            "desc": "Electromagnetismo y trabajo experimental de Física II, integrados en la misma asignatura.",
+            "q": "2/3"
+          },
+          {
+            "n": "Materiales y Fund. Mecánicos para la Manufactura",
+            "cr": 3,
+            "cl": "#C2410C",
+            "area": "Básicas de Ingeniería",
+            "sourceSemester": 3,
+            "branch": "manufactura",
+            "branchLabel": "Manufactura",
+            "prereqIds": [
+              "FIS01",
+              "MAN01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAN02",
+            "cd": "VAR2-MAN02",
+            "g": "Manufactura",
+            "pre": "Mecánica y Laboratorio (Física I); Química Aplicada a la Manufactura",
+            "desc": "Materiales y fundamentos mecánicos para analizar procesos de manufactura.",
+            "q": "2/4"
+          },
+          {
+            "n": "Fundamentos de Programación y Datos",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "area": "IO / Estadística",
+            "sourceSemester": 2,
+            "branch": "datos-io",
+            "branchLabel": "Programación, Estadística e IO",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "DAT01",
+            "cd": "VAR2-DAT01",
+            "g": "Datos e IO",
+            "pre": "Ninguno",
+            "desc": "Fundamentos de programación y tratamiento de datos. Se cursa antes de Estadística I.",
+            "q": "1/7"
+          },
+          {
+            "n": "Gestión Organizacional",
+            "cr": 3,
+            "cl": "#CA8A04",
+            "area": "Administración",
+            "sourceSemester": 3,
+            "branch": "gestion",
+            "branchLabel": "Administración",
+            "prereqIds": [
+              "ADM01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "ADM02",
+            "cd": "VAR2-ADM02",
+            "g": "Administración",
+            "pre": "Fundamentos y Tendencias de la Ingeniería Industrial",
+            "desc": "Fundamentos de gestión y estructura organizacional.",
+            "q": "2/5"
+          },
+          {
+            "n": "Comunicación Profesional en Ingeniería",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 2,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM02",
+            "cd": "VAR2-HUM02",
+            "g": "Sociohum.",
+            "pre": "Ninguno",
+            "desc": "Comunicación profesional aplicada al ejercicio de la ingeniería.",
+            "q": "2/6"
+          }
+        ]
+      },
+      {
+        "s": 3,
+        "c": 18,
+        "m": [
+          {
+            "n": "Cálculo Integral",
+            "cr": 4,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 3,
+            "branch": "calculo",
+            "branchLabel": "Cálculo y modelado",
+            "prereqIds": [
+              "MAT02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAT04",
+            "cd": "VAR2-MAT04",
+            "g": "Cálculo",
+            "pre": "Cálculo Diferencial",
+            "desc": "Integración y aplicaciones del cálculo integral.",
+            "q": "3/5"
+          },
+          {
+            "n": "Ondas, Calor y Óptica (Física III)",
+            "cr": 4,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 3,
+            "branch": "fisica",
+            "branchLabel": "Física",
+            "prereqIds": [
+              "FIS02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "FIS03",
+            "cd": "VAR2-FIS03",
+            "g": "Física",
+            "pre": "Electromagnetismo y Laboratorio (Física II)",
+            "desc": "Ondas, calor, óptica y trabajo experimental de Física III.",
+            "q": "3/3"
+          },
+          {
+            "n": "Tecnologías de Transformación y Conformado",
+            "cr": 3,
+            "cl": "#C2410C",
+            "area": "Básicas de Ingeniería",
+            "sourceSemester": 4,
+            "branch": "manufactura",
+            "branchLabel": "Manufactura",
+            "prereqIds": [
+              "MAN02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAN03",
+            "cd": "VAR2-MAN03",
+            "g": "Manufactura",
+            "pre": "Materiales y Fund. Mecánicos para la Manufactura",
+            "desc": "Procesos de transformación y conformado de materiales.",
+            "q": "3/4"
+          },
+          {
+            "n": "Estadística I: Probabilidad",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "area": "IO / Estadística",
+            "sourceSemester": 3,
+            "branch": "datos-io",
+            "branchLabel": "Programación, Estadística e IO",
+            "prereqIds": [
+              "MAT02",
+              "DAT01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "DAT02",
+            "cd": "VAR2-DAT02",
+            "g": "Datos e IO",
+            "pre": "Cálculo Diferencial; Fundamentos de Programación y Datos",
+            "desc": "Probabilidad como base para la inferencia y los modelos de decisión.",
+            "q": "2/7"
+          },
+          {
+            "n": "Inteligencia Comercial",
+            "cr": 2,
+            "cl": "#CA8A04",
+            "area": "Administración",
+            "sourceSemester": 5,
+            "branch": "gestion",
+            "branchLabel": "Administración",
+            "prereqIds": [
+              "ADM02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "ADM04",
+            "cd": "VAR2-ADM04",
+            "g": "Administración",
+            "pre": "Gestión Organizacional",
+            "desc": "Inteligencia comercial y análisis para la toma de decisiones de mercado.",
+            "q": "4/5"
+          },
+          {
+            "n": "Electiva Sociohumanística I",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 1,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM04",
+            "cd": "VAR2-HUM04",
+            "g": "Sociohum.",
+            "pre": "Ninguno",
+            "desc": "Electiva Sociohumanística I: espacio de formación electiva del catálogo definido.",
+            "q": "4/6"
+          }
+        ]
+      },
+      {
+        "s": 4,
+        "c": 17,
+        "m": [
+          {
+            "n": "Álgebra Lineal y Aplicaciones",
+            "cr": 3,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 2,
+            "branch": "algebra",
+            "branchLabel": "Álgebra lineal",
+            "prereqIds": [
+              "MAT01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAT03",
+            "cd": "VAR2-MAT03",
+            "g": "Álgebra",
+            "pre": "Fundamentos Matemáticos para Ingeniería",
+            "desc": "Matrices, vectores y sistemas lineales que sustentan los modelos de optimización.",
+            "q": ""
+          },
+          {
+            "n": "Cálculo Multivariado y Análisis Vectorial",
+            "cr": 4,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 4,
+            "branch": "calculo",
+            "branchLabel": "Cálculo y modelado",
+            "prereqIds": [
+              "MAT04"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAT05",
+            "cd": "VAR2-MAT05",
+            "g": "Cálculo",
+            "pre": "Cálculo Integral",
+            "desc": "Funciones de varias variables, cálculo vectorial y aplicaciones.",
+            "q": "4/5"
+          },
+          {
+            "n": "Ensamble, Calidad y Sistemas de Manufactura",
+            "cr": 3,
+            "cl": "#C2410C",
+            "area": "Básicas de Ingeniería",
+            "sourceSemester": 6,
+            "branch": "manufactura",
+            "branchLabel": "Manufactura",
+            "prereqIds": [
+              "MAN03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAN04",
+            "cd": "VAR2-MAN04",
+            "g": "Manufactura",
+            "pre": "Tecnologías de Transformación y Conformado",
+            "desc": "Integración de ensamble, calidad y sistemas de manufactura.",
+            "q": "4/4"
+          },
+          {
+            "n": "Estadística Multivariada y Muestreo",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "area": "IO / Estadística",
+            "sourceSemester": 4,
+            "branch": "datos-io",
+            "branchLabel": "Programación, Estadística e IO",
+            "prereqIds": [
+              "DAT02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "DAT03",
+            "cd": "VAR2-DAT03",
+            "g": "Datos e IO",
+            "pre": "Estadística I: Probabilidad",
+            "desc": "Análisis multivariado y muestreo. Precede a Diseño de Experimentos.",
+            "q": "3/7"
+          },
+          {
+            "n": "Mercadeo Estratégico",
+            "cr": 2,
+            "cl": "#CA8A04",
+            "area": "Administración",
+            "sourceSemester": 6,
+            "branch": "gestion",
+            "branchLabel": "Administración",
+            "prereqIds": [
+              "ADM04"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "ADM05",
+            "cd": "VAR2-ADM05",
+            "g": "Administración",
+            "pre": "Inteligencia Comercial",
+            "desc": "Estrategia de mercadeo, después de Inteligencia Comercial.",
+            "q": "5/5"
+          },
+          {
+            "n": "Electiva Sociohumanística II",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 1,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [
+              "HUM04"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM05",
+            "cd": "VAR2-HUM05",
+            "g": "Sociohum.",
+            "pre": "Electiva Sociohumanística I",
+            "desc": "Electiva Sociohumanística II: espacio de formación electiva del catálogo definido.",
+            "q": "5/6"
+          }
+        ]
+      },
+      {
+        "s": 5,
+        "c": 16,
+        "m": [
+          {
+            "n": "Ecuaciones Diferenciales y Modelado",
+            "cr": 3,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 5,
+            "branch": "calculo",
+            "branchLabel": "Cálculo y modelado",
+            "prereqIds": [
+              "MAT05"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAT06",
+            "cd": "VAR2-MAT06",
+            "g": "Cálculo",
+            "pre": "Cálculo Multivariado y Análisis Vectorial",
+            "desc": "Ecuaciones diferenciales y representación de sistemas dinámicos.",
+            "q": "5/5"
+          },
+          {
+            "n": "IO I: Modelos Determinísticos y Optimización",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "area": "IO / Estadística",
+            "sourceSemester": 5,
+            "branch": "datos-io",
+            "branchLabel": "Programación, Estadística e IO",
+            "prereqIds": [
+              "MAT03",
+              "DAT02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "DAT05",
+            "cd": "VAR2-DAT05",
+            "g": "Datos e IO",
+            "pre": "Álgebra Lineal y Aplicaciones; Estadística I: Probabilidad",
+            "desc": "Modelos determinísticos, optimización y formulación de problemas de investigación de operaciones.",
+            "q": "5/7"
+          },
+          {
+            "n": "Ing. de Métodos, Tiempos y Movimientos",
+            "cr": 3,
+            "cl": "#047857",
+            "area": "Producción",
+            "sourceSemester": 5,
+            "branch": "operaciones",
+            "branchLabel": "Métodos y producción",
+            "prereqIds": [
+              "DAT03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "PRO01",
+            "cd": "VAR2-PRO01",
+            "g": "Producción",
+            "pre": "Estadística Multivariada y Muestreo",
+            "desc": "Estudio de métodos, tiempos y movimientos como inicio de la secuencia de producción.",
+            "q": "1/4"
+          },
+          {
+            "n": "Gestión Talento Humano",
+            "cr": 3,
+            "cl": "#CA8A04",
+            "area": "Administración",
+            "sourceSemester": 4,
+            "branch": "gestion",
+            "branchLabel": "Administración",
+            "prereqIds": [
+              "ADM02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "ADM03",
+            "cd": "VAR2-ADM03",
+            "g": "Administración",
+            "pre": "Gestión Organizacional",
+            "desc": "Gestión del talento humano en las organizaciones.",
+            "q": "3/5"
+          },
+          {
+            "n": "Economía",
+            "cr": 2,
+            "cl": "#0E7490",
+            "area": "Financiera",
+            "sourceSemester": 3,
+            "branch": "finanzas",
+            "branchLabel": "Finanzas",
+            "prereqIds": [
+              "ADM02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "FIN01",
+            "cd": "VAR2-FIN01",
+            "g": "Finanzas",
+            "pre": "Gestión Organizacional",
+            "desc": "Fundamentos económicos que anteceden a Contabilidad, Costos y Presupuestos.",
+            "q": "1/5"
+          },
+          {
+            "n": "Electiva Sociohumanística III",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 2,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [
+              "HUM05"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM06",
+            "cd": "VAR2-HUM06",
+            "g": "Sociohum.",
+            "pre": "Electiva Sociohumanística II",
+            "desc": "Electiva Sociohumanística III: espacio de formación electiva del catálogo definido.",
+            "q": "6/6"
+          }
+        ]
+      },
+      {
+        "s": 6,
+        "c": 15,
+        "m": [
+          {
+            "n": "Estadística III: Diseño de Experimentos",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "area": "IO / Estadística",
+            "sourceSemester": 5,
+            "branch": "datos-io",
+            "branchLabel": "Programación, Estadística e IO",
+            "prereqIds": [
+              "DAT03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "DAT04",
+            "cd": "VAR2-DAT04",
+            "g": "Datos e IO",
+            "pre": "Estadística Multivariada y Muestreo",
+            "desc": "Diseño de experimentos como asignatura independiente, conservada en el nuevo catálogo.",
+            "q": "4/7"
+          },
+          {
+            "n": "Gestión y Planificación de la Producción I",
+            "cr": 3,
+            "cl": "#047857",
+            "area": "Producción",
+            "sourceSemester": 6,
+            "branch": "operaciones",
+            "branchLabel": "Métodos y producción",
+            "prereqIds": [
+              "PRO01",
+              "DAT05"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "PRO02",
+            "cd": "VAR2-PRO02",
+            "g": "Producción",
+            "pre": "Ing. de Métodos, Tiempos y Movimientos; IO I: Modelos Determinísticos y Optimización",
+            "desc": "Primer nivel de gestión y planificación de la producción.",
+            "q": "2/4"
+          },
+          {
+            "n": "Contabilidad, Costos y Presupuestos Industriales",
+            "cr": 3,
+            "cl": "#0E7490",
+            "area": "Financiera",
+            "sourceSemester": 4,
+            "branch": "finanzas",
+            "branchLabel": "Finanzas",
+            "prereqIds": [
+              "FIN01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "FIN02",
+            "cd": "VAR2-FIN02",
+            "g": "Finanzas",
+            "pre": "Economía",
+            "desc": "Contabilidad, costos y presupuestos industriales para el análisis de la gestión.",
+            "q": "2/5"
+          },
+          {
+            "n": "Ética y Constitución Política",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 3,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM03",
+            "cd": "VAR2-HUM03",
+            "g": "Sociohum.",
+            "pre": "Ninguno",
+            "desc": "Ética profesional y Constitución Política.",
+            "q": "3/6"
+          },
+          {
+            "n": "EP Concentración I",
+            "cr": 2,
+            "cl": "#4D7C0F",
+            "e": 1,
+            "area": "Electivas Prof.",
+            "sourceSemester": 4,
+            "branch": "concentracion",
+            "branchLabel": "EP de concentración",
+            "prereqIds": [],
+            "minCompletedCredits": 40,
+            "catalogId": "CON01",
+            "cd": "VAR2-CON01",
+            "g": "Concentración",
+            "pre": "40 créditos aprobados",
+            "desc": "EP Concentración I: espacio de formación electiva del catálogo definido.",
+            "q": "1/4"
+          },
+          {
+            "n": "EP Exploración Libre I",
+            "cr": 2,
+            "cl": "#7C2D12",
+            "e": 2,
+            "area": "Electivas Prof.",
+            "sourceSemester": 5,
+            "branch": "exploracion",
+            "branchLabel": "EP de exploración",
+            "prereqIds": [],
+            "minCompletedCredits": 60,
+            "catalogId": "EXP01",
+            "cd": "VAR2-EXP01",
+            "g": "Exploración",
+            "pre": "60 créditos aprobados",
+            "desc": "EP Exploración Libre I: espacio de formación electiva del catálogo definido.",
+            "q": "1/4"
+          }
+        ]
+      },
+      {
+        "s": 7,
+        "c": 16,
+        "m": [
+          {
+            "n": "IO II: Modelos Estocásticos y Decisiones",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "area": "IO / Estadística",
+            "sourceSemester": 6,
+            "branch": "datos-io",
+            "branchLabel": "Programación, Estadística e IO",
+            "prereqIds": [
+              "DAT05"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "DAT06",
+            "cd": "VAR2-DAT06",
+            "g": "Datos e IO",
+            "pre": "IO I: Modelos Determinísticos y Optimización",
+            "desc": "Modelos estocásticos y decisiones, después de IO I.",
+            "q": "6/7"
+          },
+          {
+            "n": "Gestión y Planificación de la Producción II",
+            "cr": 3,
+            "cl": "#047857",
+            "area": "Producción",
+            "sourceSemester": 7,
+            "branch": "operaciones",
+            "branchLabel": "Métodos y producción",
+            "prereqIds": [
+              "PRO02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "PRO03",
+            "cd": "VAR2-PRO03",
+            "g": "Producción",
+            "pre": "Gestión y Planificación de la Producción I",
+            "desc": "Segundo nivel de gestión y planificación de la producción, después de Producción I.",
+            "q": "3/4"
+          },
+          {
+            "n": "Control Estadístico de Calidad y Mejora Continua",
+            "cr": 3,
+            "cl": "#047857",
+            "area": "Producción",
+            "sourceSemester": 7,
+            "branch": "calidad",
+            "branchLabel": "Calidad y mejora",
+            "prereqIds": [
+              "DAT03",
+              "PRO02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "PRO05",
+            "cd": "VAR2-PRO05",
+            "g": "Calidad",
+            "pre": "Estadística Multivariada y Muestreo; Gestión y Planificación de la Producción I",
+            "desc": "Control estadístico de calidad y mejora continua de procesos productivos.",
+            "q": ""
+          },
+          {
+            "n": "Análisis Financiero y Control de Gestión",
+            "cr": 3,
+            "cl": "#0E7490",
+            "area": "Financiera",
+            "sourceSemester": 6,
+            "branch": "finanzas",
+            "branchLabel": "Finanzas",
+            "prereqIds": [
+              "FIN02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "FIN03",
+            "cd": "VAR2-FIN03",
+            "g": "Finanzas",
+            "pre": "Contabilidad, Costos y Presupuestos Industriales",
+            "desc": "Análisis financiero y control de gestión, antes de Ingeniería Económica.",
+            "q": "3/5"
+          },
+          {
+            "n": "EP Concentración II",
+            "cr": 2,
+            "cl": "#4D7C0F",
+            "e": 1,
+            "area": "Electivas Prof.",
+            "sourceSemester": 5,
+            "branch": "concentracion",
+            "branchLabel": "EP de concentración",
+            "prereqIds": [
+              "CON01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "CON02",
+            "cd": "VAR2-CON02",
+            "g": "Concentración",
+            "pre": "EP Concentración I",
+            "desc": "EP Concentración II: espacio de formación electiva del catálogo definido.",
+            "q": "2/4"
+          },
+          {
+            "n": "EP Exploración Libre II",
+            "cr": 2,
+            "cl": "#7C2D12",
+            "e": 2,
+            "area": "Electivas Prof.",
+            "sourceSemester": 7,
+            "branch": "exploracion",
+            "branchLabel": "EP de exploración",
+            "prereqIds": [
+              "EXP01"
+            ],
+            "minCompletedCredits": 80,
+            "catalogId": "EXP02",
+            "cd": "VAR2-EXP02",
+            "g": "Exploración",
+            "pre": "EP Exploración Libre I; 80 créditos aprobados",
+            "desc": "EP Exploración Libre II: espacio de formación electiva del catálogo definido.",
+            "q": "2/4"
+          }
+        ]
+      },
+      {
+        "s": 8,
+        "c": 16,
+        "m": [
+          {
+            "n": "Simulación de Sistemas Productivos y de Servicio",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "area": "IO / Estadística",
+            "sourceSemester": 6,
+            "branch": "datos-io",
+            "branchLabel": "Programación, Estadística e IO",
+            "prereqIds": [
+              "DAT06"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "DAT07",
+            "cd": "VAR2-DAT07",
+            "g": "Datos e IO",
+            "pre": "IO II: Modelos Estocásticos y Decisiones",
+            "desc": "Simulación de sistemas productivos y de servicio, después de IO II.",
+            "q": "7/7"
+          },
+          {
+            "n": "Gestión y Planificación de la Producción III",
+            "cr": 3,
+            "cl": "#047857",
+            "area": "Producción",
+            "sourceSemester": 7,
+            "branch": "operaciones",
+            "branchLabel": "Métodos y producción",
+            "prereqIds": [
+              "PRO03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "PRO04",
+            "cd": "VAR2-PRO04",
+            "g": "Producción",
+            "pre": "Gestión y Planificación de la Producción II",
+            "desc": "Tercer nivel de gestión y planificación de la producción, después de Producción II.",
+            "q": "4/4"
+          },
+          {
+            "n": "SST y Gestión Ambiental",
+            "cr": 2,
+            "cl": "#047857",
+            "area": "Producción",
+            "sourceSemester": 6,
+            "branch": "sst",
+            "branchLabel": "Seguridad y ambiente",
+            "prereqIds": [
+              "PRO01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "PRO06",
+            "cd": "VAR2-PRO06",
+            "g": "SST",
+            "pre": "Ing. de Métodos, Tiempos y Movimientos",
+            "desc": "Seguridad y salud en el trabajo junto con gestión ambiental.",
+            "q": ""
+          },
+          {
+            "n": "Ingeniería Económica",
+            "cr": 2,
+            "cl": "#0E7490",
+            "area": "Financiera",
+            "sourceSemester": 5,
+            "branch": "finanzas",
+            "branchLabel": "Finanzas",
+            "prereqIds": [
+              "FIN01",
+              "FIN02",
+              "FIN03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "FIN04",
+            "cd": "VAR2-FIN04",
+            "g": "Finanzas",
+            "pre": "Economía; Contabilidad, Costos y Presupuestos Industriales; Análisis Financiero y Control de Gestión",
+            "desc": "Valor del dinero en el tiempo y evaluación económica. Asignatura independiente de 2 créditos según el catálogo definido.",
+            "q": "4/5"
+          },
+          {
+            "n": "EP Concentración III",
+            "cr": 2,
+            "cl": "#4D7C0F",
+            "e": 1,
+            "area": "Electivas Prof.",
+            "sourceSemester": 6,
+            "branch": "concentracion",
+            "branchLabel": "EP de concentración",
+            "prereqIds": [
+              "CON02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "CON03",
+            "cd": "VAR2-CON03",
+            "g": "Concentración",
+            "pre": "EP Concentración II",
+            "desc": "EP Concentración III: espacio de formación electiva del catálogo definido.",
+            "q": "3/4"
+          },
+          {
+            "n": "EP Exploración Libre III",
+            "cr": 2,
+            "cl": "#7C2D12",
+            "e": 2,
+            "area": "Electivas Prof.",
+            "sourceSemester": 8,
+            "branch": "exploracion",
+            "branchLabel": "EP de exploración",
+            "prereqIds": [
+              "EXP02"
+            ],
+            "minCompletedCredits": 100,
+            "catalogId": "EXP03",
+            "cd": "VAR2-EXP03",
+            "g": "Exploración",
+            "pre": "EP Exploración Libre II; 100 créditos aprobados",
+            "desc": "EP Exploración Libre III: espacio de formación electiva del catálogo definido.",
+            "q": "3/4"
+          },
+          {
+            "n": "Seminario de Investigación",
+            "cr": 2,
+            "cl": "#A21CAF",
+            "area": "Trabajo de Grado",
+            "sourceSemester": 7,
+            "branch": "grado",
+            "branchLabel": "Investigación y grado",
+            "prereqIds": [],
+            "minCompletedCredits": 100,
+            "catalogId": "TGR01",
+            "cd": "VAR2-TGR01",
+            "g": "Grado",
+            "pre": "100 créditos aprobados",
+            "desc": "Preparación del proyecto de investigación y del trabajo de grado.",
+            "q": "1/2"
+          }
+        ]
+      },
+      {
+        "s": 9,
+        "c": 17,
+        "m": [
+          {
+            "n": "Diseño y Distribución de Plantas Industriales",
+            "cr": 2,
+            "cl": "#047857",
+            "area": "Producción",
+            "sourceSemester": 8,
+            "branch": "plantas",
+            "branchLabel": "Diseño de plantas",
+            "prereqIds": [
+              "PRO03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "PRO07",
+            "cd": "VAR2-PRO07",
+            "g": "Plantas",
+            "pre": "Gestión y Planificación de la Producción II",
+            "desc": "Diseño y distribución física de plantas industriales.",
+            "q": ""
+          },
+          {
+            "n": "Formulación y Evaluación de Proyectos de Inversión",
+            "cr": 3,
+            "cl": "#0E7490",
+            "area": "Financiera",
+            "sourceSemester": 7,
+            "branch": "finanzas",
+            "branchLabel": "Finanzas",
+            "prereqIds": [
+              "FIN04",
+              "FIN03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "FIN05",
+            "cd": "VAR2-FIN05",
+            "g": "Finanzas",
+            "pre": "Ingeniería Económica; Análisis Financiero y Control de Gestión",
+            "desc": "Formulación y evaluación de proyectos de inversión, después de Análisis Financiero e Ingeniería Económica.",
+            "q": "5/5"
+          },
+          {
+            "n": "EP Concentración IV",
+            "cr": 2,
+            "cl": "#4D7C0F",
+            "e": 1,
+            "area": "Electivas Prof.",
+            "sourceSemester": 7,
+            "branch": "concentracion",
+            "branchLabel": "EP de concentración",
+            "prereqIds": [
+              "CON03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "CON04",
+            "cd": "VAR2-CON04",
+            "g": "Concentración",
+            "pre": "EP Concentración III",
+            "desc": "EP Concentración IV: espacio de formación electiva del catálogo definido.",
+            "q": "4/4"
+          },
+          {
+            "n": "EP Exploración Libre IV",
+            "cr": 2,
+            "cl": "#7C2D12",
+            "e": 2,
+            "area": "Electivas Prof.",
+            "sourceSemester": 8,
+            "branch": "exploracion",
+            "branchLabel": "EP de exploración",
+            "prereqIds": [
+              "EXP03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "EXP04",
+            "cd": "VAR2-EXP04",
+            "g": "Exploración",
+            "pre": "EP Exploración Libre III",
+            "desc": "EP Exploración Libre IV: espacio de formación electiva del catálogo definido.",
+            "q": "4/4"
+          },
+          {
+            "n": "Proyecto Integrador de Grado (TG)",
+            "cr": 8,
+            "cl": "#A21CAF",
+            "area": "Trabajo de Grado",
+            "sourceSemester": 8,
+            "branch": "grado",
+            "branchLabel": "Investigación y grado",
+            "prereqIds": [
+              "TGR01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "TGR02",
+            "cd": "VAR2-TGR02",
+            "g": "Grado",
+            "pre": "Seminario de Investigación",
+            "desc": "Proyecto integrador de grado, después del Seminario de Investigación.",
+            "q": "2/2"
+          }
+        ]
+      }
+    ]
+  },
+  "var3": {
+    "id": "var3",
+    "title": "Variación 3 · Digital Supply Chain e Industria 4.0",
+    "subtitle": "8 semestres · 147 créditos · enfoque digital sobre las asignaturas definidas",
+    "badge": "ENFOQUE DIGITAL · CRÉDITOS FIJOS",
+    "badgeColor": "#6D28D9",
+    "description": "Conserva los nombres y créditos del catálogo. IO II pasa a S6 y Diseño de Experimentos a S7, antes de Simulación en S8. Las fichas proponen aplicaciones de analítica, manufactura digital y cadena de suministro; son énfasis de contenido, sin sustituir ni añadir asignaturas.",
+    "semestersCount": 8,
+    "totalCredits": 147,
+    "metrics": {
+      "creditos": 147,
+      "semestres": 8,
+      "materias": 53,
+      "pctElectivas": "10.9%",
+      "pctBasicas": "21.8%",
+      "pctProduccion": "12.9%",
+      "cargaSemestral": "14–20 cr/sem"
+    },
+    "plan": [
+      {
+        "s": 1,
+        "c": 14,
+        "m": [
+          {
+            "n": "Fundamentos Matemáticos para Ingeniería",
+            "cr": 3,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 1,
+            "branch": "calculo",
+            "branchLabel": "Cálculo y modelado",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "MAT01",
+            "cd": "VAR3-MAT01",
+            "g": "Cálculo",
+            "pre": "Ninguno",
+            "desc": "Lenguaje matemático, funciones y fundamentos para iniciar la formación en ingeniería.",
+            "focus": "Aplicación de herramientas de cálculo y modelado digital en ejercicios de ingeniería.",
+            "q": "1/5"
+          },
+          {
+            "n": "Mecánica y Laboratorio (Física I)",
+            "cr": 4,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 1,
+            "branch": "fisica",
+            "branchLabel": "Física",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "FIS01",
+            "cd": "VAR3-FIS01",
+            "g": "Física",
+            "pre": "Ninguno",
+            "desc": "Mecánica y trabajo experimental de Física I, integrados en la misma asignatura.",
+            "focus": "Aplicación de herramientas de cálculo y modelado digital en ejercicios de ingeniería.",
+            "q": "1/3"
+          },
+          {
+            "n": "Química Aplicada a la Manufactura",
+            "cr": 2,
+            "cl": "#C2410C",
+            "area": "Básicas de Ingeniería",
+            "sourceSemester": 1,
+            "branch": "manufactura",
+            "branchLabel": "Manufactura",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "MAN01",
+            "cd": "VAR3-MAN01",
+            "g": "Manufactura",
+            "pre": "Ninguno",
+            "desc": "Fundamentos químicos aplicados a materiales y procesos de manufactura.",
+            "focus": "Casos de manufactura digital, automatización y trazabilidad.",
+            "q": "1/4"
+          },
+          {
+            "n": "Fundamentos y Tendencias de la Ingeniería Industrial",
+            "cr": 3,
+            "cl": "#CA8A04",
+            "area": "Administración",
+            "sourceSemester": 1,
+            "branch": "gestion",
+            "branchLabel": "Administración",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "ADM01",
+            "cd": "VAR3-ADM01",
+            "g": "Administración",
+            "pre": "Ninguno",
+            "desc": "Introducción a la ingeniería industrial y a sus tendencias de desarrollo.",
+            "focus": "Casos de gestión organizacional y comercial en entornos digitales.",
+            "q": "1/5"
+          },
+          {
+            "n": "Humanidades: Pensamiento y Contexto Social",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 1,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM01",
+            "cd": "VAR3-HUM01",
+            "g": "Sociohum.",
+            "pre": "Ninguno",
+            "desc": "Pensamiento humanístico y comprensión del contexto social.",
+            "focus": "Ética, comunicación y contexto social de la transformación tecnológica.",
+            "q": "1/6"
+          }
+        ]
+      },
+      {
+        "s": 2,
+        "c": 18,
+        "m": [
+          {
+            "n": "Cálculo Diferencial",
+            "cr": 3,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 2,
+            "branch": "calculo",
+            "branchLabel": "Cálculo y modelado",
+            "prereqIds": [
+              "MAT01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAT02",
+            "cd": "VAR3-MAT02",
+            "g": "Cálculo",
+            "pre": "Fundamentos Matemáticos para Ingeniería",
+            "desc": "Derivación y aplicaciones del cálculo diferencial a problemas de ingeniería.",
+            "focus": "Aplicación de herramientas de cálculo y modelado digital en ejercicios de ingeniería.",
+            "q": "2/5"
+          },
+          {
+            "n": "Electromagnetismo y Laboratorio (Física II)",
+            "cr": 4,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 2,
+            "branch": "fisica",
+            "branchLabel": "Física",
+            "prereqIds": [
+              "FIS01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "FIS02",
+            "cd": "VAR3-FIS02",
+            "g": "Física",
+            "pre": "Mecánica y Laboratorio (Física I)",
+            "desc": "Electromagnetismo y trabajo experimental de Física II, integrados en la misma asignatura.",
+            "focus": "Aplicación de herramientas de cálculo y modelado digital en ejercicios de ingeniería.",
+            "q": "2/3"
+          },
+          {
+            "n": "Materiales y Fund. Mecánicos para la Manufactura",
+            "cr": 3,
+            "cl": "#C2410C",
+            "area": "Básicas de Ingeniería",
+            "sourceSemester": 3,
+            "branch": "manufactura",
+            "branchLabel": "Manufactura",
+            "prereqIds": [
+              "FIS01",
+              "MAN01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAN02",
+            "cd": "VAR3-MAN02",
+            "g": "Manufactura",
+            "pre": "Mecánica y Laboratorio (Física I); Química Aplicada a la Manufactura",
+            "desc": "Materiales y fundamentos mecánicos para analizar procesos de manufactura.",
+            "focus": "Casos de manufactura digital, automatización y trazabilidad.",
+            "q": "2/4"
+          },
+          {
+            "n": "Fundamentos de Programación y Datos",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "area": "IO / Estadística",
+            "sourceSemester": 2,
+            "branch": "datos-io",
+            "branchLabel": "Programación, Estadística e IO",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "DAT01",
+            "cd": "VAR3-DAT01",
+            "g": "Datos e IO",
+            "pre": "Ninguno",
+            "desc": "Fundamentos de programación y tratamiento de datos. Se cursa antes de Estadística I.",
+            "focus": "Analítica de datos, algoritmos y simulación para decisiones industriales.",
+            "q": "1/7"
+          },
+          {
+            "n": "Gestión Organizacional",
+            "cr": 3,
+            "cl": "#CA8A04",
+            "area": "Administración",
+            "sourceSemester": 3,
+            "branch": "gestion",
+            "branchLabel": "Administración",
+            "prereqIds": [
+              "ADM01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "ADM02",
+            "cd": "VAR3-ADM02",
+            "g": "Administración",
+            "pre": "Fundamentos y Tendencias de la Ingeniería Industrial",
+            "desc": "Fundamentos de gestión y estructura organizacional.",
+            "focus": "Casos de gestión organizacional y comercial en entornos digitales.",
+            "q": "2/5"
+          },
+          {
+            "n": "Comunicación Profesional en Ingeniería",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 2,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM02",
+            "cd": "VAR3-HUM02",
+            "g": "Sociohum.",
+            "pre": "Ninguno",
+            "desc": "Comunicación profesional aplicada al ejercicio de la ingeniería.",
+            "focus": "Ética, comunicación y contexto social de la transformación tecnológica.",
+            "q": "2/6"
+          }
+        ]
+      },
+      {
+        "s": 3,
+        "c": 20,
+        "m": [
+          {
+            "n": "Álgebra Lineal y Aplicaciones",
+            "cr": 3,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 2,
+            "branch": "algebra",
+            "branchLabel": "Álgebra lineal",
+            "prereqIds": [
+              "MAT01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAT03",
+            "cd": "VAR3-MAT03",
+            "g": "Álgebra",
+            "pre": "Fundamentos Matemáticos para Ingeniería",
+            "desc": "Matrices, vectores y sistemas lineales que sustentan los modelos de optimización.",
+            "focus": "Aplicación de herramientas de cálculo y modelado digital en ejercicios de ingeniería.",
+            "q": ""
+          },
+          {
+            "n": "Cálculo Integral",
+            "cr": 4,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 3,
+            "branch": "calculo",
+            "branchLabel": "Cálculo y modelado",
+            "prereqIds": [
+              "MAT02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAT04",
+            "cd": "VAR3-MAT04",
+            "g": "Cálculo",
+            "pre": "Cálculo Diferencial",
+            "desc": "Integración y aplicaciones del cálculo integral.",
+            "focus": "Aplicación de herramientas de cálculo y modelado digital en ejercicios de ingeniería.",
+            "q": "3/5"
+          },
+          {
+            "n": "Tecnologías de Transformación y Conformado",
+            "cr": 3,
+            "cl": "#C2410C",
+            "area": "Básicas de Ingeniería",
+            "sourceSemester": 4,
+            "branch": "manufactura",
+            "branchLabel": "Manufactura",
+            "prereqIds": [
+              "MAN02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAN03",
+            "cd": "VAR3-MAN03",
+            "g": "Manufactura",
+            "pre": "Materiales y Fund. Mecánicos para la Manufactura",
+            "desc": "Procesos de transformación y conformado de materiales.",
+            "focus": "Casos de manufactura digital, automatización y trazabilidad.",
+            "q": "3/4"
+          },
+          {
+            "n": "Estadística I: Probabilidad",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "area": "IO / Estadística",
+            "sourceSemester": 3,
+            "branch": "datos-io",
+            "branchLabel": "Programación, Estadística e IO",
+            "prereqIds": [
+              "MAT02",
+              "DAT01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "DAT02",
+            "cd": "VAR3-DAT02",
+            "g": "Datos e IO",
+            "pre": "Cálculo Diferencial; Fundamentos de Programación y Datos",
+            "desc": "Probabilidad como base para la inferencia y los modelos de decisión.",
+            "focus": "Analítica de datos, algoritmos y simulación para decisiones industriales.",
+            "q": "2/7"
+          },
+          {
+            "n": "Gestión Talento Humano",
+            "cr": 3,
+            "cl": "#CA8A04",
+            "area": "Administración",
+            "sourceSemester": 4,
+            "branch": "gestion",
+            "branchLabel": "Administración",
+            "prereqIds": [
+              "ADM02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "ADM03",
+            "cd": "VAR3-ADM03",
+            "g": "Administración",
+            "pre": "Gestión Organizacional",
+            "desc": "Gestión del talento humano en las organizaciones.",
+            "focus": "Casos de gestión organizacional y comercial en entornos digitales.",
+            "q": "3/5"
+          },
+          {
+            "n": "Economía",
+            "cr": 2,
+            "cl": "#0E7490",
+            "area": "Financiera",
+            "sourceSemester": 3,
+            "branch": "finanzas",
+            "branchLabel": "Finanzas",
+            "prereqIds": [
+              "ADM02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "FIN01",
+            "cd": "VAR3-FIN01",
+            "g": "Finanzas",
+            "pre": "Gestión Organizacional",
+            "desc": "Fundamentos económicos que anteceden a Contabilidad, Costos y Presupuestos.",
+            "focus": "Herramientas digitales para flujos de caja y evaluación de inversiones.",
+            "q": "1/5"
+          },
+          {
+            "n": "Electiva Sociohumanística I",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 1,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM04",
+            "cd": "VAR3-HUM04",
+            "g": "Sociohum.",
+            "pre": "Ninguno",
+            "desc": "Electiva Sociohumanística I: espacio de formación electiva del catálogo definido.",
+            "focus": "Ética, comunicación y contexto social de la transformación tecnológica.",
+            "q": "4/6"
+          }
+        ]
+      },
+      {
+        "s": 4,
+        "c": 19,
+        "m": [
+          {
+            "n": "Cálculo Multivariado y Análisis Vectorial",
+            "cr": 4,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 4,
+            "branch": "calculo",
+            "branchLabel": "Cálculo y modelado",
+            "prereqIds": [
+              "MAT04"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAT05",
+            "cd": "VAR3-MAT05",
+            "g": "Cálculo",
+            "pre": "Cálculo Integral",
+            "desc": "Funciones de varias variables, cálculo vectorial y aplicaciones.",
+            "focus": "Aplicación de herramientas de cálculo y modelado digital en ejercicios de ingeniería.",
+            "q": "4/5"
+          },
+          {
+            "n": "Ensamble, Calidad y Sistemas de Manufactura",
+            "cr": 3,
+            "cl": "#C2410C",
+            "area": "Básicas de Ingeniería",
+            "sourceSemester": 6,
+            "branch": "manufactura",
+            "branchLabel": "Manufactura",
+            "prereqIds": [
+              "MAN03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAN04",
+            "cd": "VAR3-MAN04",
+            "g": "Manufactura",
+            "pre": "Tecnologías de Transformación y Conformado",
+            "desc": "Integración de ensamble, calidad y sistemas de manufactura.",
+            "focus": "Casos de manufactura digital, automatización y trazabilidad.",
+            "q": "4/4"
+          },
+          {
+            "n": "Estadística Multivariada y Muestreo",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "area": "IO / Estadística",
+            "sourceSemester": 4,
+            "branch": "datos-io",
+            "branchLabel": "Programación, Estadística e IO",
+            "prereqIds": [
+              "DAT02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "DAT03",
+            "cd": "VAR3-DAT03",
+            "g": "Datos e IO",
+            "pre": "Estadística I: Probabilidad",
+            "desc": "Análisis multivariado y muestreo. Precede a Diseño de Experimentos.",
+            "focus": "Analítica de datos, algoritmos y simulación para decisiones industriales.",
+            "q": "3/7"
+          },
+          {
+            "n": "Inteligencia Comercial",
+            "cr": 2,
+            "cl": "#CA8A04",
+            "area": "Administración",
+            "sourceSemester": 5,
+            "branch": "gestion",
+            "branchLabel": "Administración",
+            "prereqIds": [
+              "ADM02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "ADM04",
+            "cd": "VAR3-ADM04",
+            "g": "Administración",
+            "pre": "Gestión Organizacional",
+            "desc": "Inteligencia comercial y análisis para la toma de decisiones de mercado.",
+            "focus": "Casos de gestión organizacional y comercial en entornos digitales.",
+            "q": "4/5"
+          },
+          {
+            "n": "Contabilidad, Costos y Presupuestos Industriales",
+            "cr": 3,
+            "cl": "#0E7490",
+            "area": "Financiera",
+            "sourceSemester": 4,
+            "branch": "finanzas",
+            "branchLabel": "Finanzas",
+            "prereqIds": [
+              "FIN01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "FIN02",
+            "cd": "VAR3-FIN02",
+            "g": "Finanzas",
+            "pre": "Economía",
+            "desc": "Contabilidad, costos y presupuestos industriales para el análisis de la gestión.",
+            "focus": "Herramientas digitales para flujos de caja y evaluación de inversiones.",
+            "q": "2/5"
+          },
+          {
+            "n": "Electiva Sociohumanística II",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 1,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [
+              "HUM04"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM05",
+            "cd": "VAR3-HUM05",
+            "g": "Sociohum.",
+            "pre": "Electiva Sociohumanística I",
+            "desc": "Electiva Sociohumanística II: espacio de formación electiva del catálogo definido.",
+            "focus": "Ética, comunicación y contexto social de la transformación tecnológica.",
+            "q": "5/6"
+          },
+          {
+            "n": "EP Concentración I",
+            "cr": 2,
+            "cl": "#4D7C0F",
+            "e": 1,
+            "area": "Electivas Prof.",
+            "sourceSemester": 4,
+            "branch": "concentracion",
+            "branchLabel": "EP de concentración",
+            "prereqIds": [],
+            "minCompletedCredits": 40,
+            "catalogId": "CON01",
+            "cd": "VAR3-CON01",
+            "g": "Concentración",
+            "pre": "40 créditos aprobados",
+            "desc": "EP Concentración I: espacio de formación electiva del catálogo definido.",
+            "focus": "Posibles énfasis en analítica, robótica y cadena de suministro según la oferta de electivas.",
+            "q": "1/4"
+          }
+        ]
+      },
+      {
+        "s": 5,
+        "c": 20,
+        "m": [
+          {
+            "n": "Ecuaciones Diferenciales y Modelado",
+            "cr": 3,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 5,
+            "branch": "calculo",
+            "branchLabel": "Cálculo y modelado",
+            "prereqIds": [
+              "MAT05"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "MAT06",
+            "cd": "VAR3-MAT06",
+            "g": "Cálculo",
+            "pre": "Cálculo Multivariado y Análisis Vectorial",
+            "desc": "Ecuaciones diferenciales y representación de sistemas dinámicos.",
+            "focus": "Aplicación de herramientas de cálculo y modelado digital en ejercicios de ingeniería.",
+            "q": "5/5"
+          },
+          {
+            "n": "IO I: Modelos Determinísticos y Optimización",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "area": "IO / Estadística",
+            "sourceSemester": 5,
+            "branch": "datos-io",
+            "branchLabel": "Programación, Estadística e IO",
+            "prereqIds": [
+              "MAT03",
+              "DAT02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "DAT05",
+            "cd": "VAR3-DAT05",
+            "g": "Datos e IO",
+            "pre": "Álgebra Lineal y Aplicaciones; Estadística I: Probabilidad",
+            "desc": "Modelos determinísticos, optimización y formulación de problemas de investigación de operaciones.",
+            "focus": "Analítica de datos, algoritmos y simulación para decisiones industriales.",
+            "q": "5/7"
+          },
+          {
+            "n": "Ing. de Métodos, Tiempos y Movimientos",
+            "cr": 3,
+            "cl": "#047857",
+            "area": "Producción",
+            "sourceSemester": 5,
+            "branch": "operaciones",
+            "branchLabel": "Métodos y producción",
+            "prereqIds": [
+              "DAT03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "PRO01",
+            "cd": "VAR3-PRO01",
+            "g": "Producción",
+            "pre": "Estadística Multivariada y Muestreo",
+            "desc": "Estudio de métodos, tiempos y movimientos como inicio de la secuencia de producción.",
+            "focus": "Casos de industria 4.0, cadenas de suministro digitales y simulación de procesos.",
+            "q": "1/4"
+          },
+          {
+            "n": "Mercadeo Estratégico",
+            "cr": 2,
+            "cl": "#CA8A04",
+            "area": "Administración",
+            "sourceSemester": 6,
+            "branch": "gestion",
+            "branchLabel": "Administración",
+            "prereqIds": [
+              "ADM04"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "ADM05",
+            "cd": "VAR3-ADM05",
+            "g": "Administración",
+            "pre": "Inteligencia Comercial",
+            "desc": "Estrategia de mercadeo, después de Inteligencia Comercial.",
+            "focus": "Casos de gestión organizacional y comercial en entornos digitales.",
+            "q": "5/5"
+          },
+          {
+            "n": "Análisis Financiero y Control de Gestión",
+            "cr": 3,
+            "cl": "#0E7490",
+            "area": "Financiera",
+            "sourceSemester": 6,
+            "branch": "finanzas",
+            "branchLabel": "Finanzas",
+            "prereqIds": [
+              "FIN02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "FIN03",
+            "cd": "VAR3-FIN03",
+            "g": "Finanzas",
+            "pre": "Contabilidad, Costos y Presupuestos Industriales",
+            "desc": "Análisis financiero y control de gestión, antes de Ingeniería Económica.",
+            "focus": "Herramientas digitales para flujos de caja y evaluación de inversiones.",
+            "q": "3/5"
+          },
+          {
+            "n": "Electiva Sociohumanística III",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 2,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [
+              "HUM05"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM06",
+            "cd": "VAR3-HUM06",
+            "g": "Sociohum.",
+            "pre": "Electiva Sociohumanística II",
+            "desc": "Electiva Sociohumanística III: espacio de formación electiva del catálogo definido.",
+            "focus": "Ética, comunicación y contexto social de la transformación tecnológica.",
+            "q": "6/6"
+          },
+          {
+            "n": "EP Concentración II",
+            "cr": 2,
+            "cl": "#4D7C0F",
+            "e": 1,
+            "area": "Electivas Prof.",
+            "sourceSemester": 5,
+            "branch": "concentracion",
+            "branchLabel": "EP de concentración",
+            "prereqIds": [
+              "CON01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "CON02",
+            "cd": "VAR3-CON02",
+            "g": "Concentración",
+            "pre": "EP Concentración I",
+            "desc": "EP Concentración II: espacio de formación electiva del catálogo definido.",
+            "focus": "Posibles énfasis en analítica, robótica y cadena de suministro según la oferta de electivas.",
+            "q": "2/4"
+          },
+          {
+            "n": "EP Exploración Libre I",
+            "cr": 2,
+            "cl": "#7C2D12",
+            "e": 2,
+            "area": "Electivas Prof.",
+            "sourceSemester": 5,
+            "branch": "exploracion",
+            "branchLabel": "EP de exploración",
+            "prereqIds": [],
+            "minCompletedCredits": 60,
+            "catalogId": "EXP01",
+            "cd": "VAR3-EXP01",
+            "g": "Exploración",
+            "pre": "60 créditos aprobados",
+            "desc": "EP Exploración Libre I: espacio de formación electiva del catálogo definido.",
+            "focus": "Posibles énfasis en analítica, robótica y cadena de suministro según la oferta de electivas.",
+            "q": "1/4"
+          }
+        ]
+      },
+      {
+        "s": 6,
+        "c": 20,
+        "m": [
+          {
+            "n": "Ondas, Calor y Óptica (Física III)",
+            "cr": 4,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 3,
+            "branch": "fisica",
+            "branchLabel": "Física",
+            "prereqIds": [
+              "FIS02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "FIS03",
+            "cd": "VAR3-FIS03",
+            "g": "Física",
+            "pre": "Electromagnetismo y Laboratorio (Física II)",
+            "desc": "Ondas, calor, óptica y trabajo experimental de Física III.",
+            "focus": "Aplicación de herramientas de cálculo y modelado digital en ejercicios de ingeniería.",
+            "q": "3/3"
+          },
+          {
+            "n": "IO II: Modelos Estocásticos y Decisiones",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "area": "IO / Estadística",
+            "sourceSemester": 6,
+            "branch": "datos-io",
+            "branchLabel": "Programación, Estadística e IO",
+            "prereqIds": [
+              "DAT05"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "DAT06",
+            "cd": "VAR3-DAT06",
+            "g": "Datos e IO",
+            "pre": "IO I: Modelos Determinísticos y Optimización",
+            "desc": "Modelos estocásticos y decisiones, después de IO I.",
+            "focus": "Analítica de datos, algoritmos y simulación para decisiones industriales.",
+            "q": "6/7"
+          },
+          {
+            "n": "Gestión y Planificación de la Producción I",
+            "cr": 3,
+            "cl": "#047857",
+            "area": "Producción",
+            "sourceSemester": 6,
+            "branch": "operaciones",
+            "branchLabel": "Métodos y producción",
+            "prereqIds": [
+              "PRO01",
+              "DAT05"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "PRO02",
+            "cd": "VAR3-PRO02",
+            "g": "Producción",
+            "pre": "Ing. de Métodos, Tiempos y Movimientos; IO I: Modelos Determinísticos y Optimización",
+            "desc": "Primer nivel de gestión y planificación de la producción.",
+            "focus": "Casos de industria 4.0, cadenas de suministro digitales y simulación de procesos.",
+            "q": "2/4"
+          },
+          {
+            "n": "SST y Gestión Ambiental",
+            "cr": 2,
+            "cl": "#047857",
+            "area": "Producción",
+            "sourceSemester": 6,
+            "branch": "sst",
+            "branchLabel": "Seguridad y ambiente",
+            "prereqIds": [
+              "PRO01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "PRO06",
+            "cd": "VAR3-PRO06",
+            "g": "SST",
+            "pre": "Ing. de Métodos, Tiempos y Movimientos",
+            "desc": "Seguridad y salud en el trabajo junto con gestión ambiental.",
+            "focus": "Casos de industria 4.0, cadenas de suministro digitales y simulación de procesos.",
+            "q": ""
+          },
+          {
+            "n": "Ingeniería Económica",
+            "cr": 2,
+            "cl": "#0E7490",
+            "area": "Financiera",
+            "sourceSemester": 5,
+            "branch": "finanzas",
+            "branchLabel": "Finanzas",
+            "prereqIds": [
+              "FIN01",
+              "FIN02",
+              "FIN03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "FIN04",
+            "cd": "VAR3-FIN04",
+            "g": "Finanzas",
+            "pre": "Economía; Contabilidad, Costos y Presupuestos Industriales; Análisis Financiero y Control de Gestión",
+            "desc": "Valor del dinero en el tiempo y evaluación económica. Asignatura independiente de 2 créditos según el catálogo definido.",
+            "focus": "Herramientas digitales para flujos de caja y evaluación de inversiones.",
+            "q": "4/5"
+          },
+          {
+            "n": "Ética y Constitución Política",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 3,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM03",
+            "cd": "VAR3-HUM03",
+            "g": "Sociohum.",
+            "pre": "Ninguno",
+            "desc": "Ética profesional y Constitución Política.",
+            "focus": "Ética, comunicación y contexto social de la transformación tecnológica.",
+            "q": "3/6"
+          },
+          {
+            "n": "EP Concentración III",
+            "cr": 2,
+            "cl": "#4D7C0F",
+            "e": 1,
+            "area": "Electivas Prof.",
+            "sourceSemester": 6,
+            "branch": "concentracion",
+            "branchLabel": "EP de concentración",
+            "prereqIds": [
+              "CON02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "CON03",
+            "cd": "VAR3-CON03",
+            "g": "Concentración",
+            "pre": "EP Concentración II",
+            "desc": "EP Concentración III: espacio de formación electiva del catálogo definido.",
+            "focus": "Posibles énfasis en analítica, robótica y cadena de suministro según la oferta de electivas.",
+            "q": "3/4"
+          },
+          {
+            "n": "EP Exploración Libre II",
+            "cr": 2,
+            "cl": "#7C2D12",
+            "e": 2,
+            "area": "Electivas Prof.",
+            "sourceSemester": 7,
+            "branch": "exploracion",
+            "branchLabel": "EP de exploración",
+            "prereqIds": [
+              "EXP01"
+            ],
+            "minCompletedCredits": 80,
+            "catalogId": "EXP02",
+            "cd": "VAR3-EXP02",
+            "g": "Exploración",
+            "pre": "EP Exploración Libre I; 80 créditos aprobados",
+            "desc": "EP Exploración Libre II: espacio de formación electiva del catálogo definido.",
+            "focus": "Posibles énfasis en analítica, robótica y cadena de suministro según la oferta de electivas.",
+            "q": "2/4"
+          }
+        ]
+      },
+      {
+        "s": 7,
+        "c": 18,
+        "m": [
+          {
+            "n": "Estadística III: Diseño de Experimentos",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "area": "IO / Estadística",
+            "sourceSemester": 5,
+            "branch": "datos-io",
+            "branchLabel": "Programación, Estadística e IO",
+            "prereqIds": [
+              "DAT03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "DAT04",
+            "cd": "VAR3-DAT04",
+            "g": "Datos e IO",
+            "pre": "Estadística Multivariada y Muestreo",
+            "desc": "Diseño de experimentos como asignatura independiente, conservada en el nuevo catálogo.",
+            "focus": "Analítica de datos, algoritmos y simulación para decisiones industriales.",
+            "q": "4/7"
+          },
+          {
+            "n": "Gestión y Planificación de la Producción II",
+            "cr": 3,
+            "cl": "#047857",
+            "area": "Producción",
+            "sourceSemester": 7,
+            "branch": "operaciones",
+            "branchLabel": "Métodos y producción",
+            "prereqIds": [
+              "PRO02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "PRO03",
+            "cd": "VAR3-PRO03",
+            "g": "Producción",
+            "pre": "Gestión y Planificación de la Producción I",
+            "desc": "Segundo nivel de gestión y planificación de la producción, después de Producción I.",
+            "focus": "Casos de industria 4.0, cadenas de suministro digitales y simulación de procesos.",
+            "q": "3/4"
+          },
+          {
+            "n": "Control Estadístico de Calidad y Mejora Continua",
+            "cr": 3,
+            "cl": "#047857",
+            "area": "Producción",
+            "sourceSemester": 7,
+            "branch": "calidad",
+            "branchLabel": "Calidad y mejora",
+            "prereqIds": [
+              "DAT03",
+              "PRO02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "PRO05",
+            "cd": "VAR3-PRO05",
+            "g": "Calidad",
+            "pre": "Estadística Multivariada y Muestreo; Gestión y Planificación de la Producción I",
+            "desc": "Control estadístico de calidad y mejora continua de procesos productivos.",
+            "focus": "Casos de industria 4.0, cadenas de suministro digitales y simulación de procesos.",
+            "q": ""
+          },
+          {
+            "n": "Formulación y Evaluación de Proyectos de Inversión",
+            "cr": 3,
+            "cl": "#0E7490",
+            "area": "Financiera",
+            "sourceSemester": 7,
+            "branch": "finanzas",
+            "branchLabel": "Finanzas",
+            "prereqIds": [
+              "FIN04",
+              "FIN03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "FIN05",
+            "cd": "VAR3-FIN05",
+            "g": "Finanzas",
+            "pre": "Ingeniería Económica; Análisis Financiero y Control de Gestión",
+            "desc": "Formulación y evaluación de proyectos de inversión, después de Análisis Financiero e Ingeniería Económica.",
+            "focus": "Herramientas digitales para flujos de caja y evaluación de inversiones.",
+            "q": "5/5"
+          },
+          {
+            "n": "EP Concentración IV",
+            "cr": 2,
+            "cl": "#4D7C0F",
+            "e": 1,
+            "area": "Electivas Prof.",
+            "sourceSemester": 7,
+            "branch": "concentracion",
+            "branchLabel": "EP de concentración",
+            "prereqIds": [
+              "CON03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "CON04",
+            "cd": "VAR3-CON04",
+            "g": "Concentración",
+            "pre": "EP Concentración III",
+            "desc": "EP Concentración IV: espacio de formación electiva del catálogo definido.",
+            "focus": "Posibles énfasis en analítica, robótica y cadena de suministro según la oferta de electivas.",
+            "q": "4/4"
+          },
+          {
+            "n": "EP Exploración Libre III",
+            "cr": 2,
+            "cl": "#7C2D12",
+            "e": 2,
+            "area": "Electivas Prof.",
+            "sourceSemester": 8,
+            "branch": "exploracion",
+            "branchLabel": "EP de exploración",
+            "prereqIds": [
+              "EXP02"
+            ],
+            "minCompletedCredits": 100,
+            "catalogId": "EXP03",
+            "cd": "VAR3-EXP03",
+            "g": "Exploración",
+            "pre": "EP Exploración Libre II; 100 créditos aprobados",
+            "desc": "EP Exploración Libre III: espacio de formación electiva del catálogo definido.",
+            "focus": "Posibles énfasis en analítica, robótica y cadena de suministro según la oferta de electivas.",
+            "q": "3/4"
+          },
+          {
+            "n": "Seminario de Investigación",
+            "cr": 2,
+            "cl": "#A21CAF",
+            "area": "Trabajo de Grado",
+            "sourceSemester": 7,
+            "branch": "grado",
+            "branchLabel": "Investigación y grado",
+            "prereqIds": [],
+            "minCompletedCredits": 100,
+            "catalogId": "TGR01",
+            "cd": "VAR3-TGR01",
+            "g": "Grado",
+            "pre": "100 créditos aprobados",
+            "desc": "Preparación del proyecto de investigación y del trabajo de grado.",
+            "focus": "Posibilidad de un proyecto aplicado de transformación digital industrial.",
+            "q": "1/2"
+          }
+        ]
+      },
+      {
+        "s": 8,
+        "c": 18,
+        "m": [
+          {
+            "n": "Simulación de Sistemas Productivos y de Servicio",
+            "cr": 3,
+            "cl": "#6D28D9",
+            "area": "IO / Estadística",
+            "sourceSemester": 6,
+            "branch": "datos-io",
+            "branchLabel": "Programación, Estadística e IO",
+            "prereqIds": [
+              "DAT06"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "DAT07",
+            "cd": "VAR3-DAT07",
+            "g": "Datos e IO",
+            "pre": "IO II: Modelos Estocásticos y Decisiones",
+            "desc": "Simulación de sistemas productivos y de servicio, después de IO II.",
+            "focus": "Analítica de datos, algoritmos y simulación para decisiones industriales.",
+            "q": "7/7"
+          },
+          {
+            "n": "Gestión y Planificación de la Producción III",
+            "cr": 3,
+            "cl": "#047857",
+            "area": "Producción",
+            "sourceSemester": 7,
+            "branch": "operaciones",
+            "branchLabel": "Métodos y producción",
+            "prereqIds": [
+              "PRO03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "PRO04",
+            "cd": "VAR3-PRO04",
+            "g": "Producción",
+            "pre": "Gestión y Planificación de la Producción II",
+            "desc": "Tercer nivel de gestión y planificación de la producción, después de Producción II.",
+            "focus": "Casos de industria 4.0, cadenas de suministro digitales y simulación de procesos.",
+            "q": "4/4"
+          },
+          {
+            "n": "Diseño y Distribución de Plantas Industriales",
+            "cr": 2,
+            "cl": "#047857",
+            "area": "Producción",
+            "sourceSemester": 8,
+            "branch": "plantas",
+            "branchLabel": "Diseño de plantas",
+            "prereqIds": [
+              "PRO03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "PRO07",
+            "cd": "VAR3-PRO07",
+            "g": "Plantas",
+            "pre": "Gestión y Planificación de la Producción II",
+            "desc": "Diseño y distribución física de plantas industriales.",
+            "focus": "Casos de industria 4.0, cadenas de suministro digitales y simulación de procesos.",
+            "q": ""
+          },
+          {
+            "n": "EP Exploración Libre IV",
+            "cr": 2,
+            "cl": "#7C2D12",
+            "e": 2,
+            "area": "Electivas Prof.",
+            "sourceSemester": 8,
+            "branch": "exploracion",
+            "branchLabel": "EP de exploración",
+            "prereqIds": [
+              "EXP03"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "EXP04",
+            "cd": "VAR3-EXP04",
+            "g": "Exploración",
+            "pre": "EP Exploración Libre III",
+            "desc": "EP Exploración Libre IV: espacio de formación electiva del catálogo definido.",
+            "focus": "Posibles énfasis en analítica, robótica y cadena de suministro según la oferta de electivas.",
+            "q": "4/4"
+          },
+          {
+            "n": "Proyecto Integrador de Grado (TG)",
+            "cr": 8,
+            "cl": "#A21CAF",
+            "area": "Trabajo de Grado",
+            "sourceSemester": 8,
+            "branch": "grado",
+            "branchLabel": "Investigación y grado",
+            "prereqIds": [
+              "TGR01"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "TGR02",
+            "cd": "VAR3-TGR02",
+            "g": "Grado",
+            "pre": "Seminario de Investigación",
+            "desc": "Proyecto integrador de grado, después del Seminario de Investigación.",
+            "focus": "Posibilidad de un proyecto aplicado de transformación digital industrial.",
+            "q": "2/2"
+          }
+        ]
+      }
+    ]
+  }
+}

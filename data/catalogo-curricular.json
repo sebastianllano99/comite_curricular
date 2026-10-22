@@ -1,0 +1,747 @@
+{
+  "source": "Asignaturas y creditos ya definidos.html",
+  "totalCredits": 147,
+  "courseCount": 53,
+  "rules": {
+    "maxCreditsPerSemester": 20,
+    "oneCoursePerBranchPerSemester": true,
+    "continuousAreas": true
+  },
+  "prerequisiteOrigin": "Relaciones propuestas de la presentación previa; el HTML fuente no especifica prerrequisitos. Estadística III sigue a Estadística Multivariada; EP Exploración IV sigue a III.",
+  "courses": [
+    {
+      "n": "Fundamentos Matemáticos para Ingeniería",
+      "cr": 3,
+      "cl": "#1D63C1",
+      "area": "Ciencias Básicas",
+      "sourceSemester": 1,
+      "id": "MAT01",
+      "branch": "calculo",
+      "branchLabel": "Cálculo y modelado",
+      "prereqIds": [],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Cálculo Diferencial",
+      "cr": 3,
+      "cl": "#1D63C1",
+      "area": "Ciencias Básicas",
+      "sourceSemester": 2,
+      "id": "MAT02",
+      "branch": "calculo",
+      "branchLabel": "Cálculo y modelado",
+      "prereqIds": [
+        "MAT01"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Álgebra Lineal y Aplicaciones",
+      "cr": 3,
+      "cl": "#1D63C1",
+      "area": "Ciencias Básicas",
+      "sourceSemester": 2,
+      "id": "MAT03",
+      "branch": "algebra",
+      "branchLabel": "Álgebra lineal",
+      "prereqIds": [
+        "MAT01"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Cálculo Integral",
+      "cr": 4,
+      "cl": "#1D63C1",
+      "area": "Ciencias Básicas",
+      "sourceSemester": 3,
+      "id": "MAT04",
+      "branch": "calculo",
+      "branchLabel": "Cálculo y modelado",
+      "prereqIds": [
+        "MAT02"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Cálculo Multivariado y Análisis Vectorial",
+      "cr": 4,
+      "cl": "#1D63C1",
+      "area": "Ciencias Básicas",
+      "sourceSemester": 4,
+      "id": "MAT05",
+      "branch": "calculo",
+      "branchLabel": "Cálculo y modelado",
+      "prereqIds": [
+        "MAT04"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Ecuaciones Diferenciales y Modelado",
+      "cr": 3,
+      "cl": "#1D63C1",
+      "area": "Ciencias Básicas",
+      "sourceSemester": 5,
+      "id": "MAT06",
+      "branch": "calculo",
+      "branchLabel": "Cálculo y modelado",
+      "prereqIds": [
+        "MAT05"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Mecánica y Laboratorio (Física I)",
+      "cr": 4,
+      "cl": "#1D63C1",
+      "area": "Ciencias Básicas",
+      "sourceSemester": 1,
+      "id": "FIS01",
+      "branch": "fisica",
+      "branchLabel": "Física",
+      "prereqIds": [],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Electromagnetismo y Laboratorio (Física II)",
+      "cr": 4,
+      "cl": "#1D63C1",
+      "area": "Ciencias Básicas",
+      "sourceSemester": 2,
+      "id": "FIS02",
+      "branch": "fisica",
+      "branchLabel": "Física",
+      "prereqIds": [
+        "FIS01"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Ondas, Calor y Óptica (Física III)",
+      "cr": 4,
+      "cl": "#1D63C1",
+      "area": "Ciencias Básicas",
+      "sourceSemester": 3,
+      "id": "FIS03",
+      "branch": "fisica",
+      "branchLabel": "Física",
+      "prereqIds": [
+        "FIS02"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Química Aplicada a la Manufactura",
+      "cr": 2,
+      "cl": "#C2410C",
+      "area": "Básicas de Ingeniería",
+      "sourceSemester": 1,
+      "id": "MAN01",
+      "branch": "manufactura",
+      "branchLabel": "Manufactura",
+      "prereqIds": [],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Materiales y Fund. Mecánicos para la Manufactura",
+      "cr": 3,
+      "cl": "#C2410C",
+      "area": "Básicas de Ingeniería",
+      "sourceSemester": 3,
+      "id": "MAN02",
+      "branch": "manufactura",
+      "branchLabel": "Manufactura",
+      "prereqIds": [
+        "FIS01",
+        "MAN01"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Tecnologías de Transformación y Conformado",
+      "cr": 3,
+      "cl": "#C2410C",
+      "area": "Básicas de Ingeniería",
+      "sourceSemester": 4,
+      "id": "MAN03",
+      "branch": "manufactura",
+      "branchLabel": "Manufactura",
+      "prereqIds": [
+        "MAN02"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Ensamble, Calidad y Sistemas de Manufactura",
+      "cr": 3,
+      "cl": "#C2410C",
+      "area": "Básicas de Ingeniería",
+      "sourceSemester": 6,
+      "id": "MAN04",
+      "branch": "manufactura",
+      "branchLabel": "Manufactura",
+      "prereqIds": [
+        "MAN03"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Fundamentos de Programación y Datos",
+      "cr": 3,
+      "cl": "#6D28D9",
+      "area": "IO / Estadística",
+      "sourceSemester": 2,
+      "id": "DAT01",
+      "branch": "datos-io",
+      "branchLabel": "Programación, Estadística e IO",
+      "prereqIds": [],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Estadística I: Probabilidad",
+      "cr": 3,
+      "cl": "#6D28D9",
+      "area": "IO / Estadística",
+      "sourceSemester": 3,
+      "id": "DAT02",
+      "branch": "datos-io",
+      "branchLabel": "Programación, Estadística e IO",
+      "prereqIds": [
+        "MAT02",
+        "DAT01"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Estadística Multivariada y Muestreo",
+      "cr": 3,
+      "cl": "#6D28D9",
+      "area": "IO / Estadística",
+      "sourceSemester": 4,
+      "id": "DAT03",
+      "branch": "datos-io",
+      "branchLabel": "Programación, Estadística e IO",
+      "prereqIds": [
+        "DAT02"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Estadística III: Diseño de Experimentos",
+      "cr": 3,
+      "cl": "#6D28D9",
+      "area": "IO / Estadística",
+      "sourceSemester": 5,
+      "id": "DAT04",
+      "branch": "datos-io",
+      "branchLabel": "Programación, Estadística e IO",
+      "prereqIds": [
+        "DAT03"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "IO I: Modelos Determinísticos y Optimización",
+      "cr": 3,
+      "cl": "#6D28D9",
+      "area": "IO / Estadística",
+      "sourceSemester": 5,
+      "id": "DAT05",
+      "branch": "datos-io",
+      "branchLabel": "Programación, Estadística e IO",
+      "prereqIds": [
+        "MAT03",
+        "DAT02"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "IO II: Modelos Estocásticos y Decisiones",
+      "cr": 3,
+      "cl": "#6D28D9",
+      "area": "IO / Estadística",
+      "sourceSemester": 6,
+      "id": "DAT06",
+      "branch": "datos-io",
+      "branchLabel": "Programación, Estadística e IO",
+      "prereqIds": [
+        "DAT05"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Simulación de Sistemas Productivos y de Servicio",
+      "cr": 3,
+      "cl": "#6D28D9",
+      "area": "IO / Estadística",
+      "sourceSemester": 6,
+      "id": "DAT07",
+      "branch": "datos-io",
+      "branchLabel": "Programación, Estadística e IO",
+      "prereqIds": [
+        "DAT06"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Ing. de Métodos, Tiempos y Movimientos",
+      "cr": 3,
+      "cl": "#047857",
+      "area": "Producción",
+      "sourceSemester": 5,
+      "id": "PRO01",
+      "branch": "operaciones",
+      "branchLabel": "Métodos y producción",
+      "prereqIds": [
+        "DAT03"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Gestión y Planificación de la Producción I",
+      "cr": 3,
+      "cl": "#047857",
+      "area": "Producción",
+      "sourceSemester": 6,
+      "id": "PRO02",
+      "branch": "operaciones",
+      "branchLabel": "Métodos y producción",
+      "prereqIds": [
+        "PRO01",
+        "DAT05"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Gestión y Planificación de la Producción II",
+      "cr": 3,
+      "cl": "#047857",
+      "area": "Producción",
+      "sourceSemester": 7,
+      "id": "PRO03",
+      "branch": "operaciones",
+      "branchLabel": "Métodos y producción",
+      "prereqIds": [
+        "PRO02"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Gestión y Planificación de la Producción III",
+      "cr": 3,
+      "cl": "#047857",
+      "area": "Producción",
+      "sourceSemester": 7,
+      "id": "PRO04",
+      "branch": "operaciones",
+      "branchLabel": "Métodos y producción",
+      "prereqIds": [
+        "PRO03"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Control Estadístico de Calidad y Mejora Continua",
+      "cr": 3,
+      "cl": "#047857",
+      "area": "Producción",
+      "sourceSemester": 7,
+      "id": "PRO05",
+      "branch": "calidad",
+      "branchLabel": "Calidad y mejora",
+      "prereqIds": [
+        "DAT03",
+        "PRO02"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "SST y Gestión Ambiental",
+      "cr": 2,
+      "cl": "#047857",
+      "area": "Producción",
+      "sourceSemester": 6,
+      "id": "PRO06",
+      "branch": "sst",
+      "branchLabel": "Seguridad y ambiente",
+      "prereqIds": [
+        "PRO01"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Diseño y Distribución de Plantas Industriales",
+      "cr": 2,
+      "cl": "#047857",
+      "area": "Producción",
+      "sourceSemester": 8,
+      "id": "PRO07",
+      "branch": "plantas",
+      "branchLabel": "Diseño de plantas",
+      "prereqIds": [
+        "PRO03"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Fundamentos y Tendencias de la Ingeniería Industrial",
+      "cr": 3,
+      "cl": "#CA8A04",
+      "area": "Administración",
+      "sourceSemester": 1,
+      "id": "ADM01",
+      "branch": "gestion",
+      "branchLabel": "Administración",
+      "prereqIds": [],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Gestión Organizacional",
+      "cr": 3,
+      "cl": "#CA8A04",
+      "area": "Administración",
+      "sourceSemester": 3,
+      "id": "ADM02",
+      "branch": "gestion",
+      "branchLabel": "Administración",
+      "prereqIds": [
+        "ADM01"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Gestión Talento Humano",
+      "cr": 3,
+      "cl": "#CA8A04",
+      "area": "Administración",
+      "sourceSemester": 4,
+      "id": "ADM03",
+      "branch": "gestion",
+      "branchLabel": "Administración",
+      "prereqIds": [
+        "ADM02"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Inteligencia Comercial",
+      "cr": 2,
+      "cl": "#CA8A04",
+      "area": "Administración",
+      "sourceSemester": 5,
+      "id": "ADM04",
+      "branch": "gestion",
+      "branchLabel": "Administración",
+      "prereqIds": [
+        "ADM02"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Mercadeo Estratégico",
+      "cr": 2,
+      "cl": "#CA8A04",
+      "area": "Administración",
+      "sourceSemester": 6,
+      "id": "ADM05",
+      "branch": "gestion",
+      "branchLabel": "Administración",
+      "prereqIds": [
+        "ADM04"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Economía",
+      "cr": 2,
+      "cl": "#0E7490",
+      "area": "Financiera",
+      "sourceSemester": 3,
+      "id": "FIN01",
+      "branch": "finanzas",
+      "branchLabel": "Finanzas",
+      "prereqIds": [
+        "ADM02"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Contabilidad, Costos y Presupuestos Industriales",
+      "cr": 3,
+      "cl": "#0E7490",
+      "area": "Financiera",
+      "sourceSemester": 4,
+      "id": "FIN02",
+      "branch": "finanzas",
+      "branchLabel": "Finanzas",
+      "prereqIds": [
+        "FIN01"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Análisis Financiero y Control de Gestión",
+      "cr": 3,
+      "cl": "#0E7490",
+      "area": "Financiera",
+      "sourceSemester": 6,
+      "id": "FIN03",
+      "branch": "finanzas",
+      "branchLabel": "Finanzas",
+      "prereqIds": [
+        "FIN02"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Ingeniería Económica",
+      "cr": 2,
+      "cl": "#0E7490",
+      "area": "Financiera",
+      "sourceSemester": 5,
+      "id": "FIN04",
+      "branch": "finanzas",
+      "branchLabel": "Finanzas",
+      "prereqIds": [
+        "FIN01",
+        "FIN02",
+        "FIN03"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Formulación y Evaluación de Proyectos de Inversión",
+      "cr": 3,
+      "cl": "#0E7490",
+      "area": "Financiera",
+      "sourceSemester": 7,
+      "id": "FIN05",
+      "branch": "finanzas",
+      "branchLabel": "Finanzas",
+      "prereqIds": [
+        "FIN04",
+        "FIN03"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Humanidades: Pensamiento y Contexto Social",
+      "cr": 2,
+      "cl": "#BE185D",
+      "area": "Sociohumanística",
+      "sourceSemester": 1,
+      "id": "HUM01",
+      "branch": "humanistica",
+      "branchLabel": "Sociohumanística",
+      "prereqIds": [],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Comunicación Profesional en Ingeniería",
+      "cr": 2,
+      "cl": "#BE185D",
+      "area": "Sociohumanística",
+      "sourceSemester": 2,
+      "id": "HUM02",
+      "branch": "humanistica",
+      "branchLabel": "Sociohumanística",
+      "prereqIds": [],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Ética y Constitución Política",
+      "cr": 2,
+      "cl": "#BE185D",
+      "area": "Sociohumanística",
+      "sourceSemester": 3,
+      "id": "HUM03",
+      "branch": "humanistica",
+      "branchLabel": "Sociohumanística",
+      "prereqIds": [],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Electiva Sociohumanística I",
+      "cr": 2,
+      "cl": "#BE185D",
+      "area": "Sociohumanística",
+      "sourceSemester": 1,
+      "id": "HUM04",
+      "branch": "humanistica",
+      "branchLabel": "Sociohumanística",
+      "prereqIds": [],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Electiva Sociohumanística II",
+      "cr": 2,
+      "cl": "#BE185D",
+      "area": "Sociohumanística",
+      "sourceSemester": 1,
+      "id": "HUM05",
+      "branch": "humanistica",
+      "branchLabel": "Sociohumanística",
+      "prereqIds": [
+        "HUM04"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Electiva Sociohumanística III",
+      "cr": 2,
+      "cl": "#BE185D",
+      "area": "Sociohumanística",
+      "sourceSemester": 2,
+      "id": "HUM06",
+      "branch": "humanistica",
+      "branchLabel": "Sociohumanística",
+      "prereqIds": [
+        "HUM05"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "EP Concentración I",
+      "cr": 2,
+      "cl": "#4D7C0F",
+      "e": 1,
+      "area": "Electivas Prof.",
+      "sourceSemester": 4,
+      "id": "CON01",
+      "branch": "concentracion",
+      "branchLabel": "EP de concentración",
+      "prereqIds": [],
+      "minCompletedCredits": 40
+    },
+    {
+      "n": "EP Concentración II",
+      "cr": 2,
+      "cl": "#4D7C0F",
+      "e": 1,
+      "area": "Electivas Prof.",
+      "sourceSemester": 5,
+      "id": "CON02",
+      "branch": "concentracion",
+      "branchLabel": "EP de concentración",
+      "prereqIds": [
+        "CON01"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "EP Concentración III",
+      "cr": 2,
+      "cl": "#4D7C0F",
+      "e": 1,
+      "area": "Electivas Prof.",
+      "sourceSemester": 6,
+      "id": "CON03",
+      "branch": "concentracion",
+      "branchLabel": "EP de concentración",
+      "prereqIds": [
+        "CON02"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "EP Concentración IV",
+      "cr": 2,
+      "cl": "#4D7C0F",
+      "e": 1,
+      "area": "Electivas Prof.",
+      "sourceSemester": 7,
+      "id": "CON04",
+      "branch": "concentracion",
+      "branchLabel": "EP de concentración",
+      "prereqIds": [
+        "CON03"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "EP Exploración Libre I",
+      "cr": 2,
+      "cl": "#7C2D12",
+      "e": 2,
+      "area": "Electivas Prof.",
+      "sourceSemester": 5,
+      "id": "EXP01",
+      "branch": "exploracion",
+      "branchLabel": "EP de exploración",
+      "prereqIds": [],
+      "minCompletedCredits": 60
+    },
+    {
+      "n": "EP Exploración Libre II",
+      "cr": 2,
+      "cl": "#7C2D12",
+      "e": 2,
+      "area": "Electivas Prof.",
+      "sourceSemester": 7,
+      "id": "EXP02",
+      "branch": "exploracion",
+      "branchLabel": "EP de exploración",
+      "prereqIds": [
+        "EXP01"
+      ],
+      "minCompletedCredits": 80
+    },
+    {
+      "n": "EP Exploración Libre III",
+      "cr": 2,
+      "cl": "#7C2D12",
+      "e": 2,
+      "area": "Electivas Prof.",
+      "sourceSemester": 8,
+      "id": "EXP03",
+      "branch": "exploracion",
+      "branchLabel": "EP de exploración",
+      "prereqIds": [
+        "EXP02"
+      ],
+      "minCompletedCredits": 100
+    },
+    {
+      "n": "EP Exploración Libre IV",
+      "cr": 2,
+      "cl": "#7C2D12",
+      "e": 2,
+      "area": "Electivas Prof.",
+      "sourceSemester": 8,
+      "id": "EXP04",
+      "branch": "exploracion",
+      "branchLabel": "EP de exploración",
+      "prereqIds": [
+        "EXP03"
+      ],
+      "minCompletedCredits": 0
+    },
+    {
+      "n": "Seminario de Investigación",
+      "cr": 2,
+      "cl": "#A21CAF",
+      "area": "Trabajo de Grado",
+      "sourceSemester": 7,
+      "id": "TGR01",
+      "branch": "grado",
+      "branchLabel": "Investigación y grado",
+      "prereqIds": [],
+      "minCompletedCredits": 100
+    },
+    {
+      "n": "Proyecto Integrador de Grado (TG)",
+      "cr": 8,
+      "cl": "#A21CAF",
+      "area": "Trabajo de Grado",
+      "sourceSemester": 8,
+      "id": "TGR02",
+      "branch": "grado",
+      "branchLabel": "Investigación y grado",
+      "prereqIds": [
+        "TGR01"
+      ],
+      "minCompletedCredits": 0
+    }
+  ]
+}
