@@ -647,7 +647,7 @@
     "subtitle": "8 semestres · 147 créditos · hasta 20 créditos por semestre",
     "badge": "CATÁLOGO DEFINIDO · DISTRIBUCIÓN PROPUESTA",
     "badgeColor": "#047857",
-    "description": "Conserva las 53 asignaturas y los 147 créditos del catálogo. Programación inicia en S2; Estadística III se cursa en S6 y Simulación en S8. La secuencia financiera avanza de S3 a S7: Economía, Contabilidad/Costos, Análisis Financiero, Ingeniería Económica y Formulación. La carga es de 14–20 créditos por semestre.",
+    "description": "Conserva las 53 asignaturas y los 147 créditos del catálogo. Programación inicia en S2; Estadística III se cursa en S6 y Simulación en S8. La secuencia financiera avanza de S3 a S7: Economía, Contabilidad/Costos, Análisis Financiero, Ingeniería Económica y Formulación. La carga es de 17–20 créditos por semestre.",
     "semestersCount": 8,
     "totalCredits": 147,
     "metrics": {
@@ -657,12 +657,12 @@
       "pctElectivas": "10.9%",
       "pctBasicas": "21.8%",
       "pctProduccion": "12.9%",
-      "cargaSemestral": "14–20 cr/sem"
+      "cargaSemestral": "17–20 cr/sem"
     },
     "plan": [
       {
         "s": 1,
-        "c": 14,
+        "c": 18,
         "m": [
           {
             "n": "Fundamentos Matemáticos para Ingeniería",
@@ -747,13 +747,49 @@
             "g": "Sociohum.",
             "pre": "Ninguno",
             "desc": "Pensamiento humanístico y comprensión del contexto social.",
-            "q": "1/6"
+            "q": "1/3"
+          },
+          {
+            "n": "Electiva Sociohumanística I",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 1,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM04",
+            "cd": "OFICIAL-HUM04",
+            "g": "Electiva SH",
+            "pre": "Ninguno",
+            "desc": "Electiva sociohumanística independiente del catálogo definido. Puede coincidir con otras sociohumanísticas y no requiere cursar antes las otras electivas.",
+            "q": "",
+            "allowConcurrent": true
+          },
+          {
+            "n": "Electiva Sociohumanística II",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 1,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM05",
+            "cd": "OFICIAL-HUM05",
+            "g": "Electiva SH",
+            "pre": "Ninguno",
+            "desc": "Electiva sociohumanística independiente del catálogo definido. Puede coincidir con otras sociohumanísticas y no requiere cursar antes las otras electivas.",
+            "q": "",
+            "allowConcurrent": true
           }
         ]
       },
       {
         "s": 2,
-        "c": 18,
+        "c": 20,
         "m": [
           {
             "n": "Cálculo Diferencial",
@@ -864,7 +900,25 @@
             "g": "Sociohum.",
             "pre": "Ninguno",
             "desc": "Comunicación profesional aplicada al ejercicio de la ingeniería.",
-            "q": "2/6"
+            "q": "2/3"
+          },
+          {
+            "n": "Electiva Sociohumanística III",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 2,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM06",
+            "cd": "OFICIAL-HUM06",
+            "g": "Electiva SH",
+            "pre": "Ninguno",
+            "desc": "Electiva sociohumanística independiente del catálogo definido. Puede coincidir con otras sociohumanísticas y no requiere cursar antes las otras electivas.",
+            "q": "",
+            "allowConcurrent": true
           }
         ]
       },
@@ -988,27 +1042,27 @@
             "q": "1/5"
           },
           {
-            "n": "Electiva Sociohumanística I",
+            "n": "Ética y Constitución Política",
             "cr": 2,
             "cl": "#BE185D",
             "area": "Sociohumanística",
-            "sourceSemester": 1,
+            "sourceSemester": 3,
             "branch": "humanistica",
             "branchLabel": "Sociohumanística",
             "prereqIds": [],
             "minCompletedCredits": 0,
-            "catalogId": "HUM04",
-            "cd": "OFICIAL-HUM04",
+            "catalogId": "HUM03",
+            "cd": "OFICIAL-HUM03",
             "g": "Sociohum.",
             "pre": "Ninguno",
-            "desc": "Electiva Sociohumanística I: espacio de formación electiva del catálogo definido.",
-            "q": "4/6"
+            "desc": "Ética profesional y Constitución Política.",
+            "q": "3/3"
           }
         ]
       },
       {
         "s": 4,
-        "c": 19,
+        "c": 17,
         "m": [
           {
             "n": "Cálculo Multivariado y Análisis Vectorial",
@@ -1106,25 +1160,6 @@
             "q": "2/5"
           },
           {
-            "n": "Electiva Sociohumanística II",
-            "cr": 2,
-            "cl": "#BE185D",
-            "area": "Sociohumanística",
-            "sourceSemester": 1,
-            "branch": "humanistica",
-            "branchLabel": "Sociohumanística",
-            "prereqIds": [
-              "HUM04"
-            ],
-            "minCompletedCredits": 0,
-            "catalogId": "HUM05",
-            "cd": "OFICIAL-HUM05",
-            "g": "Sociohum.",
-            "pre": "Electiva Sociohumanística I",
-            "desc": "Electiva Sociohumanística II: espacio de formación electiva del catálogo definido.",
-            "q": "5/6"
-          },
-          {
             "n": "EP Concentración I",
             "cr": 2,
             "cl": "#4D7C0F",
@@ -1146,7 +1181,7 @@
       },
       {
         "s": 5,
-        "c": 20,
+        "c": 18,
         "m": [
           {
             "n": "Ecuaciones Diferenciales y Modelado",
@@ -1245,25 +1280,6 @@
             "q": "3/5"
           },
           {
-            "n": "Electiva Sociohumanística III",
-            "cr": 2,
-            "cl": "#BE185D",
-            "area": "Sociohumanística",
-            "sourceSemester": 2,
-            "branch": "humanistica",
-            "branchLabel": "Sociohumanística",
-            "prereqIds": [
-              "HUM05"
-            ],
-            "minCompletedCredits": 0,
-            "catalogId": "HUM06",
-            "cd": "OFICIAL-HUM06",
-            "g": "Sociohum.",
-            "pre": "Electiva Sociohumanística II",
-            "desc": "Electiva Sociohumanística III: espacio de formación electiva del catálogo definido.",
-            "q": "6/6"
-          },
-          {
             "n": "EP Concentración II",
             "cr": 2,
             "cl": "#4D7C0F",
@@ -1305,7 +1321,7 @@
       },
       {
         "s": 6,
-        "c": 20,
+        "c": 18,
         "m": [
           {
             "n": "Ondas, Calor y Óptica (Física III)",
@@ -1404,23 +1420,6 @@
             "pre": "Economía; Contabilidad, Costos y Presupuestos Industriales; Análisis Financiero y Control de Gestión",
             "desc": "Valor del dinero en el tiempo y evaluación económica. Asignatura independiente de 2 créditos según el catálogo definido.",
             "q": "4/5"
-          },
-          {
-            "n": "Ética y Constitución Política",
-            "cr": 2,
-            "cl": "#BE185D",
-            "area": "Sociohumanística",
-            "sourceSemester": 3,
-            "branch": "humanistica",
-            "branchLabel": "Sociohumanística",
-            "prereqIds": [],
-            "minCompletedCredits": 0,
-            "catalogId": "HUM03",
-            "cd": "OFICIAL-HUM03",
-            "g": "Sociohum.",
-            "pre": "Ninguno",
-            "desc": "Ética profesional y Constitución Política.",
-            "q": "3/6"
           },
           {
             "n": "EP Concentración III",
@@ -1725,12 +1724,12 @@
       "pctElectivas": "10.9%",
       "pctBasicas": "21.8%",
       "pctProduccion": "12.9%",
-      "cargaSemestral": "14–20 cr/sem"
+      "cargaSemestral": "17–20 cr/sem"
     },
     "plan": [
       {
         "s": 1,
-        "c": 14,
+        "c": 18,
         "m": [
           {
             "n": "Fundamentos Matemáticos para Ingeniería",
@@ -1815,13 +1814,49 @@
             "g": "Sociohum.",
             "pre": "Ninguno",
             "desc": "Pensamiento humanístico y comprensión del contexto social.",
-            "q": "1/6"
+            "q": "1/3"
+          },
+          {
+            "n": "Electiva Sociohumanística I",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 1,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM04",
+            "cd": "VAR1-HUM04",
+            "g": "Electiva SH",
+            "pre": "Ninguno",
+            "desc": "Electiva sociohumanística independiente del catálogo definido. Puede coincidir con otras sociohumanísticas y no requiere cursar antes las otras electivas.",
+            "q": "",
+            "allowConcurrent": true
+          },
+          {
+            "n": "Electiva Sociohumanística II",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 1,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM05",
+            "cd": "VAR1-HUM05",
+            "g": "Electiva SH",
+            "pre": "Ninguno",
+            "desc": "Electiva sociohumanística independiente del catálogo definido. Puede coincidir con otras sociohumanísticas y no requiere cursar antes las otras electivas.",
+            "q": "",
+            "allowConcurrent": true
           }
         ]
       },
       {
         "s": 2,
-        "c": 18,
+        "c": 20,
         "m": [
           {
             "n": "Cálculo Diferencial",
@@ -1932,7 +1967,25 @@
             "g": "Sociohum.",
             "pre": "Ninguno",
             "desc": "Comunicación profesional aplicada al ejercicio de la ingeniería.",
-            "q": "2/6"
+            "q": "2/3"
+          },
+          {
+            "n": "Electiva Sociohumanística III",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 2,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM06",
+            "cd": "VAR1-HUM06",
+            "g": "Electiva SH",
+            "pre": "Ninguno",
+            "desc": "Electiva sociohumanística independiente del catálogo definido. Puede coincidir con otras sociohumanísticas y no requiere cursar antes las otras electivas.",
+            "q": "",
+            "allowConcurrent": true
           }
         ]
       },
@@ -2056,27 +2109,27 @@
             "q": "1/5"
           },
           {
-            "n": "Electiva Sociohumanística I",
+            "n": "Ética y Constitución Política",
             "cr": 2,
             "cl": "#BE185D",
             "area": "Sociohumanística",
-            "sourceSemester": 1,
+            "sourceSemester": 3,
             "branch": "humanistica",
             "branchLabel": "Sociohumanística",
             "prereqIds": [],
             "minCompletedCredits": 0,
-            "catalogId": "HUM04",
-            "cd": "VAR1-HUM04",
+            "catalogId": "HUM03",
+            "cd": "VAR1-HUM03",
             "g": "Sociohum.",
             "pre": "Ninguno",
-            "desc": "Electiva Sociohumanística I: espacio de formación electiva del catálogo definido.",
-            "q": "4/6"
+            "desc": "Ética profesional y Constitución Política.",
+            "q": "3/3"
           }
         ]
       },
       {
         "s": 4,
-        "c": 20,
+        "c": 18,
         "m": [
           {
             "n": "Cálculo Multivariado y Análisis Vectorial",
@@ -2192,31 +2245,12 @@
             "pre": "Economía",
             "desc": "Contabilidad, costos y presupuestos industriales para el análisis de la gestión.",
             "q": "2/5"
-          },
-          {
-            "n": "Electiva Sociohumanística II",
-            "cr": 2,
-            "cl": "#BE185D",
-            "area": "Sociohumanística",
-            "sourceSemester": 1,
-            "branch": "humanistica",
-            "branchLabel": "Sociohumanística",
-            "prereqIds": [
-              "HUM04"
-            ],
-            "minCompletedCredits": 0,
-            "catalogId": "HUM05",
-            "cd": "VAR1-HUM05",
-            "g": "Sociohum.",
-            "pre": "Electiva Sociohumanística I",
-            "desc": "Electiva Sociohumanística II: espacio de formación electiva del catálogo definido.",
-            "q": "5/6"
           }
         ]
       },
       {
         "s": 5,
-        "c": 20,
+        "c": 18,
         "m": [
           {
             "n": "Ecuaciones Diferenciales y Modelado",
@@ -2315,25 +2349,6 @@
             "q": "3/5"
           },
           {
-            "n": "Electiva Sociohumanística III",
-            "cr": 2,
-            "cl": "#BE185D",
-            "area": "Sociohumanística",
-            "sourceSemester": 2,
-            "branch": "humanistica",
-            "branchLabel": "Sociohumanística",
-            "prereqIds": [
-              "HUM05"
-            ],
-            "minCompletedCredits": 0,
-            "catalogId": "HUM06",
-            "cd": "VAR1-HUM06",
-            "g": "Sociohum.",
-            "pre": "Electiva Sociohumanística II",
-            "desc": "Electiva Sociohumanística III: espacio de formación electiva del catálogo definido.",
-            "q": "6/6"
-          },
-          {
             "n": "EP Concentración I",
             "cr": 2,
             "cl": "#4D7C0F",
@@ -2373,7 +2388,7 @@
       },
       {
         "s": 6,
-        "c": 20,
+        "c": 18,
         "m": [
           {
             "n": "Ondas, Calor y Óptica (Física III)",
@@ -2471,23 +2486,6 @@
             "pre": "Economía; Contabilidad, Costos y Presupuestos Industriales; Análisis Financiero y Control de Gestión",
             "desc": "Valor del dinero en el tiempo y evaluación económica. Asignatura independiente de 2 créditos según el catálogo definido.",
             "q": "4/5"
-          },
-          {
-            "n": "Ética y Constitución Política",
-            "cr": 2,
-            "cl": "#BE185D",
-            "area": "Sociohumanística",
-            "sourceSemester": 3,
-            "branch": "humanistica",
-            "branchLabel": "Sociohumanística",
-            "prereqIds": [],
-            "minCompletedCredits": 0,
-            "catalogId": "HUM03",
-            "cd": "VAR1-HUM03",
-            "g": "Sociohum.",
-            "pre": "Ninguno",
-            "desc": "Ética profesional y Constitución Política.",
-            "q": "3/6"
           },
           {
             "n": "EP Concentración II",
@@ -2798,7 +2796,7 @@
     "plan": [
       {
         "s": 1,
-        "c": 14,
+        "c": 18,
         "m": [
           {
             "n": "Fundamentos Matemáticos para Ingeniería",
@@ -2883,13 +2881,49 @@
             "g": "Sociohum.",
             "pre": "Ninguno",
             "desc": "Pensamiento humanístico y comprensión del contexto social.",
-            "q": "1/6"
+            "q": "1/3"
+          },
+          {
+            "n": "Electiva Sociohumanística I",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 1,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM04",
+            "cd": "VAR2-HUM04",
+            "g": "Electiva SH",
+            "pre": "Ninguno",
+            "desc": "Electiva sociohumanística independiente del catálogo definido. Puede coincidir con otras sociohumanísticas y no requiere cursar antes las otras electivas.",
+            "q": "",
+            "allowConcurrent": true
+          },
+          {
+            "n": "Electiva Sociohumanística II",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 1,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM05",
+            "cd": "VAR2-HUM05",
+            "g": "Electiva SH",
+            "pre": "Ninguno",
+            "desc": "Electiva sociohumanística independiente del catálogo definido. Puede coincidir con otras sociohumanísticas y no requiere cursar antes las otras electivas.",
+            "q": "",
+            "allowConcurrent": true
           }
         ]
       },
       {
         "s": 2,
-        "c": 18,
+        "c": 16,
         "m": [
           {
             "n": "Cálculo Diferencial",
@@ -2909,25 +2943,6 @@
             "pre": "Fundamentos Matemáticos para Ingeniería",
             "desc": "Derivación y aplicaciones del cálculo diferencial a problemas de ingeniería.",
             "q": "2/5"
-          },
-          {
-            "n": "Electromagnetismo y Laboratorio (Física II)",
-            "cr": 4,
-            "cl": "#1D63C1",
-            "area": "Ciencias Básicas",
-            "sourceSemester": 2,
-            "branch": "fisica",
-            "branchLabel": "Física",
-            "prereqIds": [
-              "FIS01"
-            ],
-            "minCompletedCredits": 0,
-            "catalogId": "FIS02",
-            "cd": "VAR2-FIS02",
-            "g": "Física",
-            "pre": "Mecánica y Laboratorio (Física I)",
-            "desc": "Electromagnetismo y trabajo experimental de Física II, integrados en la misma asignatura.",
-            "q": "2/3"
           },
           {
             "n": "Materiales y Fund. Mecánicos para la Manufactura",
@@ -3000,7 +3015,25 @@
             "g": "Sociohum.",
             "pre": "Ninguno",
             "desc": "Comunicación profesional aplicada al ejercicio de la ingeniería.",
-            "q": "2/6"
+            "q": "2/3"
+          },
+          {
+            "n": "Electiva Sociohumanística III",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 2,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM06",
+            "cd": "VAR2-HUM06",
+            "g": "Electiva SH",
+            "pre": "Ninguno",
+            "desc": "Electiva sociohumanística independiente del catálogo definido. Puede coincidir con otras sociohumanísticas y no requiere cursar antes las otras electivas.",
+            "q": "",
+            "allowConcurrent": true
           }
         ]
       },
@@ -3028,23 +3061,23 @@
             "q": "3/5"
           },
           {
-            "n": "Ondas, Calor y Óptica (Física III)",
+            "n": "Electromagnetismo y Laboratorio (Física II)",
             "cr": 4,
             "cl": "#1D63C1",
             "area": "Ciencias Básicas",
-            "sourceSemester": 3,
+            "sourceSemester": 2,
             "branch": "fisica",
             "branchLabel": "Física",
             "prereqIds": [
-              "FIS02"
+              "FIS01"
             ],
             "minCompletedCredits": 0,
-            "catalogId": "FIS03",
-            "cd": "VAR2-FIS03",
+            "catalogId": "FIS02",
+            "cd": "VAR2-FIS02",
             "g": "Física",
-            "pre": "Electromagnetismo y Laboratorio (Física II)",
-            "desc": "Ondas, calor, óptica y trabajo experimental de Física III.",
-            "q": "3/3"
+            "pre": "Mecánica y Laboratorio (Física I)",
+            "desc": "Electromagnetismo y trabajo experimental de Física II, integrados en la misma asignatura.",
+            "q": "2/3"
           },
           {
             "n": "Tecnologías de Transformación y Conformado",
@@ -3105,27 +3138,27 @@
             "q": "4/5"
           },
           {
-            "n": "Electiva Sociohumanística I",
+            "n": "Ética y Constitución Política",
             "cr": 2,
             "cl": "#BE185D",
             "area": "Sociohumanística",
-            "sourceSemester": 1,
+            "sourceSemester": 3,
             "branch": "humanistica",
             "branchLabel": "Sociohumanística",
             "prereqIds": [],
             "minCompletedCredits": 0,
-            "catalogId": "HUM04",
-            "cd": "VAR2-HUM04",
+            "catalogId": "HUM03",
+            "cd": "VAR2-HUM03",
             "g": "Sociohum.",
             "pre": "Ninguno",
-            "desc": "Electiva Sociohumanística I: espacio de formación electiva del catálogo definido.",
-            "q": "4/6"
+            "desc": "Ética profesional y Constitución Política.",
+            "q": "3/3"
           }
         ]
       },
       {
         "s": 4,
-        "c": 17,
+        "c": 15,
         "m": [
           {
             "n": "Álgebra Lineal y Aplicaciones",
@@ -3221,31 +3254,12 @@
             "pre": "Inteligencia Comercial",
             "desc": "Estrategia de mercadeo, después de Inteligencia Comercial.",
             "q": "5/5"
-          },
-          {
-            "n": "Electiva Sociohumanística II",
-            "cr": 2,
-            "cl": "#BE185D",
-            "area": "Sociohumanística",
-            "sourceSemester": 1,
-            "branch": "humanistica",
-            "branchLabel": "Sociohumanística",
-            "prereqIds": [
-              "HUM04"
-            ],
-            "minCompletedCredits": 0,
-            "catalogId": "HUM05",
-            "cd": "VAR2-HUM05",
-            "g": "Sociohum.",
-            "pre": "Electiva Sociohumanística I",
-            "desc": "Electiva Sociohumanística II: espacio de formación electiva del catálogo definido.",
-            "q": "5/6"
           }
         ]
       },
       {
         "s": 5,
-        "c": 16,
+        "c": 14,
         "m": [
           {
             "n": "Ecuaciones Diferenciales y Modelado",
@@ -3342,32 +3356,32 @@
             "pre": "Gestión Organizacional",
             "desc": "Fundamentos económicos que anteceden a Contabilidad, Costos y Presupuestos.",
             "q": "1/5"
-          },
-          {
-            "n": "Electiva Sociohumanística III",
-            "cr": 2,
-            "cl": "#BE185D",
-            "area": "Sociohumanística",
-            "sourceSemester": 2,
-            "branch": "humanistica",
-            "branchLabel": "Sociohumanística",
-            "prereqIds": [
-              "HUM05"
-            ],
-            "minCompletedCredits": 0,
-            "catalogId": "HUM06",
-            "cd": "VAR2-HUM06",
-            "g": "Sociohum.",
-            "pre": "Electiva Sociohumanística II",
-            "desc": "Electiva Sociohumanística III: espacio de formación electiva del catálogo definido.",
-            "q": "6/6"
           }
         ]
       },
       {
         "s": 6,
-        "c": 15,
+        "c": 17,
         "m": [
+          {
+            "n": "Ondas, Calor y Óptica (Física III)",
+            "cr": 4,
+            "cl": "#1D63C1",
+            "area": "Ciencias Básicas",
+            "sourceSemester": 3,
+            "branch": "fisica",
+            "branchLabel": "Física",
+            "prereqIds": [
+              "FIS02"
+            ],
+            "minCompletedCredits": 0,
+            "catalogId": "FIS03",
+            "cd": "VAR2-FIS03",
+            "g": "Física",
+            "pre": "Electromagnetismo y Laboratorio (Física II)",
+            "desc": "Ondas, calor, óptica y trabajo experimental de Física III.",
+            "q": "3/3"
+          },
           {
             "n": "Estadística III: Diseño de Experimentos",
             "cr": 3,
@@ -3425,23 +3439,6 @@
             "pre": "Economía",
             "desc": "Contabilidad, costos y presupuestos industriales para el análisis de la gestión.",
             "q": "2/5"
-          },
-          {
-            "n": "Ética y Constitución Política",
-            "cr": 2,
-            "cl": "#BE185D",
-            "area": "Sociohumanística",
-            "sourceSemester": 3,
-            "branch": "humanistica",
-            "branchLabel": "Sociohumanística",
-            "prereqIds": [],
-            "minCompletedCredits": 0,
-            "catalogId": "HUM03",
-            "cd": "VAR2-HUM03",
-            "g": "Sociohum.",
-            "pre": "Ninguno",
-            "desc": "Ética profesional y Constitución Política.",
-            "q": "3/6"
           },
           {
             "n": "EP Concentración I",
@@ -3867,12 +3864,12 @@
       "pctElectivas": "10.9%",
       "pctBasicas": "21.8%",
       "pctProduccion": "12.9%",
-      "cargaSemestral": "14–20 cr/sem"
+      "cargaSemestral": "17–20 cr/sem"
     },
     "plan": [
       {
         "s": 1,
-        "c": 14,
+        "c": 18,
         "m": [
           {
             "n": "Fundamentos Matemáticos para Ingeniería",
@@ -3962,13 +3959,51 @@
             "pre": "Ninguno",
             "desc": "Pensamiento humanístico y comprensión del contexto social.",
             "focus": "Ética, comunicación y contexto social de la transformación tecnológica.",
-            "q": "1/6"
+            "q": "1/3"
+          },
+          {
+            "n": "Electiva Sociohumanística I",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 1,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM04",
+            "cd": "VAR3-HUM04",
+            "g": "Electiva SH",
+            "pre": "Ninguno",
+            "desc": "Electiva sociohumanística independiente del catálogo definido. Puede coincidir con otras sociohumanísticas y no requiere cursar antes las otras electivas.",
+            "focus": "Ética, comunicación y contexto social de la transformación tecnológica.",
+            "q": "",
+            "allowConcurrent": true
+          },
+          {
+            "n": "Electiva Sociohumanística II",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 1,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM05",
+            "cd": "VAR3-HUM05",
+            "g": "Electiva SH",
+            "pre": "Ninguno",
+            "desc": "Electiva sociohumanística independiente del catálogo definido. Puede coincidir con otras sociohumanísticas y no requiere cursar antes las otras electivas.",
+            "focus": "Ética, comunicación y contexto social de la transformación tecnológica.",
+            "q": "",
+            "allowConcurrent": true
           }
         ]
       },
       {
         "s": 2,
-        "c": 18,
+        "c": 20,
         "m": [
           {
             "n": "Cálculo Diferencial",
@@ -4085,7 +4120,26 @@
             "pre": "Ninguno",
             "desc": "Comunicación profesional aplicada al ejercicio de la ingeniería.",
             "focus": "Ética, comunicación y contexto social de la transformación tecnológica.",
-            "q": "2/6"
+            "q": "2/3"
+          },
+          {
+            "n": "Electiva Sociohumanística III",
+            "cr": 2,
+            "cl": "#BE185D",
+            "area": "Sociohumanística",
+            "sourceSemester": 2,
+            "branch": "humanistica",
+            "branchLabel": "Sociohumanística",
+            "prereqIds": [],
+            "minCompletedCredits": 0,
+            "catalogId": "HUM06",
+            "cd": "VAR3-HUM06",
+            "g": "Electiva SH",
+            "pre": "Ninguno",
+            "desc": "Electiva sociohumanística independiente del catálogo definido. Puede coincidir con otras sociohumanísticas y no requiere cursar antes las otras electivas.",
+            "focus": "Ética, comunicación y contexto social de la transformación tecnológica.",
+            "q": "",
+            "allowConcurrent": true
           }
         ]
       },
@@ -4215,28 +4269,28 @@
             "q": "1/5"
           },
           {
-            "n": "Electiva Sociohumanística I",
+            "n": "Ética y Constitución Política",
             "cr": 2,
             "cl": "#BE185D",
             "area": "Sociohumanística",
-            "sourceSemester": 1,
+            "sourceSemester": 3,
             "branch": "humanistica",
             "branchLabel": "Sociohumanística",
             "prereqIds": [],
             "minCompletedCredits": 0,
-            "catalogId": "HUM04",
-            "cd": "VAR3-HUM04",
+            "catalogId": "HUM03",
+            "cd": "VAR3-HUM03",
             "g": "Sociohum.",
             "pre": "Ninguno",
-            "desc": "Electiva Sociohumanística I: espacio de formación electiva del catálogo definido.",
+            "desc": "Ética profesional y Constitución Política.",
             "focus": "Ética, comunicación y contexto social de la transformación tecnológica.",
-            "q": "4/6"
+            "q": "3/3"
           }
         ]
       },
       {
         "s": 4,
-        "c": 19,
+        "c": 17,
         "m": [
           {
             "n": "Cálculo Multivariado y Análisis Vectorial",
@@ -4339,26 +4393,6 @@
             "q": "2/5"
           },
           {
-            "n": "Electiva Sociohumanística II",
-            "cr": 2,
-            "cl": "#BE185D",
-            "area": "Sociohumanística",
-            "sourceSemester": 1,
-            "branch": "humanistica",
-            "branchLabel": "Sociohumanística",
-            "prereqIds": [
-              "HUM04"
-            ],
-            "minCompletedCredits": 0,
-            "catalogId": "HUM05",
-            "cd": "VAR3-HUM05",
-            "g": "Sociohum.",
-            "pre": "Electiva Sociohumanística I",
-            "desc": "Electiva Sociohumanística II: espacio de formación electiva del catálogo definido.",
-            "focus": "Ética, comunicación y contexto social de la transformación tecnológica.",
-            "q": "5/6"
-          },
-          {
             "n": "EP Concentración I",
             "cr": 2,
             "cl": "#4D7C0F",
@@ -4381,7 +4415,7 @@
       },
       {
         "s": 5,
-        "c": 20,
+        "c": 18,
         "m": [
           {
             "n": "Ecuaciones Diferenciales y Modelado",
@@ -4485,26 +4519,6 @@
             "q": "3/5"
           },
           {
-            "n": "Electiva Sociohumanística III",
-            "cr": 2,
-            "cl": "#BE185D",
-            "area": "Sociohumanística",
-            "sourceSemester": 2,
-            "branch": "humanistica",
-            "branchLabel": "Sociohumanística",
-            "prereqIds": [
-              "HUM05"
-            ],
-            "minCompletedCredits": 0,
-            "catalogId": "HUM06",
-            "cd": "VAR3-HUM06",
-            "g": "Sociohum.",
-            "pre": "Electiva Sociohumanística II",
-            "desc": "Electiva Sociohumanística III: espacio de formación electiva del catálogo definido.",
-            "focus": "Ética, comunicación y contexto social de la transformación tecnológica.",
-            "q": "6/6"
-          },
-          {
             "n": "EP Concentración II",
             "cr": 2,
             "cl": "#4D7C0F",
@@ -4548,7 +4562,7 @@
       },
       {
         "s": 6,
-        "c": 20,
+        "c": 18,
         "m": [
           {
             "n": "Ondas, Calor y Óptica (Física III)",
@@ -4652,24 +4666,6 @@
             "desc": "Valor del dinero en el tiempo y evaluación económica. Asignatura independiente de 2 créditos según el catálogo definido.",
             "focus": "Herramientas digitales para flujos de caja y evaluación de inversiones.",
             "q": "4/5"
-          },
-          {
-            "n": "Ética y Constitución Política",
-            "cr": 2,
-            "cl": "#BE185D",
-            "area": "Sociohumanística",
-            "sourceSemester": 3,
-            "branch": "humanistica",
-            "branchLabel": "Sociohumanística",
-            "prereqIds": [],
-            "minCompletedCredits": 0,
-            "catalogId": "HUM03",
-            "cd": "VAR3-HUM03",
-            "g": "Sociohum.",
-            "pre": "Ninguno",
-            "desc": "Ética profesional y Constitución Política.",
-            "focus": "Ética, comunicación y contexto social de la transformación tecnológica.",
-            "q": "3/6"
           },
           {
             "n": "EP Concentración III",

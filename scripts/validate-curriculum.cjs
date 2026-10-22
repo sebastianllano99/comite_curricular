@@ -13,6 +13,10 @@ const sourceCourses = Array.from(sourcePlan).flatMap(term => Array.from(term.m))
 const key = course => `${course.n}|${course.cr}`;
 const inventory = courses => Array.from(courses, key).sort();
 const catalog = new Map(definition.courses.map(course => [course.id, course]));
+const concurrentIds = new Set(definition.rules.concurrentCourseIds || []);
+assert.deepEqual([...concurrentIds].sort(), ['HUM04','HUM05','HUM06']);
+assert.deepEqual(definition.courses.filter(course => course.allowConcurrent).map(course => course.id).sort(), [...concurrentIds].sort());
+for (const id of concurrentIds) assert.deepEqual(catalog.get(id).prereqIds, [], 'Las electivas sociohumanísticas son independientes.');
 const expectedOverrides = {var1: {PRO01: ['DAT02', 'MAN02'], PRO02: ['PRO01'], PRO07: ['PRO04']}};
 
 assert.equal(sourceCourses.length, 53);
@@ -60,9 +64,12 @@ for (const [scenarioKey, scenario] of Object.entries(scenarios)) {
       assert.equal(course.cr, defined.cr);
       assert.equal(course.area, defined.area);
       assert.equal(course.branch, defined.branch);
-      assert(!branches.has(course.branch), `${scenarioKey}: rama repetida en S${term.s}: ${course.branch}`);
+      assert.equal(Boolean(course.allowConcurrent), Boolean(defined.allowConcurrent));
+      if (!concurrentIds.has(course.catalogId)) {
+        assert(!branches.has(course.branch), `${scenarioKey}: rama repetida en S${term.s}: ${course.branch}`);
+        branches.add(course.branch);
+      }
       assert(!placements.has(course.catalogId));
-      branches.add(course.branch);
       const expected = expectedOverrides[scenarioKey]?.[course.catalogId] ?? defined.prereqIds;
       assert.deepEqual([...course.prereqIds].sort(), [...expected].sort(), `Relación modificada: ${course.n}`);
       for (const pre of expected) {
@@ -95,6 +102,9 @@ for (const [scenarioKey, scenario] of Object.entries(scenarios)) {
     assert.equal(courses.find(course => course.catalogId === 'FIN03').cr, 3);
     assert.equal(placements.get('DAT01'), 2);
     assert.equal(placements.get('DAT02'), 3);
+    for (const [id, semester] of [['HUM01',1],['HUM02',2],['HUM03',3],['HUM04',1],['HUM05',1],['HUM06',2]]) {
+      assert.equal(placements.get(id), semester, `${scenarioKey}: ${catalog.get(id).n} debe conservar el semestre de la distribución fuente.`);
+    }
     for (const [field, area] of [['pctElectivas','Electivas Prof.'],['pctBasicas','Ciencias Básicas'],['pctProduccion','Producción']]) {
       const credits = courses.filter(course => course.area === area).reduce((sum, course) => sum + course.cr, 0);
       assert.equal(scenario.metrics[field], `${(credits / 147 * 100).toFixed(1)}%`);
@@ -112,6 +122,15 @@ assert(browserIssues(changedCredit).some(issue => issue.startsWith('catálogo:')
 const repeatedBranch = structuredClone(base);
 repeatedBranch.plan[2].m[0].branch = repeatedBranch.plan[2].m[1].branch;
 assert(browserIssues(repeatedBranch).some(issue => issue.startsWith('rama repetida')));
+const repeatedHumanities = structuredClone(base);
+const communication = repeatedHumanities.plan[1].m.find(course => course.catalogId === 'HUM02');
+repeatedHumanities.plan[1].m = repeatedHumanities.plan[1].m.filter(course => course !== communication);
+repeatedHumanities.plan[0].m.push(communication);
+repeatedHumanities.plan.slice(0,2).forEach(term => {term.c = term.m.reduce((sum, course) => sum + course.cr, 0);});
+assert(browserIssues(repeatedHumanities).some(issue => issue.startsWith('rama repetida')), 'La excepción de electivas no permite repetir la rama con otras sociohumanísticas.');
+const forgedException = structuredClone(base);
+forgedException.plan[0].m.find(course => course.catalogId === 'HUM01').allowConcurrent = true;
+assert(browserIssues(forgedException).some(issue => issue.startsWith('excepción modificada')));
 const missingPrerequisite = structuredClone(base);
 missingPrerequisite.plan[4].m.find(course => course.catalogId === 'FIN03').prereqIds = [];
 assert(browserIssues(missingPrerequisite).some(issue => issue.startsWith('requisitos modificados')));

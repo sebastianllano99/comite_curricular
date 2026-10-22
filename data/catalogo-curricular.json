@@ -5,9 +5,14 @@
   "rules": {
     "maxCreditsPerSemester": 20,
     "oneCoursePerBranchPerSemester": true,
-    "continuousAreas": true
+    "continuousAreas": true,
+    "concurrentCourseIds": [
+      "HUM04",
+      "HUM05",
+      "HUM06"
+    ]
   },
-  "prerequisiteOrigin": "Relaciones propuestas de la presentación previa; el HTML fuente no especifica prerrequisitos. Estadística III sigue a Estadística Multivariada; EP Exploración IV sigue a III.",
+  "prerequisiteOrigin": "Relaciones propuestas de la presentación previa; el HTML fuente no especifica prerrequisitos. Estadística III sigue a Estadística Multivariada; EP Exploración IV sigue a III. Las Electivas Sociohumanísticas I, II y III son independientes y pueden cursarse juntas por instrucción expresa del usuario; no se impone una cadena entre ellas.",
   "courses": [
     {
       "n": "Fundamentos Matemáticos para Ingeniería",
@@ -571,7 +576,8 @@
       "branch": "humanistica",
       "branchLabel": "Sociohumanística",
       "prereqIds": [],
-      "minCompletedCredits": 0
+      "minCompletedCredits": 0,
+      "allowConcurrent": true
     },
     {
       "n": "Electiva Sociohumanística II",
@@ -582,10 +588,9 @@
       "id": "HUM05",
       "branch": "humanistica",
       "branchLabel": "Sociohumanística",
-      "prereqIds": [
-        "HUM04"
-      ],
-      "minCompletedCredits": 0
+      "prereqIds": [],
+      "minCompletedCredits": 0,
+      "allowConcurrent": true
     },
     {
       "n": "Electiva Sociohumanística III",
@@ -596,10 +601,9 @@
       "id": "HUM06",
       "branch": "humanistica",
       "branchLabel": "Sociohumanística",
-      "prereqIds": [
-        "HUM05"
-      ],
-      "minCompletedCredits": 0
+      "prereqIds": [],
+      "minCompletedCredits": 0,
+      "allowConcurrent": true
     },
     {
       "n": "EP Concentración I",

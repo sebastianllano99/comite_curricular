@@ -7,14 +7,16 @@ Presentación de 13 diapositivas con un explorador de cinco mallas curriculares 
 | Escenario | Semestres | Créditos | Distribución |
 | --- | ---: | ---: | --- |
 | Malla actual UTP, reconstrucción para análisis | 10 | 175 | 16–20 cr por semestre |
-| Plan propuesto oficial, catálogo actualizado | 8 | 147 | 14, 18, 20, 19, 20, 20, 18, 18 cr |
-| Variación 1: producción anticipada | 8 | 147 | 14, 18, 20, 20, 20, 20, 18, 17 cr |
-| Variación 2: transición progresiva | 9 | 147 | 14, 18, 18, 17, 16, 15, 16, 16, 17 cr |
-| Variación 3: Digital Supply Chain e Industria 4.0 | 8 | 147 | 14, 18, 20, 19, 20, 20, 18, 18 cr |
+| Plan propuesto oficial, catálogo actualizado | 8 | 147 | 18, 20, 20, 17, 18, 18, 18, 18 cr |
+| Variación 1: producción anticipada | 8 | 147 | 18, 20, 20, 18, 18, 18, 18, 17 cr |
+| Variación 2: transición progresiva | 9 | 147 | 18, 16, 18, 15, 14, 17, 16, 16, 17 cr |
+| Variación 3: Digital Supply Chain e Industria 4.0 | 8 | 147 | 18, 20, 20, 17, 18, 18, 18, 18 cr |
 
 La fuente de nombres y créditos es [`Asignaturas y creditos ya definidos.html`](Asignaturas%20y%20creditos%20ya%20definidos.html): **53 asignaturas y 147 créditos**. Las cuatro propuestas conservan exactamente ese inventario, incluida Estadística III y la cuarta Electiva de Exploración. Ingeniería Económica tiene **2 créditos**, según esta nueva fuente; Análisis Financiero conserva **3**. La distribución original de la fuente tenía 21 créditos en S3 y S6; las propuestas reorganizadas no superan 20.
 
-Se aplica la regla acordada de **una asignatura por rama en cada semestre**, conservando ocho semestres en la propuesta base. Ciencias Básicas distingue Cálculo y Modelado, Álgebra Lineal y Física; Producción distingue Métodos y Producción, Calidad, Seguridad y Ambiente y Diseño de Plantas; Electivas distingue Concentración y Exploración. Las demás áreas tienen una rama cada una. Las ramas aparecen en las tarjetas, en sus fichas y en un filtro propio. La continuidad se comprueba **por área**, desde su primer semestre hasta su cierre; no implica que todas sus ramas estén presentes cada semestre. Administración ocupa S1–S5 sin interrupciones.
+Se aplica la regla acordada de **una asignatura por rama en cada semestre, con excepción de las Electivas Sociohumanísticas I, II y III**, conservando ocho semestres en la propuesta base. Las tres electivas son independientes y pueden coincidir con otras sociohumanísticas. Ciencias Básicas distingue Cálculo y Modelado, Álgebra Lineal y Física; Producción distingue Métodos y Producción, Calidad, Seguridad y Ambiente y Diseño de Plantas; Electivas Profesionales distingue Concentración y Exploración. Las demás áreas tienen una rama cada una. Las ramas aparecen en las tarjetas, en sus fichas y en un filtro propio. La continuidad se comprueba **por área**, desde su primer semestre hasta su cierre; no implica que todas sus ramas estén presentes cada semestre. Administración ocupa S1–S5 sin interrupciones.
+
+Las sociohumanísticas conservan la distribución del HTML fuente: **Humanidades y Electivas I y II en S1; Comunicación Profesional y Electiva III en S2; Ética y Constitución Política en S3**. S1 suma 18 créditos en las cuatro propuestas. Para mantener el máximo de 18 créditos de la transición de nueve semestres, Física II pasa a S3 y Física III a S6; ambas respetan su secuencia de prerrequisitos.
 
 En la propuesta base, Estadística e IO tiene una asignatura por semestre entre **S2 y S8**: Programación, Estadística I, Estadística Multivariada, IO I, Estadística III, IO II y Simulación. La variación digital intercambia Estadística III e IO II entre S6 y S7, conservando nombres y créditos; sus énfasis digitales se describen en las fichas. La secuencia financiera ocupa S3–S7 en los escenarios de ocho semestres y S5–S9 en la transición: Economía, Contabilidad/Costos, Análisis Financiero, Ingeniería Económica y Formulación. En la variación 1, Métodos pasa a S4 y Producción I a S5; S8 queda en **17 créditos**.
 
@@ -22,7 +24,7 @@ Los totales por área del catálogo son: Ciencias Básicas 32, Básicas de Ingen
 
 ### Prerrequisitos y validación
 
-El nuevo HTML no incluye prerrequisitos explícitos. Se conservan las relaciones propuestas de la presentación previa, expresadas ahora como IDs de asignatura, y las secuencias de Estadística Multivariada → Estadística III y Exploración III → IV. La variación 1 conserva sus relaciones previas particulares: Métodos requiere Estadística I y Materiales, Producción I requiere Métodos y Diseño de Plantas requiere Producción III. Las demás propuestas usan Métodos después de Estadística Multivariada; Producción I después de Métodos e IO I; Diseño de Plantas después de Producción II. Estos requisitos son de diseño y requieren validación académica, no se atribuyen al archivo fuente ni al Excel.
+El nuevo HTML no incluye prerrequisitos explícitos. Se conservan las relaciones propuestas de la presentación previa, expresadas ahora como IDs de asignatura, y las secuencias de Estadística Multivariada → Estadística III y Exploración III → IV. Se retira la cadena inferida entre las tres electivas sociohumanísticas, que no figura en la fuente y contradice la simultaneidad autorizada. La variación 1 conserva sus relaciones previas particulares: Métodos requiere Estadística I y Materiales, Producción I requiere Métodos y Diseño de Plantas requiere Producción III. Las demás propuestas usan Métodos después de Estadística Multivariada; Producción I después de Métodos e IO I; Diseño de Plantas después de Producción II. Estos requisitos son de diseño y requieren validación académica, no se atribuyen al archivo fuente ni al Excel.
 
 [`data/catalogo-curricular.json`](data/catalogo-curricular.json) registra el catálogo, las ramas y los requisitos base; [`data/escenarios-curriculares.json`](data/escenarios-curriculares.json) registra las distribuciones completas. Ambos se incorporan en el HTML para mantener su funcionamiento autocontenido. El navegador comprueba inventario, créditos, límite semestral, ramas, continuidad y prerrequisitos antes de habilitar un escenario.
 
