@@ -8,13 +8,15 @@ Presentación de 13 diapositivas con un explorador de cinco mallas curriculares 
 | --- | ---: | ---: | --- |
 | Malla actual UTP, reconstrucción para análisis | 10 | 175 | 16–20 cr por semestre |
 | Plan propuesto oficial | 8 | 144 | 18 cr en cada semestre |
-| Variación 1: producción anticipada | 8 | 144 | S4–S5: 19 cr; S8: 16 cr; demás: 18 cr |
+| Variación 1: producción anticipada | 8 | 144 | S3–S5: 19 cr; S6: 17 cr; S8: 16 cr; demás: 18 cr |
 | Variación 2: transición progresiva | 9 | 150 | Seis semestres de 17 cr y tres de 16 cr |
 | Variación 3: Digital Supply Chain e Industria 4.0 | 8 | 144 | 18 cr en cada semestre |
 
 En la variación 1, Métodos pasa a S4 y Producción I a S5. S8 queda en **16 créditos** para grado, electivas y Diseño de Plantas. La programación de una pasantía simultánea requiere coordinación académica.
 
-En los cuatro escenarios propuestos, cada área tiene asignaturas en **todos los semestres desde que inicia hasta que termina**. Administración ocupa S1–S5 sin interrupciones. La malla actual de diez semestres se conserva como referencia diagnóstica y muestra sus cortes originales. Economía queda en **2 créditos**; Análisis Financiero e Ingeniería Económica conservan **3 créditos cada una** y se cursan en semestres consecutivos y distintos, antes de Formulación. La secuencia financiera ocupa S4–S8 en los tres escenarios de ocho semestres y S5–S9 en la transición de nueve. Para conservar la carga de cada semestre, Ciencias Básicas tiene 30 créditos y Financiera 14 en cada escenario propuesto; las demás áreas conservan sus totales. Estos cambios de ubicación y la distribución de contenidos requieren revisión académica.
+En los cuatro escenarios propuestos, cada área tiene asignaturas en **todos los semestres desde que inicia hasta que termina**. Administración ocupa S1–S5 sin interrupciones. La malla actual de diez semestres se conserva como referencia diagnóstica y muestra sus cortes originales. Economía queda en **2 créditos**; Análisis Financiero e Ingeniería Económica conservan **3 créditos cada una** y se cursan en semestres consecutivos y distintos, antes de Formulación. La secuencia financiera ocupa S4–S8 en los tres escenarios de ocho semestres y S5–S9 en la transición de nueve. Ciencias Básicas tiene 30 créditos y Financiera 14 en cada escenario propuesto; las demás áreas conservan sus totales. Estos cambios de ubicación y la distribución de contenidos requieren revisión académica.
+
+Estadística e Investigación de Operaciones tiene **una sola asignatura por semestre de S2 a S7** en los cuatro escenarios propuestos: Programación en S2; Estadística I en S3; Estadística Multivariada en S4; IO I en S5; IO II en S6; Simulación en S7. En la variación digital se usan los nombres correspondientes a analítica y gemelos digitales. Álgebra Lineal pasa de S2 a S3 para liberar S2. En la variación 1, Ética pasa a S3 y Comunicación Profesional a S4, mientras la electiva de concentración y SST se reubican para permitir la secuencia del área; Física III y Ecuaciones Diferenciales conservan sus créditos originales. Las materias de la malla actual permanecen como referencia diagnóstica.
 
 El explorador permite filtrar por área, buscar por nombre o código/ID, alternar entre bloques y panorámica, y abrir una ficha por materia. Los identificadores de escenarios propuestos (`OFICIAL-…`, `VAR1-…`, etc.) son **IDs de diseño**, no códigos oficiales de la UTP. La ficha muestra créditos, equivalencia ECTS aproximada, prerrequisitos propuestos y la relación de la decisión con el benchmark.
 
